@@ -189,7 +189,8 @@ let zenPaid = 0, zenFree = 0;
 for (const r of zenRows) {
   const name = r[0];
   if (/^model$/i.test(name)) continue;
-  const id = idOf(name);
+  // 分档后缀（≤/> 200K tokens 之类）要先剥掉再查 id，否则会落成重复模型
+  const id = idOf(name.replace(/\s*\((?:≤|>)[^)]*\)\s*$/i, '').trim());
   const free = /free/i.test(r[1]);
   const inp = money(r[1]), out = money(r[2]), cache = money(r[3]);
   if (inp == null || out == null) continue;

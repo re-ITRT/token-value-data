@@ -69,7 +69,7 @@
       "id": "qwen3-coder-next",
       "name": "Qwen3-Coder-Next",
       "vendor": "阿里",
-      "note": "不支持缓存 / Function Calling"
+      "note": "阿里百炼已下架本目录，该模型暂无可用报价"
     },
     {
       "id": "doubao-seed-evolving",
@@ -195,13 +195,13 @@
       "id": "kimi-k2.8-preview",
       "name": "Kimi K2.8 Preview",
       "vendor": "月之暗面",
-      "note": ""
+      "note": "预览版，Kimi 官方 API 未上价目表，价格来自第三方网关"
     },
     {
       "id": "kimi-k2.5",
       "name": "Kimi K2.5",
       "vendor": "月之暗面",
-      "note": ""
+      "note": "Kimi 官方 API 已下架该档（官网价目表现只有 k2.6 / k2.7 / k3），价格来自第三方网关"
     },
     {
       "id": "glm-5.3-flashx",
@@ -219,13 +219,13 @@
       "id": "glm-5",
       "name": "GLM-5",
       "vendor": "智谱",
-      "note": ""
+      "note": "智谱官网价目表未见该档（只有 GLM-5.3 / 5.2 / 5.1 / 5-Turbo / 4.7 系），价格来自第三方网关"
     },
     {
       "id": "minimax-m2.5",
       "name": "MiniMax M2.5",
       "vendor": "MiniMax",
-      "note": ""
+      "note": "MiniMax 官方 API 未在售该档（官网只有 M2.7 / M3），价格来自第三方网关"
     },
     {
       "id": "deepseek-v4-flash-vision-exp",
@@ -597,7 +597,7 @@
       "id": "claude-sonnet-4-5",
       "name": "Claude Sonnet 4.5",
       "vendor": "Claude",
-      "note": ""
+      "note": "分档（≤/> 200K）取小档"
     },
     {
       "id": "gemini-3.1-pro",
@@ -640,12 +640,6 @@
       "name": "Big Pickle",
       "vendor": "Big",
       "note": "OpenCode Zen 限时免费"
-    },
-    {
-      "id": "claude-sonnet-4.5",
-      "name": "Claude Sonnet 4.5",
-      "vendor": "Claude",
-      "note": ""
     },
     {
       "id": "laguna-s-2.1",
@@ -3100,6 +3094,70 @@
       "verifiedAt": "2026-09-18"
     },
     {
+      "id": "deepseek-official-dsv41flash-off",
+      "provider": "DeepSeek 官方",
+      "modelId": "deepseek-v4-flash-vision-exp",
+      "band": "谷时",
+      "slot": "offpeak",
+      "currency": "USD",
+      "in": 0.15,
+      "cache": 0.003,
+      "out": 0.6,
+      "promo": true,
+      "promoNote": "峰时 ×1（$0.15 / $0.003 / $0.6）",
+      "note": "旧模型名，官方已由 V4.1-Flash 承接，按 Flash 价计费；谷时价 $0.15 输入 / $0.003 缓存 / $0.6 输出（每百万 token）",
+      "source": "https://api-docs.deepseek.com/quick_start/pricing",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "deepseek-official-dsv41flash-peak",
+      "provider": "DeepSeek 官方",
+      "modelId": "deepseek-v4-flash-vision-exp",
+      "band": "峰时",
+      "slot": "peak",
+      "currency": "USD",
+      "in": 0.3,
+      "cache": 0.006,
+      "out": 1.2,
+      "promo": false,
+      "promoNote": "峰时 ×2（$0.6 / $0.012 / $2.4）",
+      "note": "旧模型名，官方已由 V4.1-Flash 承接，按 Flash 价计费；峰时价 $0.3 输入 / $0.006 缓存 / $1.2 输出（每百万 token）",
+      "source": "https://api-docs.deepseek.com/quick_start/pricing",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "deepseek-official-deepseek-v4-1-flash-off",
+      "provider": "DeepSeek 官方",
+      "modelId": "deepseek-v4-1-flash",
+      "band": "谷时",
+      "slot": "offpeak",
+      "currency": "USD",
+      "in": 0.15,
+      "cache": 0.003,
+      "out": 0.6,
+      "promo": true,
+      "promoNote": "峰时 ×1（$0.15 / $0.003 / $0.6）",
+      "note": "deepseek-flash（= DeepSeek-V4.1-Flash）：官方当前在售模型；谷时价 $0.15 输入 / $0.003 缓存 / $0.6 输出（每百万 token）",
+      "source": "https://api-docs.deepseek.com/quick_start/pricing",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "deepseek-official-deepseek-v4-1-flash-peak",
+      "provider": "DeepSeek 官方",
+      "modelId": "deepseek-v4-1-flash",
+      "band": "峰时",
+      "slot": "peak",
+      "currency": "USD",
+      "in": 0.3,
+      "cache": 0.006,
+      "out": 1.2,
+      "promo": false,
+      "promoNote": "峰时 ×2（$0.6 / $0.012 / $2.4）",
+      "note": "deepseek-flash（= DeepSeek-V4.1-Flash）：官方当前在售模型；峰时价 $0.3 输入 / $0.006 缓存 / $1.2 输出（每百万 token）",
+      "source": "https://api-docs.deepseek.com/quick_start/pricing",
+      "verifiedAt": "2026-09-19"
+    },
+    {
       "id": "oczen-big-pickle",
       "provider": "OpenCode Zen",
       "modelId": "big-pickle",
@@ -3574,9 +3632,9 @@
       "verifiedAt": "2026-09-19"
     },
     {
-      "id": "oczen-claude-sonnet-4.5",
+      "id": "oczen-claude-sonnet-4-5",
       "provider": "OpenCode Zen",
-      "modelId": "claude-sonnet-4.5",
+      "modelId": "claude-sonnet-4-5",
       "band": "标准",
       "currency": "USD",
       "in": 6,
