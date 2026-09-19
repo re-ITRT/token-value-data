@@ -3482,9 +3482,10 @@
         "period": "月",
         "priceVariants": [
           {
-            "id": "list",
-            "label": "标准价",
-            "amount": 1
+            "id": "promo",
+            "label": "体验价",
+            "amount": 1,
+            "note": "官方定位为入门体验价：$1/月 换 $10 额度（10× 杠杆）；额度只能在它家 CLI 里用，不含 API 权限"
           }
         ],
         "tags": [
@@ -3492,7 +3493,7 @@
           "5h $3 / 周 $6 窗口",
           "额度可结转"
         ],
-        "note": "Go 档官方只公布部分模型的单模型额度（Qwen 3.7 Max / MiniMax M3 各 $20），其余模型按整池 $10 计，偏保守",
+        "note": "Go 档官方只公布部分模型的单模型额度（Qwen 3.7 Max / MiniMax M3 各 $20），其余模型按整池 $10 计，偏保守｜$1 为体验价（非常规刊例价）",
         "source": "https://commandcode.ai/docs/resources/pricing-limits",
         "verifiedAt": "2026-09-18",
         "models": {
@@ -8909,6 +8910,32 @@
     ]
   },
   "history": [
+    {
+      "at": "2026-09-19T05:41:14.288Z",
+      "trigger": "cli",
+      "durationMs": 117979,
+      "fx": {
+        "USDCNY": 6.714087,
+        "source": "open.er-api.com",
+        "stale": false,
+        "error": null
+      },
+      "counts": {
+        "total": 29,
+        "changed": 1,
+        "flaky": 0,
+        "shell": 0,
+        "unreachable": 0
+      },
+      "problems": [
+        {
+          "url": "https://api-docs.deepseek.com/quick_start/pricing",
+          "state": "changed",
+          "error": null,
+          "httpStatus": 200
+        }
+      ]
+    },
     {
       "at": "2026-09-19T05:03:36.397Z",
       "trigger": "cli",
