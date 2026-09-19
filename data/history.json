@@ -1,5 +1,24 @@
 [
   {
+    "at": "2026-09-19T06:02:00.452Z",
+    "trigger": "cli",
+    "durationMs": 21767,
+    "fx": {
+      "USDCNY": 6.714087,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 29,
+      "changed": 0,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 0
+    },
+    "problems": []
+  },
+  {
     "at": "2026-09-19T05:58:36.936Z",
     "trigger": "cli",
     "durationMs": 22754,
