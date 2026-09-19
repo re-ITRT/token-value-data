@@ -343,7 +343,9 @@ node tools/gh-push.mjs . re-ITRT/token-value-data main "data: xxx"
   窗口为 **5 小时 = 该模型月额度 20%、周 = 50%、月 = 100%**；用满某模型不影响其它模型。
   实现上：套餐 ``quota`` = 各模型额度之和（避免求解器把总池当成共享池），每个模型另有 ``quotaOverride`` 单模型上限。
   DeepSeek 系在文档里分峰/谷两行 → 转成时段带（峰 ×2）。
-- **Zen 按量**：75 条付费价 + 6 条限时免费（Big Pickle、MiMo-V2.5 Free、Ling 3.0 Flash Fin Free、
-  Nemotron 3 Ultra Free、Nemotron 3.5 Lightning Free、Muse Spark 1.3 Contributor Free）。
+- **额度促销**：官方表格用 `~~$15~~ **$60**` 表示「划线原价 → 当前促销价」，取数脚本先丢掉删除线部分再取值（否则会取到旧价）。当前 DeepSeek V4.1 Flash 是 4x 促销（$15 → $60，2026-09-20 结束），脚本会在 note 里标明。
+- **Zen 按量**：75 条付费价 + 11 条限时免费（Big Pickle、MiMo-V2.5 Free、Ling 3.0 Flash Fin Free、
+  Nemotron 3 Ultra Free、Nemotron 3.5 Lightning Free、Muse Spark 1.3 Contributor Free；另有 5 个只出现在 v2 控制台模型列表里的：
+  DeepSeek V4 Flash Free、Laguna S 2.1 Free、Ling-3.0-tiny Free、LongCat-2.0 Free、North Mini Code Free，见 `tools/patch-opencode-extra.mjs`）。
 - **支付**：官方文档只提到「信用卡手续费 4.4% + $0.30 按成本转嫁」（走 Stripe）；用户实测国内可直接支付（支付宝），
   ``payment.json`` 里按 ``cn: true`` 标注并在 note 里写明来源。

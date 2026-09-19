@@ -112,8 +112,11 @@ function parseTable(text, requiredHeaderBits) {
   return rows;
 }
 const money = (s) => {
-  if (!s || /free/i.test(s)) return s && /free/i.test(s) ? 0 : null;
-  const m = s.match(/\$?\s*([\d.]+)/);
+  if (!s) return null;
+  // 官方用 ~~$15~~ **$60** 表示「划线原价 → 当前促销价」：先丢掉删除线部分，再取数字
+  const cleaned = s.replace(/~~[^~]*~~/g, ' ').trim();
+  if (/free/i.test(cleaned)) return 0;
+  const m = cleaned.match(/\$?\s*([\d.]+)/);
   return m ? Number(m[1]) : null;
 };
 

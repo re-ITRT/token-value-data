@@ -646,6 +646,24 @@
       "name": "Claude Sonnet 4.5",
       "vendor": "Claude",
       "note": ""
+    },
+    {
+      "id": "laguna-s-2.1",
+      "name": "Laguna S 2.1",
+      "vendor": "OpenCode",
+      "note": "OpenCode Zen 限时免费（控制台列表）"
+    },
+    {
+      "id": "ling-3.0-tiny",
+      "name": "Ling 3.0 Tiny",
+      "vendor": "OpenCode",
+      "note": "OpenCode Zen 限时免费（控制台列表）"
+    },
+    {
+      "id": "north-mini-code",
+      "name": "North Mini Code",
+      "vendor": "OpenCode",
+      "note": "OpenCode Zen 限时免费（控制台列表）"
     }
   ],
   "apiPrices": [
@@ -4007,6 +4025,76 @@
       "cache": 0.005,
       "out": 0.4,
       "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-free-deepseek-v4-flash",
+      "provider": "OpenCode Zen",
+      "modelId": "deepseek-v4-flash",
+      "band": "免费",
+      "currency": "USD",
+      "in": 0,
+      "cache": 0,
+      "out": 0,
+      "free": true,
+      "note": "v2 控制台的模型列表里列出（官方文档未列）；限速数值未公布，触顶报 “Free usage exceeded”",
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-free-laguna-s-2.1",
+      "provider": "OpenCode Zen",
+      "modelId": "laguna-s-2.1",
+      "band": "免费",
+      "currency": "USD",
+      "in": 0,
+      "cache": 0,
+      "out": 0,
+      "free": true,
+      "note": "v2 控制台的模型列表里列出（官方文档未列）；限速数值未公布，触顶报 “Free usage exceeded”",
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-free-ling-3.0-tiny",
+      "provider": "OpenCode Zen",
+      "modelId": "ling-3.0-tiny",
+      "band": "免费",
+      "currency": "USD",
+      "in": 0,
+      "cache": 0,
+      "out": 0,
+      "free": true,
+      "note": "v2 控制台的模型列表里列出（官方文档未列）；限速数值未公布，触顶报 “Free usage exceeded”",
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-free-longcat-2.0",
+      "provider": "OpenCode Zen",
+      "modelId": "longcat-2.0",
+      "band": "免费",
+      "currency": "USD",
+      "in": 0,
+      "cache": 0,
+      "out": 0,
+      "free": true,
+      "note": "v2 控制台的模型列表里列出（官方文档未列）；限速数值未公布，触顶报 “Free usage exceeded”",
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-free-north-mini-code",
+      "provider": "OpenCode Zen",
+      "modelId": "north-mini-code",
+      "band": "免费",
+      "currency": "USD",
+      "in": 0,
+      "cache": 0,
+      "out": 0,
+      "free": true,
+      "note": "v2 控制台的模型列表里列出（官方文档未列）；限速数值未公布，触顶报 “Free usage exceeded”",
       "source": "https://opencode.ai/docs/zen",
       "verifiedAt": "2026-09-19"
     }
@@ -9382,7 +9470,7 @@
       "name": "Go",
       "kind": "points",
       "currency": "USD",
-      "quota": 1155,
+      "quota": 1200,
       "quotaUnit": "USD 额度/月（各模型独立）",
       "period": "月",
       "window": "5h·周·月",
@@ -9394,9 +9482,10 @@
         }
       ],
       "tags": [
-        "含 API 端点"
+        "含 API 端点",
+        "兼容 Claude Code"
       ],
-      "note": "额度按模型分别计算：5 小时 = 该模型月额度的 20%、周 = 50%、月 = 100%；用满某模型后它不可用，其它模型不受影响",
+      "note": "额度按模型分别计算：5 小时 = 该模型月额度的 20%、周 = 50%、月 = 100%；用满某模型后它不可用（默认直接拒请求，控制台可开「Use balance」用 Zen 余额兜底）。DeepSeek V4.1 Flash 目前有 4x 限时促销（月额度 $15 → $60，2026-09-20 结束）",
       "source": "https://opencode.ai/docs/go",
       "verifiedAt": "2026-09-19",
       "models": {
@@ -9586,8 +9675,8 @@
             "cache": 0.003,
             "output": 0.6
           },
-          "quotaOverride": 15,
-          "note": "官方单模型月额度 $15",
+          "quotaOverride": 60,
+          "note": "官方单模型月额度 $60（限时 4x 促销，原 $15，2026-09-20 结束）",
           "bands": [
             {
               "id": "base",
@@ -9622,7 +9711,8 @@
                 "note": "UTC 周一至五 01–04、06–10（北京 09–12、14–18）"
               }
             }
-          ]
+          ],
+          "promoLimit": true
         },
         "deepseek-v4-pro": {
           "u": {
