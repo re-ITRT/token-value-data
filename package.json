@@ -10,7 +10,8 @@
     "diff:commandcode": "node tools/diff-commandcode.mjs",
     "check": "node tools/check.mjs",
     "audit:independent": "node tools/audit-independent.mjs",
-    "patch:all": "node tools/patch-vendors.mjs && node tools/sync-commandcode.mjs && node tools/patch-mimo.mjs && node tools/patch-volc-afp.mjs && node tools/patch-slots.mjs && node tools/patch-peakrules.mjs && node tools/patch-lines.mjs"
+    "audit:official": "node tools/audit-official-api.mjs",
+    "patch:all": "node tools/sync-commandcode.mjs && node tools/sync-opencode.mjs && node tools/patch-opencode-extra.mjs && node tools/patch-deepseek-official.mjs && node tools/patch-mimo.mjs && node tools/patch-volc-afp.mjs && node tools/patch-vendors-normalize.mjs && node tools/patch-model-notes.mjs && node tools/patch-slots.mjs && node tools/patch-peakrules.mjs && node tools/patch-lines.mjs && node tools/rebuild-bundle.mjs"
   },
   "devDependencies": {
     "playwright": "^1.55.0"

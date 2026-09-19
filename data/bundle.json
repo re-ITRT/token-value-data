@@ -1000,152 +1000,182 @@
       {
         "id": "gpt-5.5-pro",
         "name": "GPT 5.5 Pro",
-        "vendor": "GPT",
+        "vendor": "OpenAI",
         "note": ""
       },
       {
         "id": "gpt-5.4-pro",
         "name": "GPT 5.4 Pro",
-        "vendor": "GPT",
+        "vendor": "OpenAI",
         "note": ""
       },
       {
         "id": "gpt-5.4-nano",
         "name": "GPT 5.4 Nano",
-        "vendor": "GPT",
+        "vendor": "OpenAI",
         "note": ""
       },
       {
         "id": "gpt-5.3-codex-spark",
         "name": "GPT 5.3 Codex Spark",
-        "vendor": "GPT",
-        "note": ""
+        "vendor": "OpenAI",
+        "note": "OpenAI 官方定价页无此型号（仅第三方网关标价）"
       },
       {
         "id": "gpt-5.2",
         "name": "GPT 5.2",
-        "vendor": "GPT",
+        "vendor": "OpenAI",
         "note": ""
       },
       {
         "id": "gpt-5.2-codex",
         "name": "GPT 5.2 Codex",
-        "vendor": "GPT",
-        "note": ""
+        "vendor": "OpenAI",
+        "note": "OpenAI 官方已于 2026-07-23 停服，看板不给官方报价（第三方网关行可能已失效）"
       },
       {
         "id": "gpt-5.1",
         "name": "GPT 5.1",
-        "vendor": "GPT",
+        "vendor": "OpenAI",
         "note": ""
       },
       {
         "id": "gpt-5.1-codex",
         "name": "GPT 5.1 Codex",
-        "vendor": "GPT",
-        "note": ""
+        "vendor": "OpenAI",
+        "note": "OpenAI 官方已于 2026-07-23 停服，看板不给官方报价（第三方网关行可能已失效）"
       },
       {
         "id": "gpt-5.1-codex-max",
         "name": "GPT 5.1 Codex Max",
-        "vendor": "GPT",
-        "note": ""
+        "vendor": "OpenAI",
+        "note": "OpenAI 官方已于 2026-07-23 停服，看板不给官方报价（第三方网关行可能已失效）"
       },
       {
         "id": "gpt-5.1-codex-mini",
         "name": "GPT 5.1 Codex Mini",
-        "vendor": "GPT",
-        "note": ""
+        "vendor": "OpenAI",
+        "note": "OpenAI 官方已于 2026-07-23 停服，看板不给官方报价（第三方网关行可能已失效）"
       },
       {
         "id": "gpt-5",
         "name": "GPT 5",
-        "vendor": "GPT",
+        "vendor": "OpenAI",
         "note": ""
       },
       {
         "id": "gpt-5-codex",
         "name": "GPT 5 Codex",
-        "vendor": "GPT",
+        "vendor": "OpenAI",
         "note": ""
       },
       {
         "id": "gpt-5-nano",
         "name": "GPT 5 Nano",
-        "vendor": "GPT",
+        "vendor": "OpenAI",
         "note": ""
       },
       {
         "id": "claude-opus-4-5",
         "name": "Claude Opus 4.5",
-        "vendor": "Claude",
+        "vendor": "Anthropic",
         "note": ""
       },
       {
         "id": "claude-sonnet-4-5",
         "name": "Claude Sonnet 4.5",
-        "vendor": "Claude",
+        "vendor": "Anthropic",
         "note": "分档（≤/> 200K）取小档"
       },
       {
         "id": "gemini-3.1-pro",
         "name": "Gemini 3.1 Pro",
-        "vendor": "Gemini",
+        "vendor": "Google",
         "note": ""
       },
       {
         "id": "gemini-3-flash",
         "name": "Gemini 3 Flash",
-        "vendor": "Gemini",
+        "vendor": "Google",
         "note": ""
       },
       {
         "id": "grok-build-0.1",
         "name": "Grok Build 0.1",
-        "vendor": "Grok",
+        "vendor": "xAI",
         "note": ""
       },
       {
         "id": "qwen3.5-plus",
         "name": "Qwen3.5 Plus",
-        "vendor": "Qwen3.5",
+        "vendor": "阿里",
         "note": ""
       },
       {
         "id": "ling-3.0-flash-fin-free",
         "name": "Ling 3.0 Flash Fin",
-        "vendor": "Ling",
+        "vendor": "其他",
         "note": "OpenCode Zen 限时免费"
       },
       {
         "id": "nemotron-3.5-lightning-free",
         "name": "Nemotron 3.5 Lightning",
-        "vendor": "Nemotron",
+        "vendor": "NVIDIA",
         "note": "OpenCode Zen 限时免费"
       },
       {
         "id": "big-pickle",
         "name": "Big Pickle",
-        "vendor": "Big",
+        "vendor": "其他",
         "note": "OpenCode Zen 限时免费"
       },
       {
         "id": "laguna-s-2.1",
         "name": "Laguna S 2.1",
-        "vendor": "OpenCode",
+        "vendor": "其他",
         "note": "OpenCode Zen 限时免费（控制台列表）"
       },
       {
         "id": "ling-3.0-tiny",
         "name": "Ling 3.0 Tiny",
-        "vendor": "OpenCode",
+        "vendor": "其他",
         "note": "OpenCode Zen 限时免费（控制台列表）"
       },
       {
         "id": "north-mini-code",
         "name": "North Mini Code",
-        "vendor": "OpenCode",
+        "vendor": "其他",
         "note": "OpenCode Zen 限时免费（控制台列表）"
+      },
+      {
+        "id": "grok-4.3",
+        "name": "Grok 4.3",
+        "vendor": "xAI",
+        "note": "上下文 1M"
+      },
+      {
+        "id": "grok-4.20-0309-reasoning",
+        "name": "Grok 4.20 Reasoning",
+        "vendor": "xAI",
+        "note": "上下文 1M"
+      },
+      {
+        "id": "grok-4.20-0309-non-reasoning",
+        "name": "Grok 4.20 (non-reasoning)",
+        "vendor": "xAI",
+        "note": "上下文 1M"
+      },
+      {
+        "id": "grok-4.20-multi-agent-0309",
+        "name": "Grok 4.20 Multi-Agent",
+        "vendor": "xAI",
+        "note": "上下文 1M"
+      },
+      {
+        "id": "gemini-2.5-flash-lite",
+        "name": "Gemini 2.5 Flash-Lite",
+        "vendor": "Google",
+        "note": "官方在售最便宜型号"
       }
     ],
     "apiPrices": [
@@ -4642,6 +4672,574 @@
         "free": true,
         "note": "v2 控制台的模型列表里列出（官方文档未列）；限速数值未公布，触顶报 “Free usage exceeded”",
         "source": "https://opencode.ai/docs/zen",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "google-gemini-gemini-3.8-flash",
+        "provider": "Google Gemini 官方",
+        "modelId": "gemini-3.8-flash",
+        "band": "优惠期",
+        "currency": "USD",
+        "in": 0.75,
+        "cache": 0.075,
+        "out": 3.75,
+        "promo": true,
+        "promoNote": "2026-12-31 前",
+        "note": "2026-12-31 前的优惠价；2027-01-01 起翻倍（输入 $1.50 / 输出 $7.50）",
+        "source": "https://ai.google.dev/gemini-api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "google-gemini-gemini-3.7-flash",
+        "provider": "Google Gemini 官方",
+        "modelId": "gemini-3.7-flash",
+        "band": "优惠期",
+        "currency": "USD",
+        "in": 0.75,
+        "cache": 0.075,
+        "out": 3.75,
+        "promo": true,
+        "promoNote": "2026-12-31 前",
+        "note": "2026-12-31 前的优惠价；2027-01-01 起翻倍（输入 $1.50 / 输出 $7.50）",
+        "source": "https://ai.google.dev/gemini-api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "google-gemini-gemini-3.6-flash",
+        "provider": "Google Gemini 官方",
+        "modelId": "gemini-3.6-flash",
+        "band": "优惠期",
+        "currency": "USD",
+        "in": 0.75,
+        "cache": 0.075,
+        "out": 3.75,
+        "promo": true,
+        "promoNote": "2026-12-31 前",
+        "note": "2026-12-31 前的优惠价；2027-01-01 起翻倍（输入 $1.50 / 输出 $7.50）",
+        "source": "https://ai.google.dev/gemini-api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "google-gemini-gemini-3.5-flash",
+        "provider": "Google Gemini 官方",
+        "modelId": "gemini-3.5-flash",
+        "band": "标准",
+        "currency": "USD",
+        "in": 1.5,
+        "cache": 0.15,
+        "out": 9,
+        "promoNote": null,
+        "note": "官方有免费层（Free of charge，含每分钟/每天限速），付费层价格见本条",
+        "source": "https://ai.google.dev/gemini-api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "google-gemini-gemini-3.5-flash-lite",
+        "provider": "Google Gemini 官方",
+        "modelId": "gemini-3.5-flash-lite",
+        "band": "标准",
+        "currency": "USD",
+        "in": 0.3,
+        "cache": 0.03,
+        "out": 2.5,
+        "promoNote": null,
+        "note": "官方有免费层（Free of charge，含每分钟/每天限速），付费层价格见本条；输入按文本/图片/视频/音频同价 $0.30",
+        "source": "https://ai.google.dev/gemini-api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "google-gemini-gemini-3.1-flash-lite",
+        "provider": "Google Gemini 官方",
+        "modelId": "gemini-3.1-flash-lite",
+        "band": "标准",
+        "currency": "USD",
+        "in": 0.25,
+        "cache": 0.025,
+        "out": 1.5,
+        "promoNote": null,
+        "note": "官方有免费层（Free of charge，含每分钟/每天限速），付费层价格见本条；输入文本/图片/视频 $0.25、音频 $0.50",
+        "source": "https://ai.google.dev/gemini-api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "google-gemini-gemini-3.1-pro",
+        "provider": "Google Gemini 官方",
+        "modelId": "gemini-3.1-pro",
+        "band": "标准",
+        "currency": "USD",
+        "in": 2,
+        "cache": 0.2,
+        "out": 12,
+        "promoNote": null,
+        "note": "Gemini 3.1 Pro Preview：≤200K 输入 $2.00（文本/图片）、输出 $12.00（含思考）；>200K 翻倍为 $4.00/$18.00；无免费层",
+        "source": "https://ai.google.dev/gemini-api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "xai-official-grok-4.6",
+        "provider": "xAI 官方",
+        "modelId": "grok-4.6",
+        "band": "标准",
+        "currency": "USD",
+        "in": 2,
+        "cache": 0.5,
+        "out": 6,
+        "note": "上下文 500K；prompt ≥200K 时长上下文加价：$4 输入 / $1 缓存 / $12 输出（整单按高价计）",
+        "source": "https://docs.x.ai/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "xai-official-grok-4.5",
+        "provider": "xAI 官方",
+        "modelId": "grok-4.5",
+        "band": "标准",
+        "currency": "USD",
+        "in": 2,
+        "cache": 0.3,
+        "out": 6,
+        "note": "上下文 500K；prompt ≥200K 时长上下文加价：$4 输入 / $0.6 缓存 / $12 输出（整单按高价计）",
+        "source": "https://docs.x.ai/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "xai-official-grok-build-0.1",
+        "provider": "xAI 官方",
+        "modelId": "grok-build-0.1",
+        "band": "标准",
+        "currency": "USD",
+        "in": 1,
+        "cache": 0.2,
+        "out": 2,
+        "note": "上下文 256K；prompt ≥200K 时长上下文加价：$2 输入 / $0.4 缓存 / $4 输出（整单按高价计）",
+        "source": "https://docs.x.ai/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "xai-official-grok-4.3",
+        "provider": "xAI 官方",
+        "modelId": "grok-4.3",
+        "band": "标准",
+        "currency": "USD",
+        "in": 1.25,
+        "cache": 0.2,
+        "out": 2.5,
+        "note": "上下文 1M；prompt ≥200K 时长上下文加价：$2.5 输入 / $0.4 缓存 / $5 输出（整单按高价计）",
+        "source": "https://docs.x.ai/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "xai-official-grok-4.20-0309-reasoning",
+        "provider": "xAI 官方",
+        "modelId": "grok-4.20-0309-reasoning",
+        "band": "标准",
+        "currency": "USD",
+        "in": 1.25,
+        "cache": 0.2,
+        "out": 2.5,
+        "note": "上下文 1M；prompt ≥200K 时长上下文加价：$2.5 输入 / $0.4 缓存 / $5 输出（整单按高价计）",
+        "source": "https://docs.x.ai/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "xai-official-grok-4.20-0309-non-reasoning",
+        "provider": "xAI 官方",
+        "modelId": "grok-4.20-0309-non-reasoning",
+        "band": "标准",
+        "currency": "USD",
+        "in": 1.25,
+        "cache": 0.2,
+        "out": 2.5,
+        "note": "上下文 1M；prompt ≥200K 时长上下文加价：$2.5 输入 / $0.4 缓存 / $5 输出（整单按高价计）",
+        "source": "https://docs.x.ai/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "xai-official-grok-4.20-multi-agent-0309",
+        "provider": "xAI 官方",
+        "modelId": "grok-4.20-multi-agent-0309",
+        "band": "标准",
+        "currency": "USD",
+        "in": 1.25,
+        "cache": 0.2,
+        "out": 2.5,
+        "note": "上下文 1M；prompt ≥200K 时长上下文加价：$2.5 输入 / $0.4 缓存 / $5 输出（整单按高价计）",
+        "source": "https://docs.x.ai/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "google-gemini-gemini-3-flash",
+        "provider": "Google Gemini 官方",
+        "modelId": "gemini-3-flash",
+        "band": "标准",
+        "currency": "USD",
+        "in": 0.5,
+        "cache": 0.05,
+        "out": 3,
+        "promoNote": null,
+        "note": "Gemini 3 Flash Preview（legacy）：输入文/图/视 $0.50（音频 $1.00）、缓存 $0.05（音频 $0.10）、输出 $3.00；有免费层",
+        "source": "https://ai.google.dev/gemini-api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "google-gemini-gemini-2.5-flash-lite",
+        "provider": "Google Gemini 官方",
+        "modelId": "gemini-2.5-flash-lite",
+        "band": "标准",
+        "currency": "USD",
+        "in": 0.1,
+        "cache": 0.01,
+        "out": 0.4,
+        "promoNote": null,
+        "note": "Gemini 2.5 Flash-Lite：官方在售最便宜型号（输入 $0.10 / 输出 $0.40）；有免费层",
+        "source": "https://ai.google.dev/gemini-api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "openai-official-gpt-6-astra",
+        "provider": "OpenAI 官方",
+        "modelId": "gpt-6-astra",
+        "band": "标准",
+        "currency": "USD",
+        "in": 10,
+        "cache": 1,
+        "out": 50,
+        "promoNote": null,
+        "note": "旗舰；上下文 1.05M；prompt ≥272K 时整单按长档计费：$20 输入 / $2 缓存 / $75 输出；Batch/Flex 5 折、Fast mode 2x、缓存写入 1.25×输入价",
+        "source": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "openai-official-gpt-5.6-sol",
+        "provider": "OpenAI 官方",
+        "modelId": "gpt-5.6-sol",
+        "band": "标准",
+        "currency": "USD",
+        "in": 4,
+        "cache": 0.4,
+        "out": 20,
+        "promo": true,
+        "promoNote": "限时促销价",
+        "note": "促销价（原 $5/$30，官方承诺至少到 2026-11-21）；prompt ≥272K 时整单按长档计费：$8 输入 / $0.8 缓存 / $30 输出；Batch/Flex 5 折、Fast mode 2x、缓存写入 1.25×输入价",
+        "source": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "openai-official-gpt-5.6-terra",
+        "provider": "OpenAI 官方",
+        "modelId": "gpt-5.6-terra",
+        "band": "标准",
+        "currency": "USD",
+        "in": 2,
+        "cache": 0.2,
+        "out": 12,
+        "promoNote": null,
+        "note": "2026-07-30 永久降价后价格；prompt ≥272K 时整单按长档计费：$4 输入 / $0.4 缓存 / $18 输出；Batch/Flex 5 折、Fast mode 2x、缓存写入 1.25×输入价",
+        "source": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "openai-official-gpt-5.6-luna",
+        "provider": "OpenAI 官方",
+        "modelId": "gpt-5.6-luna",
+        "band": "标准",
+        "currency": "USD",
+        "in": 0.2,
+        "cache": 0.02,
+        "out": 1.2,
+        "promoNote": null,
+        "note": "官方在售最便宜型号；prompt ≥272K 时整单按长档计费：$0.4 输入 / $0.04 缓存 / $1.8 输出；Batch/Flex 5 折、Fast mode 2x、缓存写入 1.25×输入价",
+        "source": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "openai-official-gpt-5.5",
+        "provider": "OpenAI 官方",
+        "modelId": "gpt-5.5",
+        "band": "标准",
+        "currency": "USD",
+        "in": 5,
+        "cache": 0.5,
+        "out": 30,
+        "promoNote": null,
+        "note": "已从定价页撤下，仅模型页列价；prompt ≥272K 时整单按长档计费：$10 输入 / $1 缓存 / $45 输出；Batch/Flex 5 折、Fast mode 2x、缓存写入 1.25×输入价",
+        "source": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "openai-official-gpt-5.5-pro",
+        "provider": "OpenAI 官方",
+        "modelId": "gpt-5.5-pro",
+        "band": "标准",
+        "currency": "USD",
+        "in": 30,
+        "cache": 30,
+        "out": 180,
+        "promoNote": null,
+        "note": "无缓存折扣；Batch/Flex 5 折、Fast mode 2x、缓存写入 1.25×输入价",
+        "source": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "openai-official-gpt-5.4",
+        "provider": "OpenAI 官方",
+        "modelId": "gpt-5.4",
+        "band": "标准",
+        "currency": "USD",
+        "in": 2.5,
+        "cache": 0.25,
+        "out": 15,
+        "promoNote": null,
+        "note": "已从定价页撤下，仅模型页列价；prompt ≥272K 时整单按长档计费：$5 输入 / $0.5 缓存 / $22.5 输出；Batch/Flex 5 折、Fast mode 2x、缓存写入 1.25×输入价",
+        "source": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "openai-official-gpt-5.4-mini",
+        "provider": "OpenAI 官方",
+        "modelId": "gpt-5.4-mini",
+        "band": "标准",
+        "currency": "USD",
+        "in": 0.75,
+        "cache": 0.075,
+        "out": 4.5,
+        "promoNote": null,
+        "note": "Batch/Flex 5 折、Fast mode 2x、缓存写入 1.25×输入价",
+        "source": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "openai-official-gpt-5.4-nano",
+        "provider": "OpenAI 官方",
+        "modelId": "gpt-5.4-nano",
+        "band": "标准",
+        "currency": "USD",
+        "in": 0.2,
+        "cache": 0.02,
+        "out": 1.25,
+        "promoNote": null,
+        "note": "Batch/Flex 5 折、Fast mode 2x、缓存写入 1.25×输入价",
+        "source": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "openai-official-gpt-5.3-codex",
+        "provider": "OpenAI 官方",
+        "modelId": "gpt-5.3-codex",
+        "band": "标准",
+        "currency": "USD",
+        "in": 1.75,
+        "cache": 0.175,
+        "out": 14,
+        "promoNote": null,
+        "note": "Batch/Flex 5 折、Fast mode 2x、缓存写入 1.25×输入价",
+        "source": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "openai-official-gpt-5.2",
+        "provider": "OpenAI 官方",
+        "modelId": "gpt-5.2",
+        "band": "标准",
+        "currency": "USD",
+        "in": 1.75,
+        "cache": 0.175,
+        "out": 14,
+        "promoNote": null,
+        "note": "已从定价页撤下，仅模型页列价；Batch/Flex 5 折、Fast mode 2x、缓存写入 1.25×输入价",
+        "source": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "openai-official-gpt-5.1",
+        "provider": "OpenAI 官方",
+        "modelId": "gpt-5.1",
+        "band": "标准",
+        "currency": "USD",
+        "in": 1.25,
+        "cache": 0.125,
+        "out": 10,
+        "promoNote": null,
+        "note": "已从定价页撤下，仅模型页列价；Batch/Flex 5 折、Fast mode 2x、缓存写入 1.25×输入价",
+        "source": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "openai-official-gpt-5-nano",
+        "provider": "OpenAI 官方",
+        "modelId": "gpt-5-nano",
+        "band": "标准",
+        "currency": "USD",
+        "in": 0.05,
+        "cache": 0.005,
+        "out": 0.4,
+        "promoNote": null,
+        "note": "官方标注 2026-12-11 停服；Batch/Flex 5 折、Fast mode 2x、缓存写入 1.25×输入价",
+        "source": "https://developers.openai.com/api/docs/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "anthropic-official-claude-fable-5-1",
+        "provider": "Anthropic 官方",
+        "modelId": "claude-fable-5-1",
+        "band": "标准",
+        "currency": "USD",
+        "in": 10,
+        "cache": 0.25,
+        "out": 50,
+        "cacheWrite": 12.5,
+        "cacheWrite1h": 20,
+        "note": "当前最贵在售型号（2026-09-01 发布）；缓存命中按输入价 0.025× 计；上下文 1M；缓存写入 1.25×（5 分钟）/ 2×（1 小时）输入价；Batch 5 折可叠加缓存折扣",
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "anthropic-official-claude-fable-5",
+        "provider": "Anthropic 官方",
+        "modelId": "claude-fable-5",
+        "band": "标准",
+        "currency": "USD",
+        "in": 10,
+        "cache": 1,
+        "out": 50,
+        "cacheWrite": 12.5,
+        "cacheWrite1h": 20,
+        "note": "缓存命中 0.1×；上下文 1M；缓存写入 1.25×（5 分钟）/ 2×（1 小时）输入价；Batch 5 折可叠加缓存折扣",
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "anthropic-official-claude-opus-5",
+        "provider": "Anthropic 官方",
+        "modelId": "claude-opus-5",
+        "band": "标准",
+        "currency": "USD",
+        "in": 5,
+        "cache": 0.5,
+        "out": 25,
+        "cacheWrite": 6.25,
+        "cacheWrite1h": 10,
+        "note": "1M 窗口按标准价，无长文加价；Fast mode 另计 $10/$50；上下文 1M；缓存写入 1.25×（5 分钟）/ 2×（1 小时）输入价；Batch 5 折可叠加缓存折扣",
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "anthropic-official-claude-opus-4-8",
+        "provider": "Anthropic 官方",
+        "modelId": "claude-opus-4-8",
+        "band": "标准",
+        "currency": "USD",
+        "in": 5,
+        "cache": 0.5,
+        "out": 25,
+        "cacheWrite": 6.25,
+        "cacheWrite1h": 10,
+        "note": "Fast mode 另计 $10/$50；上下文 1M；缓存写入 1.25×（5 分钟）/ 2×（1 小时）输入价；Batch 5 折可叠加缓存折扣",
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "anthropic-official-claude-opus-4-7",
+        "provider": "Anthropic 官方",
+        "modelId": "claude-opus-4-7",
+        "band": "标准",
+        "currency": "USD",
+        "in": 5,
+        "cache": 0.5,
+        "out": 25,
+        "cacheWrite": 6.25,
+        "cacheWrite1h": 10,
+        "note": "上下文 1M；缓存写入 1.25×（5 分钟）/ 2×（1 小时）输入价；Batch 5 折可叠加缓存折扣",
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "anthropic-official-claude-opus-4-6",
+        "provider": "Anthropic 官方",
+        "modelId": "claude-opus-4-6",
+        "band": "标准",
+        "currency": "USD",
+        "in": 5,
+        "cache": 0.5,
+        "out": 25,
+        "cacheWrite": 6.25,
+        "cacheWrite1h": 10,
+        "note": "上下文 1M；缓存写入 1.25×（5 分钟）/ 2×（1 小时）输入价；Batch 5 折可叠加缓存折扣",
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "anthropic-official-claude-opus-4-5",
+        "provider": "Anthropic 官方",
+        "modelId": "claude-opus-4-5",
+        "band": "标准",
+        "currency": "USD",
+        "in": 5,
+        "cache": 0.5,
+        "out": 25,
+        "cacheWrite": 6.25,
+        "cacheWrite1h": 10,
+        "note": "仅 200K 窗口；上下文 200K；缓存写入 1.25×（5 分钟）/ 2×（1 小时）输入价；Batch 5 折可叠加缓存折扣",
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "anthropic-official-claude-sonnet-5",
+        "provider": "Anthropic 官方",
+        "modelId": "claude-sonnet-5",
+        "band": "标准",
+        "currency": "USD",
+        "in": 2,
+        "cache": 0.2,
+        "out": 10,
+        "cacheWrite": 2.5,
+        "cacheWrite1h": 4,
+        "note": "原上市促销价已转为标准价（原定 2026-09-01 涨到 $3/$15 已取消）；上下文 1M；缓存写入 1.25×（5 分钟）/ 2×（1 小时）输入价；Batch 5 折可叠加缓存折扣",
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "anthropic-official-claude-sonnet-4-6",
+        "provider": "Anthropic 官方",
+        "modelId": "claude-sonnet-4-6",
+        "band": "标准",
+        "currency": "USD",
+        "in": 3,
+        "cache": 0.3,
+        "out": 15,
+        "cacheWrite": 3.75,
+        "cacheWrite1h": 6,
+        "note": "上下文 1M；缓存写入 1.25×（5 分钟）/ 2×（1 小时）输入价；Batch 5 折可叠加缓存折扣",
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "anthropic-official-claude-sonnet-4-5",
+        "provider": "Anthropic 官方",
+        "modelId": "claude-sonnet-4-5",
+        "band": "标准",
+        "currency": "USD",
+        "in": 3,
+        "cache": 0.3,
+        "out": 15,
+        "cacheWrite": 3.75,
+        "cacheWrite1h": 6,
+        "note": "仅 200K 窗口；上下文 200K；缓存写入 1.25×（5 分钟）/ 2×（1 小时）输入价；Batch 5 折可叠加缓存折扣",
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "verifiedAt": "2026-09-19"
+      },
+      {
+        "id": "anthropic-official-claude-haiku-4-5",
+        "provider": "Anthropic 官方",
+        "modelId": "claude-haiku-4-5",
+        "band": "标准",
+        "currency": "USD",
+        "in": 1,
+        "cache": 0.1,
+        "out": 5,
+        "cacheWrite": 1.25,
+        "cacheWrite1h": 2,
+        "note": "在售型号里单价最低；上下文 200K；缓存写入 1.25×（5 分钟）/ 2×（1 小时）输入价；Batch 5 折可叠加缓存折扣",
+        "source": "https://platform.claude.com/docs/en/about-claude/pricing",
         "verifiedAt": "2026-09-19"
       }
     ],
@@ -11131,6 +11729,35 @@
         "支付宝"
       ],
       "note": "支持支付宝（Go 订阅页「其他付款方式」只有 Alipay 与 UPI；有 2026-08-11 的 $5 支付宝成功付款记录）。不支持微信支付，也无独立境内银联入口；默认走 Stripe 信用卡（手续费 4.4% + $0.30 按成本转嫁）。社区多次报告支付宝在 Stripe 结账时校验失败，时好时坏。"
+    },
+    "xAI 官方": {
+      "cn": false,
+      "methods": [
+        "信用卡",
+        "对公汇款"
+      ],
+      "note": "只收境外信用卡（卡品牌枚举里有 unionpay，但官方没有任何支付宝/微信/境内银联人民币通道说明）或企业对公汇款（ACH/wire/check，需联系 sales@x.ai）。官方无国别黑白名单，但要求符合 OFAC 出口管制；境内直连 api.x.ai 实测不通。自动充值单次最低 $5。"
+    },
+    "OpenAI 官方": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "API 充值只支持 USD + 信用卡/借记卡（多币种里的 CNY 只适用于 ChatGPT 订阅），不支持支付宝/微信/银联。官方支持国家名单不含中国大陆、香港、澳门（台湾在列），名单外访问或付款可能被封号。最低充值 $5，额度 1 年过期不退；发票仅企业合同客户按月开。"
+    },
+    "Anthropic 官方": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "只接受境外主流信用卡（Visa/MC/Amex，走 Stripe），官方文档从未出现支付宝/微信/银联。企业客户可经 Sales 走月度后付发票（可 T/T）。支持国家名单不含中国大陆、香港、澳门（台湾在列）。API 无免费层（仅新用户少量免费 credits，金额未公布）。"
+    },
+    "Google Gemini 官方": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "接受的卡组织只有 Amex/MasterCard/Visa/Discover/JCB/Visa Electron/Elo，银联不在列，且不支持电汇转账 → 必须境外卡。有免费层（限速未公布），付费可预付（最低 $5，12 个月过期不退）或后付。地区名单不含中国大陆、香港、澳门（含台湾），官方建议受限地区改用 Vertex AI（定价几乎一致，但无免费层、需 GCP 合同）。"
     }
   }
 }

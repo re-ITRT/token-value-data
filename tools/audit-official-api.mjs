@@ -18,6 +18,10 @@ const OFFICIAL = {
   腾讯: ['腾讯混元 API'],
   百度: ['百度千帆 API'],
   阿里: ['阿里百炼 API'],
+  OpenAI: ['OpenAI 官方'],
+  Anthropic: ['Anthropic 官方'],
+  Google: ['Google Gemini 官方'],
+  xAI: ['xAI 官方'],
 };
 
 const providersOf = (modelId) => {
