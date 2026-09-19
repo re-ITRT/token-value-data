@@ -512,151 +512,151 @@
     {
       "id": "gpt-5.5-pro",
       "name": "GPT 5.5 Pro",
-      "vendor": "GPT",
+      "vendor": "OpenAI",
       "note": ""
     },
     {
       "id": "gpt-5.4-pro",
       "name": "GPT 5.4 Pro",
-      "vendor": "GPT",
+      "vendor": "OpenAI",
       "note": ""
     },
     {
       "id": "gpt-5.4-nano",
       "name": "GPT 5.4 Nano",
-      "vendor": "GPT",
+      "vendor": "OpenAI",
       "note": ""
     },
     {
       "id": "gpt-5.3-codex-spark",
       "name": "GPT 5.3 Codex Spark",
-      "vendor": "GPT",
+      "vendor": "OpenAI",
       "note": ""
     },
     {
       "id": "gpt-5.2",
       "name": "GPT 5.2",
-      "vendor": "GPT",
+      "vendor": "OpenAI",
       "note": ""
     },
     {
       "id": "gpt-5.2-codex",
       "name": "GPT 5.2 Codex",
-      "vendor": "GPT",
+      "vendor": "OpenAI",
       "note": ""
     },
     {
       "id": "gpt-5.1",
       "name": "GPT 5.1",
-      "vendor": "GPT",
+      "vendor": "OpenAI",
       "note": ""
     },
     {
       "id": "gpt-5.1-codex",
       "name": "GPT 5.1 Codex",
-      "vendor": "GPT",
+      "vendor": "OpenAI",
       "note": ""
     },
     {
       "id": "gpt-5.1-codex-max",
       "name": "GPT 5.1 Codex Max",
-      "vendor": "GPT",
+      "vendor": "OpenAI",
       "note": ""
     },
     {
       "id": "gpt-5.1-codex-mini",
       "name": "GPT 5.1 Codex Mini",
-      "vendor": "GPT",
+      "vendor": "OpenAI",
       "note": ""
     },
     {
       "id": "gpt-5",
       "name": "GPT 5",
-      "vendor": "GPT",
+      "vendor": "OpenAI",
       "note": ""
     },
     {
       "id": "gpt-5-codex",
       "name": "GPT 5 Codex",
-      "vendor": "GPT",
+      "vendor": "OpenAI",
       "note": ""
     },
     {
       "id": "gpt-5-nano",
       "name": "GPT 5 Nano",
-      "vendor": "GPT",
+      "vendor": "OpenAI",
       "note": ""
     },
     {
       "id": "claude-opus-4-5",
       "name": "Claude Opus 4.5",
-      "vendor": "Claude",
+      "vendor": "Anthropic",
       "note": ""
     },
     {
       "id": "claude-sonnet-4-5",
       "name": "Claude Sonnet 4.5",
-      "vendor": "Claude",
+      "vendor": "Anthropic",
       "note": "分档（≤/> 200K）取小档"
     },
     {
       "id": "gemini-3.1-pro",
       "name": "Gemini 3.1 Pro",
-      "vendor": "Gemini",
+      "vendor": "Google",
       "note": ""
     },
     {
       "id": "gemini-3-flash",
       "name": "Gemini 3 Flash",
-      "vendor": "Gemini",
+      "vendor": "Google",
       "note": ""
     },
     {
       "id": "grok-build-0.1",
       "name": "Grok Build 0.1",
-      "vendor": "Grok",
+      "vendor": "xAI",
       "note": ""
     },
     {
       "id": "qwen3.5-plus",
       "name": "Qwen3.5 Plus",
-      "vendor": "Qwen3.5",
+      "vendor": "阿里",
       "note": ""
     },
     {
       "id": "ling-3.0-flash-fin-free",
       "name": "Ling 3.0 Flash Fin",
-      "vendor": "Ling",
+      "vendor": "其他",
       "note": "OpenCode Zen 限时免费"
     },
     {
       "id": "nemotron-3.5-lightning-free",
       "name": "Nemotron 3.5 Lightning",
-      "vendor": "Nemotron",
+      "vendor": "NVIDIA",
       "note": "OpenCode Zen 限时免费"
     },
     {
       "id": "big-pickle",
       "name": "Big Pickle",
-      "vendor": "Big",
+      "vendor": "其他",
       "note": "OpenCode Zen 限时免费"
     },
     {
       "id": "laguna-s-2.1",
       "name": "Laguna S 2.1",
-      "vendor": "OpenCode",
+      "vendor": "其他",
       "note": "OpenCode Zen 限时免费（控制台列表）"
     },
     {
       "id": "ling-3.0-tiny",
       "name": "Ling 3.0 Tiny",
-      "vendor": "OpenCode",
+      "vendor": "其他",
       "note": "OpenCode Zen 限时免费（控制台列表）"
     },
     {
       "id": "north-mini-code",
       "name": "North Mini Code",
-      "vendor": "OpenCode",
+      "vendor": "其他",
       "note": "OpenCode Zen 限时免费（控制台列表）"
     }
   ],
