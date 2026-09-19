@@ -49,6 +49,7 @@ for (const a of s.apiPrices) {
 /* ---- 订阅时段：给 peak 行打规则（谷行由 peak 行推导） ---- */
 const PLAN_BAND_RULES = {
   'cmdcode-go': { peak: RULES.deepseek },
+  'opencode-go': { peak: RULES.deepseek },
   'cmdcode-goat': { peak: RULES.deepseek },
   'cmdcode-pro': { peak: RULES.deepseek },
   'ollama-pro': { peak: RULES.ollama },

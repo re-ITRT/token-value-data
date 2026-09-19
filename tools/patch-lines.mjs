@@ -23,6 +23,7 @@ const LINES = [
   [/^glm-coding-/, 'zhipu-coding'],
   [/^mm-token-/, 'mm-token'],
   [/^mimo-token-/, 'mimo-token'],
+  [/^opencode-go/, 'opencode-go'],
   [/^kimi-/, 'kimi-member'],
 ];
 

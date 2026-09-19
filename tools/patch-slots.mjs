@@ -19,6 +19,7 @@ for (const a of s.apiPrices) {
 /* ---- 订阅套餐：按「套餐 id + band id」显式指定 ---- */
 const RULES = {
   'cmdcode-go': { base: 'offpeak', off: 'offpeak', peak: 'peak' },
+  'opencode-go': { base: 'offpeak', off: 'offpeak', peak: 'peak' },
   'cmdcode-goat': { base: 'offpeak', off: 'offpeak', peak: 'peak' },
   'cmdcode-pro': { base: 'offpeak', off: 'offpeak', peak: 'peak' },
   'ollama-pro': { base: 'offpeak', peak: 'peak' },

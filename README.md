@@ -170,10 +170,10 @@ node tools/patch-vendors.mjs                       # 写入/更新厂商数据�
 
 | 类别 | 条目 |
 |---|---|
-| 国际订阅 | Command Code Go / GOAT / Pro、Ollama Cloud Pro |
+| 国际订阅 | **OpenCode Go（$10/月，按模型的月度额度 + 5h/周/月窗口）**、Command Code Go / GOAT / Pro、Ollama Cloud Pro |
 | 国内云订阅 | 火山方舟 Agent Plan Small/Medium/Large；阿里百炼 Coding Plan Pro；百度千帆 Token Plan Mini/Lite/Pro；腾讯云通用 Token Plan；超算互联网 SCNet Token Plan（基础→旗舰） |
 | 厂商直营订阅 | 智谱 GLM Coding Plan Lite/Pro/Max（官方积分公式）、MiniMax Token Plan Plus/Max/Ultra、**小米 MiMo Token Plan Lite/Standard/Pro/Max** |
-| 按量 API | DeepSeek 官方、智谱 BigModel + z.ai、Kimi 国内站 + 国际站、MiniMax 国内 + 国际、**小米 MiMo 国内 + 海外**、火山方舟、阿里百炼、腾讯混元、百度千帆、Ollama Cloud、Command Code Provider（**全量 71 个模型**）、超算互联网 SCNet、硅基流动（国内站 + 国际站，含长期免费模型） |
+| 按量 API | **OpenCode Zen（含 6 个限时免费模型）**、DeepSeek 官方、智谱 BigModel + z.ai、Kimi 国内站 + 国际站、MiniMax 国内 + 国际、**小米 MiMo 国内 + 海外**、火山方舟、阿里百炼、腾讯混元、百度千帆、Ollama Cloud、Command Code Provider（**全量 71 个模型**）、超算互联网 SCNet、硅基流动（国内站 + 国际站，含长期免费模型） |
 | 无法换算 | 阿里 Token Plan 个人版 Lite（Credits 系数未公开）、腾讯 Hy Token Plan（积分折算未公开）、Kimi 会员 Go/Plus/Pro/Max（官方只给百分比锚） |
 
 **已下架不再统计**（id 记在 `data/sources.json` 的 `removedPlans` / `removedProviders` / `removedApiPrices` 里，防止脚本重新加回）：
@@ -334,3 +334,16 @@ node tools/gh-push.mjs . re-ITRT/token-value-data main "data: xxx"
   MiniMax 国际站、小米 MiMo 海外站、硅基流动（国际站）
 
 看板的行悬停提示、以及后台的健康表都会带上这个信息。
+## OpenCode（tools/sync-opencode.mjs）
+
+数据直接解析官方文档在 GitHub 上的源文件（比渲染后的页面可靠、可重复跑）：
+``packages/web/src/content/docs/go.mdx`` 与 ``zen.mdx``。
+
+- **Go 订阅**：$10/月，额度**按模型分别计算**（GLM-5.3-Flash $60、Kimi K3 $15、DeepSeek V4 Flash $30 …），
+  窗口为 **5 小时 = 该模型月额度 20%、周 = 50%、月 = 100%**；用满某模型不影响其它模型。
+  实现上：套餐 ``quota`` = 各模型额度之和（避免求解器把总池当成共享池），每个模型另有 ``quotaOverride`` 单模型上限。
+  DeepSeek 系在文档里分峰/谷两行 → 转成时段带（峰 ×2）。
+- **Zen 按量**：75 条付费价 + 6 条限时免费（Big Pickle、MiMo-V2.5 Free、Ling 3.0 Flash Fin Free、
+  Nemotron 3 Ultra Free、Nemotron 3.5 Lightning Free、Muse Spark 1.3 Contributor Free）。
+- **支付**：官方文档只提到「信用卡手续费 4.4% + $0.30 按成本转嫁」（走 Stripe）；用户实测国内可直接支付（支付宝），
+  ``payment.json`` 里按 ``cn: true`` 标注并在 note 里写明来源。

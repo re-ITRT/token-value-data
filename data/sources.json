@@ -508,6 +508,144 @@
       "name": "Grok 4.6",
       "vendor": "xAI",
       "note": ""
+    },
+    {
+      "id": "gpt-5.5-pro",
+      "name": "GPT 5.5 Pro",
+      "vendor": "GPT",
+      "note": ""
+    },
+    {
+      "id": "gpt-5.4-pro",
+      "name": "GPT 5.4 Pro",
+      "vendor": "GPT",
+      "note": ""
+    },
+    {
+      "id": "gpt-5.4-nano",
+      "name": "GPT 5.4 Nano",
+      "vendor": "GPT",
+      "note": ""
+    },
+    {
+      "id": "gpt-5.3-codex-spark",
+      "name": "GPT 5.3 Codex Spark",
+      "vendor": "GPT",
+      "note": ""
+    },
+    {
+      "id": "gpt-5.2",
+      "name": "GPT 5.2",
+      "vendor": "GPT",
+      "note": ""
+    },
+    {
+      "id": "gpt-5.2-codex",
+      "name": "GPT 5.2 Codex",
+      "vendor": "GPT",
+      "note": ""
+    },
+    {
+      "id": "gpt-5.1",
+      "name": "GPT 5.1",
+      "vendor": "GPT",
+      "note": ""
+    },
+    {
+      "id": "gpt-5.1-codex",
+      "name": "GPT 5.1 Codex",
+      "vendor": "GPT",
+      "note": ""
+    },
+    {
+      "id": "gpt-5.1-codex-max",
+      "name": "GPT 5.1 Codex Max",
+      "vendor": "GPT",
+      "note": ""
+    },
+    {
+      "id": "gpt-5.1-codex-mini",
+      "name": "GPT 5.1 Codex Mini",
+      "vendor": "GPT",
+      "note": ""
+    },
+    {
+      "id": "gpt-5",
+      "name": "GPT 5",
+      "vendor": "GPT",
+      "note": ""
+    },
+    {
+      "id": "gpt-5-codex",
+      "name": "GPT 5 Codex",
+      "vendor": "GPT",
+      "note": ""
+    },
+    {
+      "id": "gpt-5-nano",
+      "name": "GPT 5 Nano",
+      "vendor": "GPT",
+      "note": ""
+    },
+    {
+      "id": "claude-opus-4-5",
+      "name": "Claude Opus 4.5",
+      "vendor": "Claude",
+      "note": ""
+    },
+    {
+      "id": "claude-sonnet-4-5",
+      "name": "Claude Sonnet 4.5",
+      "vendor": "Claude",
+      "note": ""
+    },
+    {
+      "id": "gemini-3.1-pro",
+      "name": "Gemini 3.1 Pro",
+      "vendor": "Gemini",
+      "note": ""
+    },
+    {
+      "id": "gemini-3-flash",
+      "name": "Gemini 3 Flash",
+      "vendor": "Gemini",
+      "note": ""
+    },
+    {
+      "id": "grok-build-0.1",
+      "name": "Grok Build 0.1",
+      "vendor": "Grok",
+      "note": ""
+    },
+    {
+      "id": "qwen3.5-plus",
+      "name": "Qwen3.5 Plus",
+      "vendor": "Qwen3.5",
+      "note": ""
+    },
+    {
+      "id": "ling-3.0-flash-fin-free",
+      "name": "Ling 3.0 Flash Fin",
+      "vendor": "Ling",
+      "note": "OpenCode Zen 限时免费"
+    },
+    {
+      "id": "nemotron-3.5-lightning-free",
+      "name": "Nemotron 3.5 Lightning",
+      "vendor": "Nemotron",
+      "note": "OpenCode Zen 限时免费"
+    },
+    {
+      "id": "big-pickle",
+      "name": "Big Pickle",
+      "vendor": "Big",
+      "note": "OpenCode Zen 限时免费"
+    },
+    {
+      "id": "claude-sonnet-4.5",
+      "name": "Claude Sonnet 4.5",
+      "vendor": "Claude",
+      "note": ""
     }
   ],
   "apiPrices": [
@@ -1367,7 +1505,30 @@
       "promo": true,
       "promoNote": "原价 ¥3.00 / ¥0.30 / ¥9.00",
       "source": "https://siliconflow.cn/pricing",
-      "verifiedAt": "2026-09-18"
+      "verifiedAt": "2026-09-18",
+      "peakRule": {
+        "tz": "Asia/Shanghai",
+        "days": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ranges": [
+          [
+            8,
+            24
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "note": "北京时间 02–08 为谷时（五折），其余为原价"
+      }
     },
     {
       "id": "sf-cn-v4flash-peak",
@@ -1380,7 +1541,30 @@
       "out": 9,
       "slot": "peak",
       "source": "https://siliconflow.cn/pricing",
-      "verifiedAt": "2026-09-18"
+      "verifiedAt": "2026-09-18",
+      "peakRule": {
+        "tz": "Asia/Shanghai",
+        "days": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "ranges": [
+          [
+            8,
+            24
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "note": "北京时间 02–08 为谷时（五折），其余为原价"
+      }
     },
     {
       "id": "sf-cn-v4pro",
@@ -2896,6 +3080,935 @@
       "promo": false,
       "source": "https://commandcode.ai/docs/resources/pricing-limits",
       "verifiedAt": "2026-09-18"
+    },
+    {
+      "id": "oczen-big-pickle",
+      "provider": "OpenCode Zen",
+      "modelId": "big-pickle",
+      "band": "免费",
+      "currency": "USD",
+      "in": 0,
+      "cache": 0,
+      "out": 0,
+      "free": true,
+      "note": "官方标注限时免费（收集反馈用）",
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-mimo-v2.5",
+      "provider": "OpenCode Zen",
+      "modelId": "mimo-v2.5",
+      "band": "免费",
+      "currency": "USD",
+      "in": 0,
+      "cache": 0,
+      "out": 0,
+      "free": true,
+      "note": "官方标注限时免费（收集反馈用）",
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-ling-3.0-flash-fin-free",
+      "provider": "OpenCode Zen",
+      "modelId": "ling-3.0-flash-fin-free",
+      "band": "免费",
+      "currency": "USD",
+      "in": 0,
+      "cache": 0,
+      "out": 0,
+      "free": true,
+      "note": "官方标注限时免费（收集反馈用）",
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-nemotron-3-ultra",
+      "provider": "OpenCode Zen",
+      "modelId": "nemotron-3-ultra",
+      "band": "免费",
+      "currency": "USD",
+      "in": 0,
+      "cache": 0,
+      "out": 0,
+      "free": true,
+      "note": "官方标注限时免费（收集反馈用）",
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-nemotron-3.5-lightning-free",
+      "provider": "OpenCode Zen",
+      "modelId": "nemotron-3.5-lightning-free",
+      "band": "免费",
+      "currency": "USD",
+      "in": 0,
+      "cache": 0,
+      "out": 0,
+      "free": true,
+      "note": "官方标注限时免费（收集反馈用）",
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-muse-spark-1.3-contributor",
+      "provider": "OpenCode Zen",
+      "modelId": "muse-spark-1.3-contributor",
+      "band": "免费",
+      "currency": "USD",
+      "in": 0,
+      "cache": 0,
+      "out": 0,
+      "free": true,
+      "note": "官方标注限时免费（收集反馈用）",
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-minimax-m3",
+      "provider": "OpenCode Zen",
+      "modelId": "minimax-m3",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.3,
+      "cache": 0.06,
+      "out": 1.2,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-minimax-m2.7",
+      "provider": "OpenCode Zen",
+      "modelId": "minimax-m2.7",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.3,
+      "cache": 0.06,
+      "out": 1.2,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-minimax-m2.5",
+      "provider": "OpenCode Zen",
+      "modelId": "minimax-m2.5",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.3,
+      "cache": 0.06,
+      "out": 1.2,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-glm-5.3-flash",
+      "provider": "OpenCode Zen",
+      "modelId": "glm-5.3-flash",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.15,
+      "cache": 0.03,
+      "out": 0.5,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-glm-5.3",
+      "provider": "OpenCode Zen",
+      "modelId": "glm-5.3",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.4,
+      "cache": 0.26,
+      "out": 4.4,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-glm-5.2",
+      "provider": "OpenCode Zen",
+      "modelId": "glm-5.2",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.4,
+      "cache": 0.26,
+      "out": 4.4,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-glm-5.1",
+      "provider": "OpenCode Zen",
+      "modelId": "glm-5.1",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.4,
+      "cache": 0.26,
+      "out": 4.4,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-glm-5",
+      "provider": "OpenCode Zen",
+      "modelId": "glm-5",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1,
+      "cache": 0.2,
+      "out": 3.2,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-kimi-k2.7-code",
+      "provider": "OpenCode Zen",
+      "modelId": "kimi-k2.7-code",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.95,
+      "cache": 0.19,
+      "out": 4,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-kimi-k3",
+      "provider": "OpenCode Zen",
+      "modelId": "kimi-k3",
+      "band": "标准",
+      "currency": "USD",
+      "in": 3,
+      "cache": 0.3,
+      "out": 15,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-kimi-k2.6",
+      "provider": "OpenCode Zen",
+      "modelId": "kimi-k2.6",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.95,
+      "cache": 0.16,
+      "out": 4,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-kimi-k2.5",
+      "provider": "OpenCode Zen",
+      "modelId": "kimi-k2.5",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.6,
+      "cache": 0.1,
+      "out": 3,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-qwen3.8-flash",
+      "provider": "OpenCode Zen",
+      "modelId": "qwen3.8-flash",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.15,
+      "cache": 0.016,
+      "out": 0.47,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-qwen-3.7-max",
+      "provider": "OpenCode Zen",
+      "modelId": "qwen-3.7-max",
+      "band": "标准",
+      "currency": "USD",
+      "in": 2.5,
+      "cache": 0.5,
+      "out": 7.5,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-qwen-3.7-plus",
+      "provider": "OpenCode Zen",
+      "modelId": "qwen-3.7-plus",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.4,
+      "cache": 0.04,
+      "out": 1.6,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-qwen-3.6-plus",
+      "provider": "OpenCode Zen",
+      "modelId": "qwen-3.6-plus",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.5,
+      "cache": 0.05,
+      "out": 3,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-qwen3.5-plus",
+      "provider": "OpenCode Zen",
+      "modelId": "qwen3.5-plus",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.2,
+      "cache": 0.02,
+      "out": 1.2,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-deepseek-v4-1-flash",
+      "provider": "OpenCode Zen",
+      "modelId": "deepseek-v4-1-flash",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.3,
+      "cache": 0.006,
+      "out": 1.2,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-deepseek-v4-pro",
+      "provider": "OpenCode Zen",
+      "modelId": "deepseek-v4-pro",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.74,
+      "cache": 0.145,
+      "out": 3.48,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-deepseek-v4-flash",
+      "provider": "OpenCode Zen",
+      "modelId": "deepseek-v4-flash",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.14,
+      "cache": 0.028,
+      "out": 0.28,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-deepseek-v4-flash-vision-exp",
+      "provider": "OpenCode Zen",
+      "modelId": "deepseek-v4-flash-vision-exp",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.14,
+      "cache": 0.028,
+      "out": 0.28,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-claude-fable-5-1",
+      "provider": "OpenCode Zen",
+      "modelId": "claude-fable-5-1",
+      "band": "标准",
+      "currency": "USD",
+      "in": 10,
+      "cache": 0.25,
+      "out": 50,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-claude-fable-5",
+      "provider": "OpenCode Zen",
+      "modelId": "claude-fable-5",
+      "band": "标准",
+      "currency": "USD",
+      "in": 10,
+      "cache": 1,
+      "out": 50,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-claude-opus-5",
+      "provider": "OpenCode Zen",
+      "modelId": "claude-opus-5",
+      "band": "标准",
+      "currency": "USD",
+      "in": 5,
+      "cache": 0.5,
+      "out": 25,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-claude-opus-4-8",
+      "provider": "OpenCode Zen",
+      "modelId": "claude-opus-4-8",
+      "band": "标准",
+      "currency": "USD",
+      "in": 5,
+      "cache": 0.5,
+      "out": 25,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-claude-opus-4-7",
+      "provider": "OpenCode Zen",
+      "modelId": "claude-opus-4-7",
+      "band": "标准",
+      "currency": "USD",
+      "in": 5,
+      "cache": 0.5,
+      "out": 25,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-claude-opus-4-6",
+      "provider": "OpenCode Zen",
+      "modelId": "claude-opus-4-6",
+      "band": "标准",
+      "currency": "USD",
+      "in": 5,
+      "cache": 0.5,
+      "out": 25,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-claude-opus-4-5",
+      "provider": "OpenCode Zen",
+      "modelId": "claude-opus-4-5",
+      "band": "标准",
+      "currency": "USD",
+      "in": 5,
+      "cache": 0.5,
+      "out": 25,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-claude-sonnet-5",
+      "provider": "OpenCode Zen",
+      "modelId": "claude-sonnet-5",
+      "band": "标准",
+      "currency": "USD",
+      "in": 2,
+      "cache": 0.2,
+      "out": 10,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-claude-sonnet-4-6",
+      "provider": "OpenCode Zen",
+      "modelId": "claude-sonnet-4-6",
+      "band": "标准",
+      "currency": "USD",
+      "in": 3,
+      "cache": 0.3,
+      "out": 15,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-claude-sonnet-4.5",
+      "provider": "OpenCode Zen",
+      "modelId": "claude-sonnet-4.5",
+      "band": "标准",
+      "currency": "USD",
+      "in": 6,
+      "cache": 0.6,
+      "out": 22.5,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-claude-haiku-4-5",
+      "provider": "OpenCode Zen",
+      "modelId": "claude-haiku-4-5",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1,
+      "cache": 0.1,
+      "out": 5,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gemini-3.8-flash",
+      "provider": "OpenCode Zen",
+      "modelId": "gemini-3.8-flash",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.5,
+      "cache": 0.15,
+      "out": 7.5,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gemini-3.7-flash",
+      "provider": "OpenCode Zen",
+      "modelId": "gemini-3.7-flash",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.5,
+      "cache": 0.15,
+      "out": 7.5,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gemini-3.6-flash",
+      "provider": "OpenCode Zen",
+      "modelId": "gemini-3.6-flash",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.5,
+      "cache": 0.15,
+      "out": 7.5,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gemini-3.5-flash",
+      "provider": "OpenCode Zen",
+      "modelId": "gemini-3.5-flash",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.5,
+      "cache": 0.15,
+      "out": 9,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gemini-3.5-flash-lite",
+      "provider": "OpenCode Zen",
+      "modelId": "gemini-3.5-flash-lite",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.3,
+      "cache": 0.03,
+      "out": 2.5,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gemini-3.1-pro",
+      "provider": "OpenCode Zen",
+      "modelId": "gemini-3.1-pro",
+      "band": "标准",
+      "currency": "USD",
+      "in": 4,
+      "cache": 0.4,
+      "out": 18,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gemini-3-flash",
+      "provider": "OpenCode Zen",
+      "modelId": "gemini-3-flash",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.5,
+      "cache": 0.05,
+      "out": 3,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-grok-4.6",
+      "provider": "OpenCode Zen",
+      "modelId": "grok-4.6",
+      "band": "标准",
+      "currency": "USD",
+      "in": 4,
+      "cache": 1,
+      "out": 12,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-grok-4.5",
+      "provider": "OpenCode Zen",
+      "modelId": "grok-4.5",
+      "band": "标准",
+      "currency": "USD",
+      "in": 4,
+      "cache": 0.6,
+      "out": 12,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-grok-build-0.1",
+      "provider": "OpenCode Zen",
+      "modelId": "grok-build-0.1",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1,
+      "cache": 0.2,
+      "out": 2,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-muse-spark-1.3",
+      "provider": "OpenCode Zen",
+      "modelId": "muse-spark-1.3",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.25,
+      "cache": 0.15,
+      "out": 4.25,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-muse-spark-1.2",
+      "provider": "OpenCode Zen",
+      "modelId": "muse-spark-1.2",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.25,
+      "cache": 0.15,
+      "out": 4.25,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-6-astra",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-6-astra",
+      "band": "标准",
+      "currency": "USD",
+      "in": 20,
+      "cache": 2,
+      "out": 75,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5.6-sol",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5.6-sol",
+      "band": "标准",
+      "currency": "USD",
+      "in": 8,
+      "cache": 0.8,
+      "out": 30,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5.6-terra",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5.6-terra",
+      "band": "标准",
+      "currency": "USD",
+      "in": 4,
+      "cache": 0.4,
+      "out": 18,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5.6-luna",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5.6-luna",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.4,
+      "cache": 0.04,
+      "out": 1.8,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5.5",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5.5",
+      "band": "标准",
+      "currency": "USD",
+      "in": 10,
+      "cache": 1,
+      "out": 45,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5.5-pro",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5.5-pro",
+      "band": "标准",
+      "currency": "USD",
+      "in": 30,
+      "cache": 30,
+      "out": 180,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5.4",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5.4",
+      "band": "标准",
+      "currency": "USD",
+      "in": 5,
+      "cache": 0.5,
+      "out": 22.5,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5.4-pro",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5.4-pro",
+      "band": "标准",
+      "currency": "USD",
+      "in": 30,
+      "cache": 30,
+      "out": 180,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5.4-mini",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5.4-mini",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.75,
+      "cache": 0.075,
+      "out": 4.5,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5.4-nano",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5.4-nano",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.2,
+      "cache": 0.02,
+      "out": 1.25,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5.3-codex-spark",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5.3-codex-spark",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.75,
+      "cache": 0.175,
+      "out": 14,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5.3-codex",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5.3-codex",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.75,
+      "cache": 0.175,
+      "out": 14,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5.2",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5.2",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.75,
+      "cache": 0.175,
+      "out": 14,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5.2-codex",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5.2-codex",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.75,
+      "cache": 0.175,
+      "out": 14,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5.1",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5.1",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.07,
+      "cache": 0.107,
+      "out": 8.5,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5.1-codex",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5.1-codex",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.07,
+      "cache": 0.107,
+      "out": 8.5,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5.1-codex-max",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5.1-codex-max",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.25,
+      "cache": 0.125,
+      "out": 10,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5.1-codex-mini",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5.1-codex-mini",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.25,
+      "cache": 0.025,
+      "out": 2,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.07,
+      "cache": 0.107,
+      "out": 8.5,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5-codex",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5-codex",
+      "band": "标准",
+      "currency": "USD",
+      "in": 1.07,
+      "cache": 0.107,
+      "out": 8.5,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
+    },
+    {
+      "id": "oczen-gpt-5-nano",
+      "provider": "OpenCode Zen",
+      "modelId": "gpt-5-nano",
+      "band": "标准",
+      "currency": "USD",
+      "in": 0.05,
+      "cache": 0.005,
+      "out": 0.4,
+      "note": null,
+      "source": "https://opencode.ai/docs/zen",
+      "verifiedAt": "2026-09-19"
     }
   ],
   "plans": [
@@ -6159,12 +7272,31 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             }
           ],
           "note": "官方抵扣公式 (输入×6.9 + 缓存×1.7 + 输出×24)/10000"
@@ -6179,12 +7311,31 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -6199,12 +7350,31 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -6219,12 +7389,31 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -6239,18 +7428,38 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             },
             {
               "id": "night",
               "label": "夜间畅用 9/3–9/20（其他 Agent 额度 ×2）",
               "mult": 0.5,
-              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash"
+              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash",
+              "slot": "offpeak"
             }
           ],
           "note": "官方系数 2.3 / 0.56 / 8"
@@ -6265,23 +7474,44 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             },
             {
               "id": "night",
               "label": "夜间畅用 9/3–9/20（其他 Agent 额度 ×2）",
               "mult": 0.5,
-              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash"
+              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash",
+              "slot": "offpeak"
             }
           ],
           "note": "Coding Plan 内调用 GLM-4.7 会被自动切到 GLM-5.3-Flash，故按 Flash 系数"
         }
-      }
+      },
+      "line": "zhipu-coding"
     },
     {
       "id": "glm-coding-pro",
@@ -6325,12 +7555,31 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             }
           ],
           "note": "官方抵扣公式 (输入×6.9 + 缓存×1.7 + 输出×24)/10000"
@@ -6345,12 +7594,31 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -6365,12 +7633,31 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -6385,12 +7672,31 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -6405,18 +7711,38 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             },
             {
               "id": "night",
               "label": "夜间畅用 9/3–9/20（其他 Agent 额度 ×2）",
               "mult": 0.5,
-              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash"
+              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash",
+              "slot": "offpeak"
             }
           ],
           "note": "官方系数 2.3 / 0.56 / 8"
@@ -6431,23 +7757,44 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             },
             {
               "id": "night",
               "label": "夜间畅用 9/3–9/20（其他 Agent 额度 ×2）",
               "mult": 0.5,
-              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash"
+              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash",
+              "slot": "offpeak"
             }
           ],
           "note": "Coding Plan 内调用 GLM-4.7 会被自动切到 GLM-5.3-Flash，故按 Flash 系数"
         }
-      }
+      },
+      "line": "zhipu-coding"
     },
     {
       "id": "glm-coding-max",
@@ -6491,12 +7838,31 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             }
           ],
           "note": "官方抵扣公式 (输入×6.9 + 缓存×1.7 + 输出×24)/10000"
@@ -6511,12 +7877,31 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -6531,12 +7916,31 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -6551,12 +7955,31 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -6571,18 +7994,38 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             },
             {
               "id": "night",
               "label": "夜间畅用 9/3–9/20（其他 Agent 额度 ×2）",
               "mult": 0.5,
-              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash"
+              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash",
+              "slot": "offpeak"
             }
           ],
           "note": "官方系数 2.3 / 0.56 / 8"
@@ -6597,23 +8040,44 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1
+              "mult": 1,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "Asia/Shanghai",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    14,
+                    18
+                  ]
+                ],
+                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
+              }
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5
+              "mult": 0.5,
+              "slot": "offpeak"
             },
             {
               "id": "night",
               "label": "夜间畅用 9/3–9/20（其他 Agent 额度 ×2）",
               "mult": 0.5,
-              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash"
+              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash",
+              "slot": "offpeak"
             }
           ],
           "note": "Coding Plan 内调用 GLM-4.7 会被自动切到 GLM-5.3-Flash，故按 Flash 系数"
         }
-      }
+      },
+      "line": "zhipu-coding"
     },
     {
       "id": "kimi-go",
@@ -6641,7 +8105,8 @@
       "note": "不含 Kimi Code（旧 ¥49 档含，新版移除）；Agent 参考用量 1x；官方只给百分比锚（代码片段 ≈0.5–2%/月），未公开 token 绝对值，无法折算。两个官方锚点（会员 ≈¥1.63/任务 vs 加油包 ≈¥1.6/任务且加油包≈API 价）推算杠杆约 1×",
       "source": "https://www.kimi.com/membership/pricing",
       "verifiedAt": "2026-09-18",
-      "models": {}
+      "models": {},
+      "line": "kimi-member"
     },
     {
       "id": "kimi-plus",
@@ -6669,7 +8134,8 @@
       "note": "含 Kimi Code；Agent 参考用量 2x；官方只给百分比锚（代码片段 ≈0.5–2%/月），未公开 token 绝对值，无法折算。两个官方锚点（会员 ≈¥1.63/任务 vs 加油包 ≈¥1.6/任务且加油包≈API 价）推算杠杆约 1×",
       "source": "https://www.kimi.com/membership/pricing",
       "verifiedAt": "2026-09-18",
-      "models": {}
+      "models": {},
+      "line": "kimi-member"
     },
     {
       "id": "kimi-pro",
@@ -6697,7 +8163,8 @@
       "note": "含 Kimi Code；Agent 参考用量 4x；官方只给百分比锚（代码片段 ≈0.5–2%/月），未公开 token 绝对值，无法折算。两个官方锚点（会员 ≈¥1.63/任务 vs 加油包 ≈¥1.6/任务且加油包≈API 价）推算杠杆约 1×",
       "source": "https://www.kimi.com/membership/pricing",
       "verifiedAt": "2026-09-18",
-      "models": {}
+      "models": {},
+      "line": "kimi-member"
     },
     {
       "id": "kimi-max",
@@ -6725,7 +8192,8 @@
       "note": "含 Kimi Code；Agent 参考用量 14x；官方只给百分比锚（代码片段 ≈0.5–2%/月），未公开 token 绝对值，无法折算。两个官方锚点（会员 ≈¥1.63/任务 vs 加油包 ≈¥1.6/任务且加油包≈API 价）推算杠杆约 1×",
       "source": "https://www.kimi.com/membership/pricing",
       "verifiedAt": "2026-09-18",
-      "models": {}
+      "models": {},
+      "line": "kimi-member"
     },
     {
       "id": "mm-token-plus",
@@ -6775,7 +8243,8 @@
             "output": 1000000
           }
         }
-      }
+      },
+      "line": "mm-token"
     },
     {
       "id": "mm-token-max",
@@ -6825,7 +8294,8 @@
             "output": 1000000
           }
         }
-      }
+      },
+      "line": "mm-token"
     },
     {
       "id": "mm-token-ultra",
@@ -6875,7 +8345,8 @@
             "output": 1000000
           }
         }
-      }
+      },
+      "line": "mm-token"
     },
     {
       "id": "scnet-token-basic",
@@ -7016,7 +8487,11 @@
           },
           "note": "官方倍率 0.14"
         }
-      }
+      },
+      "line": "scnet-token",
+      "repeatable": true,
+      "maxCopies": 3,
+      "repeatNote": "官方 FAQ：额度用完后可直接续费，无需等下一周期"
     },
     {
       "id": "scnet-token-standard",
@@ -7157,7 +8632,11 @@
           },
           "note": "官方倍率 0.14"
         }
-      }
+      },
+      "line": "scnet-token",
+      "repeatable": true,
+      "maxCopies": 3,
+      "repeatNote": "官方 FAQ：额度用完后可直接续费，无需等下一周期"
     },
     {
       "id": "scnet-token-advanced",
@@ -7298,7 +8777,11 @@
           },
           "note": "官方倍率 0.14"
         }
-      }
+      },
+      "line": "scnet-token",
+      "repeatable": true,
+      "maxCopies": 3,
+      "repeatNote": "官方 FAQ：额度用完后可直接续费，无需等下一周期"
     },
     {
       "id": "scnet-token-flagship",
@@ -7439,7 +8922,11 @@
           },
           "note": "官方倍率 0.14"
         }
-      }
+      },
+      "line": "scnet-token",
+      "repeatable": true,
+      "maxCopies": 3,
+      "repeatNote": "官方 FAQ：额度用完后可直接续费，无需等下一周期"
     },
     {
       "id": "mimo-token-lite",
@@ -7888,6 +9375,425 @@
         }
       },
       "line": "mimo-token"
+    },
+    {
+      "id": "opencode-go",
+      "provider": "OpenCode",
+      "name": "Go",
+      "kind": "points",
+      "currency": "USD",
+      "quota": 1155,
+      "quotaUnit": "USD 额度/月（各模型独立）",
+      "period": "月",
+      "window": "5h·周·月",
+      "priceVariants": [
+        {
+          "id": "list",
+          "label": "月付",
+          "amount": 10
+        }
+      ],
+      "tags": [
+        "含 API 端点"
+      ],
+      "note": "额度按模型分别计算：5 小时 = 该模型月额度的 20%、周 = 50%、月 = 100%；用满某模型后它不可用，其它模型不受影响",
+      "source": "https://opencode.ai/docs/go",
+      "verifiedAt": "2026-09-19",
+      "models": {
+        "glm-5.3-flash": {
+          "u": {
+            "input": 0.15,
+            "cache": 0.03,
+            "output": 0.5
+          },
+          "quotaOverride": 60,
+          "note": "官方单模型月额度 $60"
+        },
+        "glm-5.3": {
+          "u": {
+            "input": 1.4,
+            "cache": 0.26,
+            "output": 4.4
+          },
+          "quotaOverride": 15,
+          "note": "官方单模型月额度 $15"
+        },
+        "glm-5.2": {
+          "u": {
+            "input": 1.4,
+            "cache": 0.26,
+            "output": 4.4
+          },
+          "quotaOverride": 60,
+          "note": "官方单模型月额度 $60"
+        },
+        "glm-5.1": {
+          "u": {
+            "input": 1.4,
+            "cache": 0.26,
+            "output": 4.4
+          },
+          "quotaOverride": 60,
+          "note": "官方单模型月额度 $60"
+        },
+        "kimi-k3": {
+          "u": {
+            "input": 3,
+            "cache": 0.3,
+            "output": 15
+          },
+          "quotaOverride": 15,
+          "note": "官方单模型月额度 $15"
+        },
+        "kimi-k2.7-code": {
+          "u": {
+            "input": 0.95,
+            "cache": 0.19,
+            "output": 4
+          },
+          "quotaOverride": 60,
+          "note": "官方单模型月额度 $60"
+        },
+        "kimi-k2.6": {
+          "u": {
+            "input": 0.95,
+            "cache": 0.16,
+            "output": 4
+          },
+          "quotaOverride": 60,
+          "note": "官方单模型月额度 $60"
+        },
+        "longcat-2.0": {
+          "u": {
+            "input": 0.3,
+            "cache": 0.006,
+            "output": 1.2
+          },
+          "quotaOverride": 60,
+          "note": "官方单模型月额度 $60"
+        },
+        "mimo-v2.5": {
+          "u": {
+            "input": 0.14,
+            "cache": 0.0028,
+            "output": 0.28
+          },
+          "quotaOverride": 60,
+          "note": "官方单模型月额度 $60"
+        },
+        "mimo-v2.5-pro": {
+          "u": {
+            "input": 0.435,
+            "cache": 0.003625,
+            "output": 0.87
+          },
+          "quotaOverride": 15,
+          "note": "官方单模型月额度 $15"
+        },
+        "minimax-m3": {
+          "u": {
+            "input": 0.3,
+            "cache": 0.06,
+            "output": 1.2
+          },
+          "quotaOverride": 60,
+          "note": "官方单模型月额度 $60"
+        },
+        "minimax-m2.7": {
+          "u": {
+            "input": 0.3,
+            "cache": 0.06,
+            "output": 1.2
+          },
+          "quotaOverride": 60,
+          "note": "官方单模型月额度 $60"
+        },
+        "minimax-m2.5": {
+          "u": {
+            "input": 0.3,
+            "cache": 0.06,
+            "output": 1.2
+          },
+          "quotaOverride": 60,
+          "note": "官方单模型月额度 $60"
+        },
+        "muse-spark-1.3-contributor": {
+          "u": {
+            "input": 0.1,
+            "cache": 0.002,
+            "output": 0.2
+          },
+          "quotaOverride": 60,
+          "note": "官方单模型月额度 $60"
+        },
+        "muse-spark-1.2-contributor": {
+          "u": {
+            "input": 0.1,
+            "cache": 0.002,
+            "output": 0.2
+          },
+          "quotaOverride": 60,
+          "note": "官方单模型月额度 $60"
+        },
+        "qwen3.8-max": {
+          "u": {
+            "input": 2,
+            "cache": 0.25,
+            "output": 6
+          },
+          "quotaOverride": 15,
+          "note": "官方单模型月额度 $15"
+        },
+        "qwen3.8-flash": {
+          "u": {
+            "input": 0.15,
+            "cache": 0.016,
+            "output": 0.47
+          },
+          "quotaOverride": 30,
+          "note": "官方单模型月额度 $30"
+        },
+        "qwen-3.7-max": {
+          "u": {
+            "input": 2.5,
+            "cache": 0.5,
+            "output": 7.5
+          },
+          "quotaOverride": 30,
+          "note": "官方单模型月额度 $30"
+        },
+        "qwen-3.7-plus": {
+          "u": {
+            "input": 0.4,
+            "cache": 0.04,
+            "output": 1.6
+          },
+          "quotaOverride": 60,
+          "note": "官方单模型月额度 $60（按输入长度分档，这里取 ≤ 256K tokens 档）"
+        },
+        "qwen-3.6-plus": {
+          "u": {
+            "input": 0.5,
+            "cache": 0.05,
+            "output": 3
+          },
+          "quotaOverride": 60,
+          "note": "官方单模型月额度 $60（按输入长度分档，这里取 ≤ 256K tokens 档）"
+        },
+        "deepseek-v4-1-flash": {
+          "u": {
+            "input": 0.15,
+            "cache": 0.003,
+            "output": 0.6
+          },
+          "quotaOverride": 15,
+          "note": "官方单模型月额度 $15",
+          "bands": [
+            {
+              "id": "base",
+              "label": "谷时",
+              "mult": 1,
+              "slot": "offpeak"
+            },
+            {
+              "id": "peak",
+              "label": "峰时",
+              "mult": 2,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "UTC",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    1,
+                    4
+                  ],
+                  [
+                    6,
+                    10
+                  ]
+                ],
+                "note": "UTC 周一至五 01–04、06–10（北京 09–12、14–18）"
+              }
+            }
+          ]
+        },
+        "deepseek-v4-pro": {
+          "u": {
+            "input": 0.66,
+            "cache": 0.022,
+            "output": 1.98
+          },
+          "quotaOverride": 15,
+          "note": "官方单模型月额度 $15",
+          "bands": [
+            {
+              "id": "base",
+              "label": "谷时",
+              "mult": 1,
+              "slot": "offpeak"
+            },
+            {
+              "id": "peak",
+              "label": "峰时",
+              "mult": 2,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "UTC",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    1,
+                    4
+                  ],
+                  [
+                    6,
+                    10
+                  ]
+                ],
+                "note": "UTC 周一至五 01–04、06–10（北京 09–12、14–18）"
+              }
+            }
+          ]
+        },
+        "deepseek-v4-flash": {
+          "u": {
+            "input": 0.15,
+            "cache": 0.003,
+            "output": 0.6
+          },
+          "quotaOverride": 30,
+          "note": "官方单模型月额度 $30",
+          "bands": [
+            {
+              "id": "base",
+              "label": "谷时",
+              "mult": 1,
+              "slot": "offpeak"
+            },
+            {
+              "id": "peak",
+              "label": "峰时",
+              "mult": 2,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "UTC",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    1,
+                    4
+                  ],
+                  [
+                    6,
+                    10
+                  ]
+                ],
+                "note": "UTC 周一至五 01–04、06–10（北京 09–12、14–18）"
+              }
+            }
+          ]
+        },
+        "deepseek-v4-flash-vision-exp": {
+          "u": {
+            "input": 0.15,
+            "cache": 0.003,
+            "output": 0.6
+          },
+          "quotaOverride": 15,
+          "note": "官方单模型月额度 $15",
+          "bands": [
+            {
+              "id": "base",
+              "label": "谷时",
+              "mult": 1,
+              "slot": "offpeak"
+            },
+            {
+              "id": "peak",
+              "label": "峰时",
+              "mult": 2,
+              "slot": "peak",
+              "peakRule": {
+                "tz": "UTC",
+                "days": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "ranges": [
+                  [
+                    1,
+                    4
+                  ],
+                  [
+                    6,
+                    10
+                  ]
+                ],
+                "note": "UTC 周一至五 01–04、06–10（北京 09–12、14–18）"
+              }
+            }
+          ]
+        },
+        "hunyuan-hy4-preview": {
+          "u": {
+            "input": 0.834,
+            "cache": 0.042,
+            "output": 2.501
+          },
+          "quotaOverride": 30,
+          "note": "官方单模型月额度 $30"
+        },
+        "hunyuan-hy3": {
+          "u": {
+            "input": 0.14,
+            "cache": 0.035,
+            "output": 0.58
+          },
+          "quotaOverride": 60,
+          "note": "官方单模型月额度 $60"
+        },
+        "grok-4.6": {
+          "u": {
+            "input": 2,
+            "cache": 0.5,
+            "output": 6
+          },
+          "quotaOverride": 15,
+          "note": "官方单模型月额度 $15（按输入长度分档，这里取 ≤ 200K tokens 档）"
+        },
+        "gpt-5.6-luna": {
+          "u": {
+            "input": 0.2,
+            "cache": 0.02,
+            "output": 1.2
+          },
+          "quotaOverride": 15,
+          "note": "官方单模型月额度 $15（按输入长度分档，这里取 ≤ 272K tokens 档）"
+        }
+      },
+      "line": "opencode-go"
     }
   ],
   "removedPlans": [
