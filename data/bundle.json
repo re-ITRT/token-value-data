@@ -11028,6 +11028,406 @@
           }
         },
         "line": "opencode-go"
+      },
+      {
+        "id": "claude-pro",
+        "provider": "Anthropic",
+        "name": "Claude Pro",
+        "kind": "uncomputable",
+        "currency": "USD",
+        "quota": null,
+        "quotaUnit": "5h + 周 双窗口共享池（官方只给百分比/相对倍数，无 token 或美元绝对值）",
+        "period": "月",
+        "window": "5h·周",
+        "priceVariants": [
+          {
+            "id": "list",
+            "label": "月付",
+            "amount": 20
+          },
+          {
+            "id": "annual",
+            "label": "年付折算",
+            "amount": 17
+          }
+        ],
+        "tags": [
+          "含编码 agent"
+        ],
+        "note": "含 Claude Code；网页/桌面/手机/Claude Code/Cowork 共用同一个池（5h 滚动窗口 + 周窗口），官方称「there is no fixed message count」只给百分比进度条；官方明确 /usage 里的美元数「对订阅者没有计费意义」→ 无 token/美元绝对值可折算。触顶直接阻断（不自动降级模型），可开 usage credits 按 API 牌价续跑。社区实测（不可用于定价）：Max 20x 约 1.8–2.2M tokens/5h、11–13M/周，≈600k tokens/小时；另有实测称 $200 档周额度仅为 $100 档的 2.1×（非 4×）。｜可用模型：Opus 全档（另有独立 Opus 周限额）、Sonnet、Haiku；Fable 需买 usage credits",
+        "source": "https://claude.com/pricing",
+        "verifiedAt": "2026-09-19",
+        "models": {},
+        "line": "claude-pro"
+      },
+      {
+        "id": "claude-max-5x",
+        "provider": "Anthropic",
+        "name": "Claude Max 5x",
+        "kind": "uncomputable",
+        "currency": "USD",
+        "quota": null,
+        "quotaUnit": "5h + 周 双窗口共享池（官方只给百分比/相对倍数，无 token 或美元绝对值）",
+        "period": "月",
+        "window": "5h·周",
+        "priceVariants": [
+          {
+            "id": "list",
+            "label": "月付",
+            "amount": 100
+          }
+        ],
+        "tags": [
+          "含编码 agent"
+        ],
+        "note": "仅月付（无年付）。编码额度为 Pro 的 5 倍（官方相对倍数），绝对值未公布，无法折算成 token/元。｜可用模型：同 Pro，额度约 5×Pro（官方口径）",
+        "source": "https://claude.com/pricing",
+        "verifiedAt": "2026-09-19",
+        "models": {},
+        "line": "claude-max-5x"
+      },
+      {
+        "id": "claude-max-20x",
+        "provider": "Anthropic",
+        "name": "Claude Max 20x",
+        "kind": "uncomputable",
+        "currency": "USD",
+        "quota": null,
+        "quotaUnit": "5h + 周 双窗口共享池（官方只给百分比/相对倍数，无 token 或美元绝对值）",
+        "period": "月",
+        "window": "5h·周",
+        "priceVariants": [
+          {
+            "id": "list",
+            "label": "月付",
+            "amount": 200
+          }
+        ],
+        "tags": [
+          "含编码 agent"
+        ],
+        "note": "仅月付。官方称 20×Pro；但社区多次实测 5x→20x 的周额度只有 1.4×–2.5×（有争议），且额度可被单方调整（2026-09-14 把促销 +50% 永久改为 +25%）→ 不可作稳定换算基准。｜可用模型：同 Pro，额度约 20×Pro（官方口径）",
+        "source": "https://claude.com/pricing",
+        "verifiedAt": "2026-09-19",
+        "models": {},
+        "line": "claude-max-20x"
+      },
+      {
+        "id": "chatgpt-go",
+        "provider": "OpenAI",
+        "name": "ChatGPT Go",
+        "kind": "uncomputable",
+        "currency": "USD",
+        "quota": null,
+        "quotaUnit": "5h + 周 双窗口共享池（官方只给百分比/相对倍数，无 token 或美元绝对值）",
+        "period": "月",
+        "window": "5h·周",
+        "priceVariants": [
+          {
+            "id": "list",
+            "label": "月付",
+            "amount": 8
+          }
+        ],
+        "tags": [
+          "含编码 agent"
+        ],
+        "note": "含 Codex 但官方只说「limits vary by plan」，连 5 小时窗口的数字都没给；Free/Go 触顶后被引导升级而不是买 credits → 完全无法折算。｜可用模型：无 GPT-5.6 Sol、无 Astra（推理走 Luna）",
+        "source": "https://chatgpt.com/codex/pricing",
+        "verifiedAt": "2026-09-19",
+        "models": {},
+        "line": "chatgpt-go"
+      },
+      {
+        "id": "chatgpt-plus",
+        "provider": "OpenAI",
+        "name": "ChatGPT Plus",
+        "kind": "uncomputable",
+        "currency": "USD",
+        "quota": null,
+        "quotaUnit": "5h + 周 双窗口共享池（官方只给百分比/相对倍数，无 token 或美元绝对值）",
+        "period": "月",
+        "window": "5h·周",
+        "priceVariants": [
+          {
+            "id": "list",
+            "label": "月付",
+            "amount": 20
+          }
+        ],
+        "tags": [
+          "含编码 agent"
+        ],
+        "note": "含 Codex；官方按模型给「每 5 小时本地消息数区间」：Astra 3–30、Sol 10–100、Terra 25–200、Luna 250–2,000（区间上下差 10–20 倍，且官方声明「不是固定限制」）；每周窗口数值未公布。Codex web/CLI/IDE/手机与 ChatGPT Work/Excel 共用同一池。官方唯一美元锚点是「Codex 平均 ~$100–200/开发者/月」（事后均值，不是包含额度）。｜可用模型：Sol/Terra/Luna 全档 + Astra（限量，仅 Work/Codex 渠道）",
+        "source": "https://chatgpt.com/codex/pricing",
+        "verifiedAt": "2026-09-19",
+        "models": {},
+        "line": "chatgpt-plus"
+      },
+      {
+        "id": "chatgpt-pro-5x",
+        "provider": "OpenAI",
+        "name": "ChatGPT Pro 5x",
+        "kind": "uncomputable",
+        "currency": "USD",
+        "quota": null,
+        "quotaUnit": "5h + 周 双窗口共享池（官方只给百分比/相对倍数，无 token 或美元绝对值）",
+        "period": "月",
+        "window": "5h·周",
+        "priceVariants": [
+          {
+            "id": "list",
+            "label": "月付",
+            "amount": 100
+          }
+        ],
+        "tags": [
+          "含编码 agent"
+        ],
+        "note": "Codex 5h 消息数为 Plus 的 5 倍（Astra 15–150、Sol 50–500、Luna 1,250–10,000）；同样只有区间、每周窗口未公布。｜可用模型：Astra 全额 + 5.3-Codex-Spark（Pro 独占）",
+        "source": "https://chatgpt.com/codex/pricing",
+        "verifiedAt": "2026-09-19",
+        "models": {},
+        "line": "chatgpt-pro-5x"
+      },
+      {
+        "id": "chatgpt-pro-20x",
+        "provider": "OpenAI",
+        "name": "ChatGPT Pro 20x",
+        "kind": "uncomputable",
+        "currency": "USD",
+        "quota": null,
+        "quotaUnit": "5h + 周 双窗口共享池（官方只给百分比/相对倍数，无 token 或美元绝对值）",
+        "period": "月",
+        "window": "5h·周",
+        "priceVariants": [
+          {
+            "id": "list",
+            "label": "月付",
+            "amount": 200
+          }
+        ],
+        "tags": [
+          "含编码 agent"
+        ],
+        "note": "⚠️ 官方已暂停新注册/升级到 $200 档。额度为区间值；官方 credits 体系（Sol = 100 credits/M 输入）与企业 rate card 反推 1 credit ≈ $0.04，但官方明示 credit 单价随 plan/agreement 变、且「不是 API credits」→ 不能当作定价依据。｜可用模型：同 Pro 5x，额度约 20×（Astra 60–600、Luna 5,000–40,000）",
+        "source": "https://chatgpt.com/codex/pricing",
+        "verifiedAt": "2026-09-19",
+        "models": {},
+        "line": "chatgpt-pro-20x"
+      },
+      {
+        "id": "google-ai-plus",
+        "provider": "Google",
+        "name": "Google AI Plus",
+        "kind": "uncomputable",
+        "currency": "USD",
+        "quota": null,
+        "quotaUnit": "5h + 周 双窗口共享池（官方只给百分比/相对倍数，无 token 或美元绝对值）",
+        "period": "月",
+        "window": "5h·周",
+        "priceVariants": [
+          {
+            "id": "list",
+            "label": "月付",
+            "amount": 4.99
+          }
+        ],
+        "tags": [
+          "含编码 agent"
+        ],
+        "note": "编码走 Antigravity（Gemini CLI 已于 2026-06-18 停止为消费级档位服务）。额度只有隐藏池的分数，官方无数值。｜可用模型：Antigravity 有限 agent 请求；且不可购买 AI credits",
+        "source": "https://antigravity.google/docs/plans",
+        "verifiedAt": "2026-09-19",
+        "models": {},
+        "line": "google-ai-plus"
+      },
+      {
+        "id": "google-ai-pro",
+        "provider": "Google",
+        "name": "Google AI Pro",
+        "kind": "uncomputable",
+        "currency": "USD",
+        "quota": null,
+        "quotaUnit": "5h + 周 双窗口共享池（官方只给百分比/相对倍数，无 token 或美元绝对值）",
+        "period": "月",
+        "window": "5h·周",
+        "priceVariants": [
+          {
+            "id": "list",
+            "label": "月付",
+            "amount": 19.99
+          }
+        ],
+        "tags": [
+          "含编码 agent"
+        ],
+        "note": "含 $10/月 Google Cloud credits。官方只说额度「按 API 计价扣减」且「随 agent 完成的工作量浮动、可随时调整」，从不公布绝对量；AI credits 已于 2026-05-19 从基础套餐移除，仅作超额机制。中国大陆不在支持地区（港澳台在列）。｜可用模型：Gemini 3.x + Antigravity（5h 滚动窗口刷新，直至触及周上限）",
+        "source": "https://antigravity.google/docs/plans",
+        "verifiedAt": "2026-09-19",
+        "models": {},
+        "line": "google-ai-pro"
+      },
+      {
+        "id": "google-ultra-5x",
+        "provider": "Google",
+        "name": "Google AI Ultra 5x",
+        "kind": "uncomputable",
+        "currency": "USD",
+        "quota": null,
+        "quotaUnit": "5h + 周 双窗口共享池（官方只给百分比/相对倍数，无 token 或美元绝对值）",
+        "period": "月",
+        "window": "5h·周",
+        "priceVariants": [
+          {
+            "id": "list",
+            "label": "月付",
+            "amount": 99.99
+          }
+        ],
+        "tags": [
+          "含编码 agent"
+        ],
+        "note": "官方只给「5× Pro 的 token 当量」这个相对倍数，Pro 的绝对值未公布 → 无法折算。含 $40/月 Google Cloud credits。｜可用模型：同上，额度为 Pro 的 5× token 当量（官方口径）",
+        "source": "https://antigravity.google/blog/changes-to-antigravity-plans",
+        "verifiedAt": "2026-09-19",
+        "models": {},
+        "line": "google-ultra-5x"
+      },
+      {
+        "id": "google-ultra-20x",
+        "provider": "Google",
+        "name": "Google AI Ultra 20x",
+        "kind": "uncomputable",
+        "currency": "USD",
+        "quota": null,
+        "quotaUnit": "5h + 周 双窗口共享池（官方只给百分比/相对倍数，无 token 或美元绝对值）",
+        "period": "月",
+        "window": "5h·周",
+        "priceVariants": [
+          {
+            "id": "list",
+            "label": "月付",
+            "amount": 199.99
+          }
+        ],
+        "tags": [
+          "含编码 agent"
+        ],
+        "note": "同为相对倍数（20×Pro）。用第三方客户端接 Antigravity 登录态违反 ToS（可封号），官方要求改用 API key。｜可用模型：同上，额度为 Pro 的 20× token 当量；独占第三方模型",
+        "source": "https://antigravity.google/blog/changes-to-antigravity-plans",
+        "verifiedAt": "2026-09-19",
+        "models": {},
+        "line": "google-ultra-20x"
+      },
+      {
+        "id": "supergrok",
+        "provider": "xAI",
+        "name": "SuperGrok",
+        "kind": "uncomputable",
+        "currency": "USD",
+        "quota": null,
+        "quotaUnit": "5h + 周 双窗口共享池（官方只给百分比/相对倍数，无 token 或美元绝对值）",
+        "period": "月",
+        "window": "5h·周",
+        "priceVariants": [
+          {
+            "id": "list",
+            "label": "月付",
+            "amount": 30
+          }
+        ],
+        "tags": [
+          "含编码 agent"
+        ],
+        "note": "官方口径：一个共享周池，只以百分比展示（「shown as a percentage used」），且不同产品（对话/视频/Build）消耗差异巨大；触顶后付费功能暂停至周重置，可买 Extra Usage Credits（$5 起，按标准 API 价，费率劣于套餐内）。不含 API credits，官方从不公布折算成 token/美元的值。｜可用模型：Grok 4.6、Grok Bot、Grok Build、Imagine",
+        "source": "https://x.ai/pricing",
+        "verifiedAt": "2026-09-19",
+        "models": {},
+        "line": "supergrok"
+      },
+      {
+        "id": "supergrok-plus",
+        "provider": "xAI",
+        "name": "SuperGrok Plus",
+        "kind": "uncomputable",
+        "currency": "USD",
+        "quota": null,
+        "quotaUnit": "5h + 周 双窗口共享池（官方只给百分比/相对倍数，无 token 或美元绝对值）",
+        "period": "月",
+        "window": "5h·周",
+        "priceVariants": [
+          {
+            "id": "list",
+            "label": "月付",
+            "amount": 100
+          }
+        ],
+        "tags": [
+          "含编码 agent"
+        ],
+        "note": "官方只给「显著更高」的措辞，没有倍数也没有绝对值 → 无法折算。｜可用模型：同上，Build 用量「significantly higher」（官方无数值）",
+        "source": "https://x.ai/pricing",
+        "verifiedAt": "2026-09-19",
+        "models": {},
+        "line": "supergrok-plus"
+      },
+      {
+        "id": "supergrok-heavy",
+        "provider": "xAI",
+        "name": "SuperGrok Heavy",
+        "kind": "uncomputable",
+        "currency": "USD",
+        "quota": null,
+        "quotaUnit": "5h + 周 双窗口共享池（官方只给百分比/相对倍数，无 token 或美元绝对值）",
+        "period": "月",
+        "window": "5h·周",
+        "priceVariants": [
+          {
+            "id": "list",
+            "label": "月付",
+            "amount": 300
+          }
+        ],
+        "tags": [
+          "含编码 agent"
+        ],
+        "note": "官方页对额度只说「highest usage」；$300 与 $10 Lite 档的一手价格来源不足（官方页未列价，需登录 grok.com 才显示）→ 价格与额度都需人工再核。｜可用模型：多智能体、最高额度；反向赠送 X Premium+",
+        "source": "https://x.ai/pricing",
+        "verifiedAt": "2026-09-19",
+        "models": {},
+        "line": "supergrok-heavy"
+      },
+      {
+        "id": "x-premium-plus",
+        "provider": "xAI",
+        "name": "X Premium+",
+        "kind": "uncomputable",
+        "currency": "USD",
+        "quota": null,
+        "quotaUnit": "5h + 周 双窗口共享池（官方只给百分比/相对倍数，无 token 或美元绝对值）",
+        "period": "月",
+        "window": "5h·周",
+        "priceVariants": [
+          {
+            "id": "list",
+            "label": "月付",
+            "amount": 40
+          },
+          {
+            "id": "annual",
+            "label": "年付折算",
+            "amount": 32.92
+          }
+        ],
+        "tags": [
+          "含编码 agent"
+        ],
+        "note": "官方明示含 SuperGrok access；但反向不成立（买 X Premium+ ≠ grok.com 侧 SuperGrok 池，只有 Heavy 反向赠 Premium+）。年付 $395/年 ≈ $32.9/月。｜可用模型：X 内 Grok + 官方称含 SuperGrok access + Grok Bot + X Pro",
+        "source": "https://help.x.com/en/using-x/x-premium",
+        "verifiedAt": "2026-09-19",
+        "models": {},
+        "line": "x-premium-plus"
       }
     ],
     "removedPlans": [
@@ -11758,6 +12158,34 @@
         "信用卡"
       ],
       "note": "接受的卡组织只有 Amex/MasterCard/Visa/Discover/JCB/Visa Electron/Elo，银联不在列，且不支持电汇转账 → 必须境外卡。有免费层（限速未公布），付费可预付（最低 $5，12 个月过期不退）或后付。地区名单不含中国大陆、香港、澳门（含台湾），官方建议受限地区改用 Vertex AI（定价几乎一致，但无免费层、需 GCP 合同）。"
+    },
+    "Anthropic": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "Claude 网页订阅只收信用卡/借记卡（无支付宝/微信/银联）；付费套餐要求「实体位于支持地区」，中国大陆不在支持名单，需支持地区手机号。"
+    },
+    "OpenAI": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "ChatGPT 订阅付款只支持信用卡/借记卡（官方多币种页列了 CNY–中国，但付款方式里没有支付宝/微信/银联）；官方支持国家名单不含中国大陆与港澳，从不支持地区访问或付款可致封号。"
+    },
+    "Google": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "Google AI 会员需「qualifying form of payment」（信用卡），未找到支持支付宝/微信/银联的官方说明；AI Pro 支持地区含港澳台，不含中国大陆。学生可经 SheerID 免费领 12 个月 AI Pro（港澳除外）。"
+    },
+    "xAI": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "SuperGrok / X Premium+ 走国际卡（Stripe）；官方无任何支持支付宝/微信/银联的说明（相关说法只出现在第三方代充平台）。"
     }
   }
 }

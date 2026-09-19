@@ -368,3 +368,23 @@ node tools/gh-push.mjs . re-ITRT/token-value-data main "data: xxx"
 - **四家全部不支持中国支付**（只收境外卡，且官方支持地区名单不含中国大陆/香港/澳门），已在 `payment.json` 里标 `cn: false`；国外渠道里目前只有 **OpenCode 支持支付宝**。
 
 审计：`node tools/audit-official-api.mjs` 会列出「有官方渠道但缺官方价」的模型，目前剩 25 个（多为阿里百炼下架后失去官方来源的 Qwen 系，以及厂商已停售的档位）。
+## 国外四家的会员套餐（含编码 agent 额度）—— 一律记成「无法换算」
+
+2026-09-19 逐家核验后确认：**四家官方都只公布百分比或相对倍数，从不公布额度的 token / 美元绝对值**，
+所以这 15 个档位全部以 `kind: 'uncomputable'` 收录（看板底部「无法换算」区，不参与排名），
+只展示价格、窗口结构、可用模型，以及「为什么算不出来」。脚本：`tools/sync-foreign-memberships.mjs`。
+
+| 厂商 | 档位 | 官方额度的说法 | 卡在哪 |
+|---|---|---|---|
+| Anthropic | Claude Pro $20 / Max 5x $100 / Max 20x $200 | 5h 滚动窗口 + 周窗口，网页/桌面/手机/Claude Code/Cowork **共用一个池**；官方称「there is no fixed message count」，只给百分比 | 官方明确说 `/usage` 里的美元数「对订阅者没有计费意义」；触顶直接阻断不降级 |
+| OpenAI | ChatGPT Go $8 / Plus $20 / Pro 5x $100 / Pro 20x $200 | 按模型的「每 5 小时本地消息数**区间**」（如 Luna：Plus 250–2,000、Pro 20x 5,000–40,000） | 区间上下差 10–20 倍、官方自称「不是固定限制」；**每周窗口完全未公布** |
+| Google | AI Plus $4.99 / AI Pro $19.99 / Ultra 5x $99.99 / Ultra 20x $199.99 | Antigravity 的 5h + 周双池，「按 API 计价扣减」，Ultra = Pro 的 5×/20× **token 当量** | 基础配额绝对值从未公布（只给相对倍数）；且 2026-06-18 起 Gemini CLI 已停服消费级，旧「1500 次/天」作废 |
+| xAI | SuperGrok $30 / Plus $100 / Heavy $300 / X Premium+ $40 | 「一个共享周池，只以百分比展示」 | 只有百分比；同一池内对话/视频/Build 消耗差数量级；官方从不给折算值 |
+
+**共同结论**：这些会员是「包月软配额」，API 是「线性合同价」，两者不可通约——**不要拿它们和 API 的「每元 token 数」做同口径比较**。
+唯一有官方美元定价的部分是「超额续跑」：Claude 可开 usage credits（按标准 API 价，bundle 最多省 30%）、
+OpenAI 可买 credits（企业 rate card 反推 1 credit ≈ $0.04）、xAI 有 Extra Usage Credits（$5 起，按标准价）、
+Google 的 AI credits 按标准 API 价扣减——这些才是可确定性换算的口径。
+
+四家都**不支持中国支付**（只收境外卡，支持地区名单通常不含中国大陆、含港澳台），已在 `payment.json` 标注；
+看板打开「只看支持中国支付」时这 15 个档位会一起被过滤掉。

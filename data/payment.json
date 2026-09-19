@@ -269,6 +269,34 @@
         "信用卡"
       ],
       "note": "接受的卡组织只有 Amex/MasterCard/Visa/Discover/JCB/Visa Electron/Elo，银联不在列，且不支持电汇转账 → 必须境外卡。有免费层（限速未公布），付费可预付（最低 $5，12 个月过期不退）或后付。地区名单不含中国大陆、香港、澳门（含台湾），官方建议受限地区改用 Vertex AI（定价几乎一致，但无免费层、需 GCP 合同）。"
+    },
+    "Anthropic": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "Claude 网页订阅只收信用卡/借记卡（无支付宝/微信/银联）；付费套餐要求「实体位于支持地区」，中国大陆不在支持名单，需支持地区手机号。"
+    },
+    "OpenAI": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "ChatGPT 订阅付款只支持信用卡/借记卡（官方多币种页列了 CNY–中国，但付款方式里没有支付宝/微信/银联）；官方支持国家名单不含中国大陆与港澳，从不支持地区访问或付款可致封号。"
+    },
+    "Google": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "Google AI 会员需「qualifying form of payment」（信用卡），未找到支持支付宝/微信/银联的官方说明；AI Pro 支持地区含港澳台，不含中国大陆。学生可经 SheerID 免费领 12 个月 AI Pro（港澳除外）。"
+    },
+    "xAI": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "SuperGrok / X Premium+ 走国际卡（Stripe）；官方无任何支持支付宝/微信/银联的说明（相关说法只出现在第三方代充平台）。"
     }
   }
 }
