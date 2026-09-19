@@ -288,3 +288,31 @@ node tools/audit-independent.mjs  # 审计：哪些行换模型数字不变
 - **关于「官网有变动」的误报**：数字集合信号很灵敏，浏览器渲染的页面（火山文档等）有时会渲染出不同段落，
   表现为「新增数字」但无「消失数字」——后台会列出具体新增/消失的数字，照着核一遍通常 2 分钟即可判断。
   实测一轮：3 个 flag 里 1 个是真变化（Command Code 新增 longcat-2.0 模型），2 个是渲染差异。
+
+## 两个仓库怎么配合
+
+```
+token-value-data（本仓库，每 12 小时跑一次）
+   updater.mjs → 抓汇率 + 检测 29 个官方来源页 → 写 data/*.json
+                → data/bundle.json（{sources,state,fx,history} 打包）
+   GitHub Action 提交变更 → raw.githubusercontent.com 上的固定地址
+                                  ↓
+token-value-web（GitHub Pages 静态站）
+   config.js 指向那个固定地址，data.js 用 TV.load() 读取 → 渲染看板/推荐/后台
+```
+
+**渲染器一致性（重要）**：JS 渲染的页面（火山文档、智谱、Kimi 会员、MiMo 等）在本地用真实浏览器桥（opencli）渲染，在 CI 用 Playwright 渲染，
+两者取到的文本不同 → **切换渲染器的那一次一定会报「变化」**，第二次就收敛（实测：CI 首轮 5 changed，第二轮 0 changed / 0 flaky）。
+所以：**committed 的数据以 CI 为准**，本地跑出来的 state 只用于开发调试，不要推上去。
+本地若想和 CI 对齐：`npm i && npx playwright install chromium`，然后 `TV_BROWSER=playwright node updater.mjs`。
+
+## 本机推送（github.com 被重置时）
+
+这台机器上 `git push` 到 github.com 经常被重置（TCP 能连、TLS 被断），但 `api.github.com` 通。
+所以用 `tools/gh-push.mjs` 走 API 提交：
+
+```bash
+node tools/gh-push.mjs . re-ITRT/token-value-data main "data: xxx"
+```
+
+它会用 `git credential fill` 取本机已存的 token（不打印），把当前目录内容通过 Git Data API 写成一个提交。
