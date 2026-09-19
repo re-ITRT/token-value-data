@@ -1,0 +1,60 @@
+name: Update data
+
+on:
+  schedule:
+    # 每 12 小时（UTC 00:23 / 12:23）
+    - cron: '23 */12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 安装依赖
+        run: npm install
+
+      - name: 安装 Chromium（用于渲染 JS 页面：火山文档等）
+        run: npx playwright install --with-deps chromium
+
+      - name: 抓取汇率 + 检测官方来源页变化
+        env:
+          TV_BROWSER: playwright
+        run: node updater.mjs
+
+      - name: 提交变更
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "本次无变化，不提交"
+          else
+            git commit -m "data: 刷新汇率与来源页检测 ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git push
+          fi
+
+      - name: 汇总到 Actions 页面
+        run: |
+          node -e "
+            const s = require('./data/state.json');
+            const c = s.sourceCheck;
+            console.log('## 抓取结果');
+            console.log('- 汇率 USD/CNY：' + s.fx.USDCNY + '（' + s.fx.source + '）');
+            console.log('- 来源页：' + c.total + ' 个｜变化 ' + c.changed + '｜噪声 ' + c.flaky + '｜抓不到正文 ' + c.shell + '｜失败 ' + c.unreachable);
+            for (const d of c.details.filter(x => !['unchanged','baseline'].includes(x.state))) {
+              console.log('  - ! ' + d.state + ' ' + d.url + (d.error ? ' — ' + d.error : ''));
+            }
+          " >> $GITHUB_STEP_SUMMARY

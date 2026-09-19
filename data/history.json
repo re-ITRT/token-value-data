@@ -1,0 +1,447 @@
+[
+  {
+    "at": "2026-09-19T05:41:14.288Z",
+    "trigger": "cli",
+    "durationMs": 117979,
+    "fx": {
+      "USDCNY": 6.714087,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 29,
+      "changed": 1,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 0
+    },
+    "problems": [
+      {
+        "url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      }
+    ]
+  },
+  {
+    "at": "2026-09-19T05:03:36.397Z",
+    "trigger": "cli",
+    "durationMs": 118554,
+    "fx": {
+      "USDCNY": 6.714087,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 29,
+      "changed": 3,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 0
+    },
+    "problems": [
+      {
+        "url": "https://commandcode.ai/docs/resources/pricing-limits",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.volcengine.com/docs/ark/agent-plan-personal-afp-credits-billing-rules?lang=zh",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.volcengine.com/docs/ark/model-pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      }
+    ]
+  },
+  {
+    "at": "2026-09-18T19:51:33.086Z",
+    "trigger": "cli",
+    "durationMs": 64423,
+    "fx": {
+      "USDCNY": 6.721845,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 29,
+      "changed": 0,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://docs.z.ai/guides/overview/pricing",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted addresses: 66.33.60.34:443, 76.76.21.93:443, timeout: 10000ms)",
+        "httpStatus": null
+      },
+      {
+        "url": "https://www.siliconflow.com/pricing",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted addresses: 31.43.161.6:443, 31.43.160.6:443, timeout: 10000ms)",
+        "httpStatus": null
+      }
+    ]
+  },
+  {
+    "at": "2026-09-18T19:50:28.550Z",
+    "trigger": "cli",
+    "durationMs": 64106,
+    "fx": {
+      "USDCNY": 6.721845,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 29,
+      "changed": 0,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 1
+    },
+    "problems": [
+      {
+        "url": "https://www.siliconflow.com/pricing",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted addresses: 31.43.161.6:443, 31.43.160.6:443, timeout: 10000ms)",
+        "httpStatus": null
+      }
+    ]
+  },
+  {
+    "at": "2026-09-18T19:48:42.391Z",
+    "trigger": "cli",
+    "durationMs": 82162,
+    "fx": {
+      "USDCNY": 6.721845,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 29,
+      "changed": 1,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 0
+    },
+    "problems": [
+      {
+        "url": "https://www.volcengine.com/docs/ark/agent-plan-personal-afp-credits-billing-rules?lang=zh",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      }
+    ]
+  },
+  {
+    "at": "2026-09-18T19:47:20.114Z",
+    "trigger": "cli",
+    "durationMs": 64795,
+    "fx": {
+      "USDCNY": 6.721845,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 29,
+      "changed": 0,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 0
+    },
+    "problems": []
+  },
+  {
+    "at": "2026-09-18T19:44:29.749Z",
+    "trigger": "cli",
+    "durationMs": 67983,
+    "fx": {
+      "USDCNY": 6.721845,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 29,
+      "changed": 3,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 1
+    },
+    "problems": [
+      {
+        "url": "https://commandcode.ai/docs/plans/pro",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://commandcode.ai/docs/resources/pricing-limits",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://ollama.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.siliconflow.com/pricing",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted addresses: 31.43.161.6:443, timeout: 10000ms)",
+        "httpStatus": null
+      }
+    ]
+  },
+  {
+    "at": "2026-09-18T18:20:09.177Z",
+    "trigger": "cli",
+    "durationMs": 64150,
+    "fx": {
+      "USDCNY": 6.721845,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 30,
+      "changed": 0,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 0
+    },
+    "problems": []
+  },
+  {
+    "at": "2026-09-18T18:19:04.906Z",
+    "trigger": "cli",
+    "durationMs": 66594,
+    "fx": {
+      "USDCNY": 6.721845,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 30,
+      "changed": 0,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 0
+    },
+    "problems": []
+  },
+  {
+    "at": "2026-09-18T18:01:36.538Z",
+    "trigger": "cli",
+    "durationMs": 63439,
+    "fx": {
+      "USDCNY": 6.721845,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 26,
+      "changed": 0,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 0
+    },
+    "problems": []
+  },
+  {
+    "at": "2026-09-18T18:00:32.983Z",
+    "trigger": "cli",
+    "durationMs": 64086,
+    "fx": {
+      "USDCNY": 6.721845,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 26,
+      "changed": 0,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 0
+    },
+    "problems": []
+  },
+  {
+    "at": "2026-09-18T17:59:06.899Z",
+    "trigger": "cli",
+    "durationMs": 17056,
+    "fx": {
+      "USDCNY": 6.721845,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 26,
+      "changed": 4,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 0
+    },
+    "problems": [
+      {
+        "url": "https://bigmodel.cn/glm-coding",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://open.bigmodel.cn/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://platform.minimaxi.com/subscribe/token-plan",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://www.kimi.com/membership/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      }
+    ]
+  },
+  {
+    "at": "2026-09-18T17:58:49.729Z",
+    "trigger": "cli",
+    "durationMs": 17035,
+    "fx": {
+      "USDCNY": 6.721845,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 26,
+      "changed": 0,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 0
+    },
+    "problems": []
+  },
+  {
+    "at": "2026-09-18T17:57:14.177Z",
+    "trigger": "cli",
+    "durationMs": 16499,
+    "fx": {
+      "USDCNY": 6.721845,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 26,
+      "changed": 1,
+      "flaky": 0,
+      "shell": 4,
+      "unreachable": 0
+    },
+    "problems": [
+      {
+        "url": "https://bigmodel.cn/glm-coding",
+        "state": "shell",
+        "error": "原始抓取只有 125 字符（JS 空壳），浏览器兜底失败：浏览器取到的正文为空",
+        "httpStatus": 200
+      },
+      {
+        "url": "https://open.bigmodel.cn/pricing",
+        "state": "shell",
+        "error": "原始抓取只有 0 字符（JS 空壳），浏览器兜底失败：浏览器取到的正文为空",
+        "httpStatus": null
+      },
+      {
+        "url": "https://platform.minimaxi.com/subscribe/token-plan",
+        "state": "shell",
+        "error": "原始抓取只有 16 字符（JS 空壳），浏览器兜底失败：浏览器取到的正文为空",
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.kimi.com/membership/pricing",
+        "state": "shell",
+        "error": "原始抓取只有 33 字符（JS 空壳），浏览器兜底失败：浏览器取到的正文为空",
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.volcengine.com/docs/ark/model-pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      }
+    ]
+  },
+  {
+    "at": "2026-09-18T17:54:23.182Z",
+    "trigger": "cli",
+    "durationMs": 10559,
+    "fx": {
+      "USDCNY": 6.721845,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 22,
+      "changed": 0,
+      "flaky": 1,
+      "shell": 0,
+      "unreachable": 0
+    },
+    "problems": [
+      {
+        "url": "https://www.volcengine.com/docs/ark/model-pricing",
+        "state": "flaky",
+        "error": null,
+        "httpStatus": null
+      }
+    ]
+  },
+  {
+    "at": "2026-09-18T17:41:54.417Z",
+    "trigger": "cli",
+    "durationMs": 12913,
+    "fx": {
+      "USDCNY": 6.721845,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 17,
+      "changed": 0,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 0
+    },
+    "problems": []
+  }
+]

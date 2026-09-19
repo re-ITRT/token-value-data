@@ -1,0 +1,21 @@
+{
+  "name": "token-value-data",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "大模型订阅套餐 / API 定价的采集与换算数据源：每 12 小时刷新汇率、检测官方来源页变化，产出 data/bundle.json 供前端读取",
+  "scripts": {
+    "update": "node updater.mjs",
+    "sync:commandcode": "node tools/sync-commandcode.mjs",
+    "diff:commandcode": "node tools/diff-commandcode.mjs",
+    "check": "node tools/check.mjs",
+    "audit:independent": "node tools/audit-independent.mjs",
+    "patch:all": "node tools/patch-vendors.mjs && node tools/sync-commandcode.mjs && node tools/patch-mimo.mjs && node tools/patch-volc-afp.mjs && node tools/patch-slots.mjs && node tools/patch-peakrules.mjs && node tools/patch-lines.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.55.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
