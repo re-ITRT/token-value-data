@@ -709,44 +709,6 @@
       "note": "官方已标「即将下线」，新项目请用 Doubao-Seed-Evolving"
     },
     {
-      "id": "ali-api-qwen38flash",
-      "provider": "阿里百炼 API",
-      "modelId": "qwen3.8-flash",
-      "band": "标准",
-      "currency": "CNY",
-      "in": 0.8,
-      "cache": 0.1,
-      "out": 2.7,
-      "source": "https://help.aliyun.com/zh/model-studio/model-pricing",
-      "verifiedAt": "2026-09-19"
-    },
-    {
-      "id": "ali-api-qwen38max",
-      "provider": "阿里百炼 API",
-      "modelId": "qwen3.8-max",
-      "band": "标准",
-      "currency": "CNY",
-      "in": 12,
-      "cache": 1.5,
-      "out": 36,
-      "source": "https://help.aliyun.com/zh/model-studio/model-pricing",
-      "verifiedAt": "2026-09-19"
-    },
-    {
-      "id": "ali-api-codernext",
-      "provider": "阿里百炼 API",
-      "modelId": "qwen3-coder-next",
-      "band": "标准",
-      "currency": "CNY",
-      "in": 1,
-      "cache": 1,
-      "out": 4,
-      "cacheIsInput": true,
-      "note": "不支持上下文缓存，缓存按输入价计",
-      "source": "https://help.aliyun.com/zh/model-studio/model-pricing",
-      "verifiedAt": "2026-09-19"
-    },
-    {
       "id": "tencent-api-hy4",
       "provider": "腾讯混元 API",
       "modelId": "hunyuan-hy4-preview",
@@ -1405,30 +1367,7 @@
       "promo": true,
       "promoNote": "原价 ¥3.00 / ¥0.30 / ¥9.00",
       "source": "https://siliconflow.cn/pricing",
-      "verifiedAt": "2026-09-18",
-      "peakRule": {
-        "tz": "Asia/Shanghai",
-        "days": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6
-        ],
-        "ranges": [
-          [
-            8,
-            24
-          ],
-          [
-            0,
-            2
-          ]
-        ],
-        "note": "北京时间 02–08 为谷时（五折），其余为原价"
-      }
+      "verifiedAt": "2026-09-18"
     },
     {
       "id": "sf-cn-v4flash-peak",
@@ -1441,30 +1380,7 @@
       "out": 9,
       "slot": "peak",
       "source": "https://siliconflow.cn/pricing",
-      "verifiedAt": "2026-09-18",
-      "peakRule": {
-        "tz": "Asia/Shanghai",
-        "days": [
-          0,
-          1,
-          2,
-          3,
-          4,
-          5,
-          6
-        ],
-        "ranges": [
-          [
-            8,
-            24
-          ],
-          [
-            0,
-            2
-          ]
-        ],
-        "note": "北京时间 02–08 为谷时（五折），其余为原价"
-      }
+      "verifiedAt": "2026-09-18"
     },
     {
       "id": "sf-cn-v4pro",
@@ -5691,41 +5607,6 @@
       "note": "AFP 系数整表照抄官方文档（2026-09-17）；缓存读取按同系数估算（官方未单列）。活动：Auto 模式系数 0.5、夜间 00:00–08:00 多路由到 kimi-k3（6/10–11/8）；deepseek-v4.1-flash 系数 5 折（9/15–9/28）；kimi-k2.8-preview 系数 6 折（9/17–9/30）"
     },
     {
-      "id": "ali-coding-pro",
-      "provider": "阿里百炼",
-      "name": "Coding Plan Pro",
-      "kind": "requests",
-      "currency": "CNY",
-      "quota": 90000,
-      "quotaUnit": "次 model calls/月",
-      "period": "月",
-      "priceVariants": [
-        {
-          "id": "list",
-          "label": "标准价",
-          "amount": 200
-        }
-      ],
-      "tags": [
-        "每日 09:30 限量抢购",
-        "禁非交互式 API 调用",
-        "Lite 已停售"
-      ],
-      "source": "https://help.aliyun.com/zh/model-studio/coding-plan",
-      "verifiedAt": "2026-09-19",
-      "models": {
-        "qwen3.8-max": {},
-        "qwen3.8-flash": {},
-        "qwen3-coder-next": {},
-        "glm-5.3": {},
-        "glm-5.2": {},
-        "kimi-k2.7-code": {},
-        "minimax-m3": {}
-      },
-      "window": "5h·周·月",
-      "line": "ali-coding"
-    },
-    {
       "id": "baidu-token-mini",
       "provider": "百度千帆",
       "name": "Token Plan Mini",
@@ -6210,39 +6091,6 @@
       "line": "tencent-token"
     },
     {
-      "id": "ali-token-lite",
-      "provider": "阿里百炼",
-      "name": "Token Plan 个人版 Lite",
-      "kind": "uncomputable",
-      "currency": "CNY",
-      "quota": 2500,
-      "quotaUnit": "Credits / 7 天",
-      "period": "月",
-      "priceVariants": [
-        {
-          "id": "list",
-          "label": "原价",
-          "amount": 60
-        },
-        {
-          "id": "promo",
-          "label": "限时价",
-          "amount": 39
-        }
-      ],
-      "tags": [
-        "7 天固定窗口",
-        "禁非交互式 API 调用",
-        "仅华北2"
-      ],
-      "note": "Credits 系数官方未公开，无法折算成 token",
-      "source": "https://help.aliyun.com/zh/model-studio/token-plan-overview",
-      "verifiedAt": "2026-09-19",
-      "models": {},
-      "window": "7天",
-      "line": "ali-token"
-    },
-    {
       "id": "tencent-hy-token-lite",
       "provider": "腾讯云",
       "name": "Hy Token Plan Lite",
@@ -6311,31 +6159,12 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             }
           ],
           "note": "官方抵扣公式 (输入×6.9 + 缓存×1.7 + 输出×24)/10000"
@@ -6350,31 +6179,12 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -6389,31 +6199,12 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -6428,31 +6219,12 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -6467,38 +6239,18 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             },
             {
               "id": "night",
               "label": "夜间畅用 9/3–9/20（其他 Agent 额度 ×2）",
               "mult": 0.5,
-              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash",
-              "slot": "offpeak"
+              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash"
             }
           ],
           "note": "官方系数 2.3 / 0.56 / 8"
@@ -6513,44 +6265,23 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             },
             {
               "id": "night",
               "label": "夜间畅用 9/3–9/20（其他 Agent 额度 ×2）",
               "mult": 0.5,
-              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash",
-              "slot": "offpeak"
+              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash"
             }
           ],
           "note": "Coding Plan 内调用 GLM-4.7 会被自动切到 GLM-5.3-Flash，故按 Flash 系数"
         }
-      },
-      "line": "zhipu-coding"
+      }
     },
     {
       "id": "glm-coding-pro",
@@ -6594,31 +6325,12 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             }
           ],
           "note": "官方抵扣公式 (输入×6.9 + 缓存×1.7 + 输出×24)/10000"
@@ -6633,31 +6345,12 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -6672,31 +6365,12 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -6711,31 +6385,12 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -6750,38 +6405,18 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             },
             {
               "id": "night",
               "label": "夜间畅用 9/3–9/20（其他 Agent 额度 ×2）",
               "mult": 0.5,
-              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash",
-              "slot": "offpeak"
+              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash"
             }
           ],
           "note": "官方系数 2.3 / 0.56 / 8"
@@ -6796,44 +6431,23 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             },
             {
               "id": "night",
               "label": "夜间畅用 9/3–9/20（其他 Agent 额度 ×2）",
               "mult": 0.5,
-              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash",
-              "slot": "offpeak"
+              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash"
             }
           ],
           "note": "Coding Plan 内调用 GLM-4.7 会被自动切到 GLM-5.3-Flash，故按 Flash 系数"
         }
-      },
-      "line": "zhipu-coding"
+      }
     },
     {
       "id": "glm-coding-max",
@@ -6877,31 +6491,12 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             }
           ],
           "note": "官方抵扣公式 (输入×6.9 + 缓存×1.7 + 输出×24)/10000"
@@ -6916,31 +6511,12 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -6955,31 +6531,12 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -6994,31 +6551,12 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             }
           ],
           "note": "按 GLM-5.3 系数"
@@ -7033,38 +6571,18 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             },
             {
               "id": "night",
               "label": "夜间畅用 9/3–9/20（其他 Agent 额度 ×2）",
               "mult": 0.5,
-              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash",
-              "slot": "offpeak"
+              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash"
             }
           ],
           "note": "官方系数 2.3 / 0.56 / 8"
@@ -7079,44 +6597,23 @@
             {
               "id": "base",
               "label": "高峰（周一至五 14–18 点）",
-              "mult": 1,
-              "slot": "peak",
-              "peakRule": {
-                "tz": "Asia/Shanghai",
-                "days": [
-                  1,
-                  2,
-                  3,
-                  4,
-                  5
-                ],
-                "ranges": [
-                  [
-                    14,
-                    18
-                  ]
-                ],
-                "note": "北京时间周一至五 14–18，其余时段积分 5 折"
-              }
+              "mult": 1
             },
             {
               "id": "off",
               "label": "非高峰 5 折",
-              "mult": 0.5,
-              "slot": "offpeak"
+              "mult": 0.5
             },
             {
               "id": "night",
               "label": "夜间畅用 9/3–9/20（其他 Agent 额度 ×2）",
               "mult": 0.5,
-              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash",
-              "slot": "offpeak"
+              "note": "ZCode 端 0 消耗；仅 GLM-5.3-Flash"
             }
           ],
           "note": "Coding Plan 内调用 GLM-4.7 会被自动切到 GLM-5.3-Flash，故按 Flash 系数"
         }
-      },
-      "line": "zhipu-coding"
+      }
     },
     {
       "id": "kimi-go",
@@ -7144,8 +6641,7 @@
       "note": "不含 Kimi Code（旧 ¥49 档含，新版移除）；Agent 参考用量 1x；官方只给百分比锚（代码片段 ≈0.5–2%/月），未公开 token 绝对值，无法折算。两个官方锚点（会员 ≈¥1.63/任务 vs 加油包 ≈¥1.6/任务且加油包≈API 价）推算杠杆约 1×",
       "source": "https://www.kimi.com/membership/pricing",
       "verifiedAt": "2026-09-18",
-      "models": {},
-      "line": "kimi-member"
+      "models": {}
     },
     {
       "id": "kimi-plus",
@@ -7173,8 +6669,7 @@
       "note": "含 Kimi Code；Agent 参考用量 2x；官方只给百分比锚（代码片段 ≈0.5–2%/月），未公开 token 绝对值，无法折算。两个官方锚点（会员 ≈¥1.63/任务 vs 加油包 ≈¥1.6/任务且加油包≈API 价）推算杠杆约 1×",
       "source": "https://www.kimi.com/membership/pricing",
       "verifiedAt": "2026-09-18",
-      "models": {},
-      "line": "kimi-member"
+      "models": {}
     },
     {
       "id": "kimi-pro",
@@ -7202,8 +6697,7 @@
       "note": "含 Kimi Code；Agent 参考用量 4x；官方只给百分比锚（代码片段 ≈0.5–2%/月），未公开 token 绝对值，无法折算。两个官方锚点（会员 ≈¥1.63/任务 vs 加油包 ≈¥1.6/任务且加油包≈API 价）推算杠杆约 1×",
       "source": "https://www.kimi.com/membership/pricing",
       "verifiedAt": "2026-09-18",
-      "models": {},
-      "line": "kimi-member"
+      "models": {}
     },
     {
       "id": "kimi-max",
@@ -7231,8 +6725,7 @@
       "note": "含 Kimi Code；Agent 参考用量 14x；官方只给百分比锚（代码片段 ≈0.5–2%/月），未公开 token 绝对值，无法折算。两个官方锚点（会员 ≈¥1.63/任务 vs 加油包 ≈¥1.6/任务且加油包≈API 价）推算杠杆约 1×",
       "source": "https://www.kimi.com/membership/pricing",
       "verifiedAt": "2026-09-18",
-      "models": {},
-      "line": "kimi-member"
+      "models": {}
     },
     {
       "id": "mm-token-plus",
@@ -7282,8 +6775,7 @@
             "output": 1000000
           }
         }
-      },
-      "line": "mm-token"
+      }
     },
     {
       "id": "mm-token-max",
@@ -7333,8 +6825,7 @@
             "output": 1000000
           }
         }
-      },
-      "line": "mm-token"
+      }
     },
     {
       "id": "mm-token-ultra",
@@ -7384,8 +6875,7 @@
             "output": 1000000
           }
         }
-      },
-      "line": "mm-token"
+      }
     },
     {
       "id": "scnet-token-basic",
@@ -7526,11 +7016,7 @@
           },
           "note": "官方倍率 0.14"
         }
-      },
-      "line": "scnet-token",
-      "repeatable": true,
-      "maxCopies": 3,
-      "repeatNote": "官方 FAQ：额度用完后可直接续费，无需等下一周期"
+      }
     },
     {
       "id": "scnet-token-standard",
@@ -7671,11 +7157,7 @@
           },
           "note": "官方倍率 0.14"
         }
-      },
-      "line": "scnet-token",
-      "repeatable": true,
-      "maxCopies": 3,
-      "repeatNote": "官方 FAQ：额度用完后可直接续费，无需等下一周期"
+      }
     },
     {
       "id": "scnet-token-advanced",
@@ -7816,11 +7298,7 @@
           },
           "note": "官方倍率 0.14"
         }
-      },
-      "line": "scnet-token",
-      "repeatable": true,
-      "maxCopies": 3,
-      "repeatNote": "官方 FAQ：额度用完后可直接续费，无需等下一周期"
+      }
     },
     {
       "id": "scnet-token-flagship",
@@ -7961,11 +7439,7 @@
           },
           "note": "官方倍率 0.14"
         }
-      },
-      "line": "scnet-token",
-      "repeatable": true,
-      "maxCopies": 3,
-      "repeatNote": "官方 FAQ：额度用完后可直接续费，无需等下一周期"
+      }
     },
     {
       "id": "mimo-token-lite",
@@ -8418,6 +7892,17 @@
   ],
   "removedPlans": [
     "volc-coding-lite",
-    "volc-coding-pro"
+    "volc-coding-pro",
+    "ali-coding-pro",
+    "ali-token-lite"
+  ],
+  "removedProviders": [
+    "阿里百炼",
+    "阿里百炼 API"
+  ],
+  "removedApiPrices": [
+    "ali-api-qwen38flash",
+    "ali-api-qwen38max",
+    "ali-api-codernext"
   ]
 }

@@ -176,8 +176,15 @@ node tools/patch-vendors.mjs                       # 写入/更新厂商数据�
 | 按量 API | DeepSeek 官方、智谱 BigModel + z.ai、Kimi 国内站 + 国际站、MiniMax 国内 + 国际、**小米 MiMo 国内 + 海外**、火山方舟、阿里百炼、腾讯混元、百度千帆、Ollama Cloud、Command Code Provider（**全量 71 个模型**）、超算互联网 SCNet、硅基流动（国内站 + 国际站，含长期免费模型） |
 | 无法换算 | 阿里 Token Plan 个人版 Lite（Credits 系数未公开）、腾讯 Hy Token Plan（积分折算未公开）、Kimi 会员 Go/Plus/Pro/Max（官方只给百分比锚） |
 
-**已下架不再统计**：火山方舟 Coding Plan（Lite/Pro）——用量口径不透明、与实际体验对不上；
-SCNet Coding Plan（Lite/Pro）——官方已停售。两者的 id 都记在 `data/sources.json` 的 `removedPlans` 里，防止脚本重新加回。
+**已下架不再统计**（id 记在 `data/sources.json` 的 `removedPlans` / `removedProviders` / `removedApiPrices` 里，防止脚本重新加回）：
+
+| 下架对象 | 原因 |
+|---|---|
+| 火山方舟 Coding Plan（Lite/Pro） | 用量口径不透明，实际体验与官方「按请求数」折算严重不符 |
+| 超算互联网 SCNet Coding Plan（Lite/Pro） | 官方已停售 |
+| **阿里百炼（全部：Coding Plan Pro、Token Plan 个人版 Lite、百炼按量价）** | **用户核实后认为用量口径不透明**（Token Plan 的 Credits 系数官方未公开、Coding Plan 限量抢购且禁非交互式调用）。脚本见 `tools/patch-remove-aliyun.mjs` |
+
+> Qwen 系模型并未消失：仍可从 硅基流动（国内站）、超算互联网 SCNet、Command Code Provider 拿到报价。
 
 ## 数据脚本的执行顺序
 
