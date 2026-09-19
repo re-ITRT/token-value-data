@@ -1,5 +1,73 @@
 [
   {
+    "at": "2026-09-19T05:58:36.936Z",
+    "trigger": "cli",
+    "durationMs": 22754,
+    "fx": {
+      "USDCNY": 6.714087,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 29,
+      "changed": 5,
+      "flaky": 3,
+      "shell": 0,
+      "unreachable": 0
+    },
+    "problems": [
+      {
+        "url": "https://bigmodel.cn/glm-coding",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://mimo.mi.com/docs/zh-CN/tokenplan/subscription",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://open.bigmodel.cn/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://platform.minimaxi.com/subscribe/token-plan",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://www.kimi.com/membership/pricing",
+        "state": "flaky",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://www.volcengine.com/docs/ark/agent-plan-personal-afp-credits-billing-rules?lang=zh",
+        "state": "flaky",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://www.volcengine.com/docs/ark/model-pricing",
+        "state": "flaky",
+        "error": null,
+        "httpStatus": null
+      }
+    ]
+  },
+  {
     "at": "2026-09-19T05:41:14.288Z",
     "trigger": "cli",
     "durationMs": 117979,
