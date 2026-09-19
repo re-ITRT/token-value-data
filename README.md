@@ -349,3 +349,22 @@ node tools/gh-push.mjs . re-ITRT/token-value-data main "data: xxx"
   DeepSeek V4 Flash Free、Laguna S 2.1 Free、Ling-3.0-tiny Free、LongCat-2.0 Free、North Mini Code Free，见 `tools/patch-opencode-extra.mjs`）。
 - **支付**：官方文档只提到「信用卡手续费 4.4% + $0.30 按成本转嫁」（走 Stripe）；用户实测国内可直接支付（支付宝），
   ``payment.json`` 里按 ``cn: true`` 标注并在 note 里写明来源。
+## 国外厂商的官方按量价（2026-09-19 核验）
+
+| 厂商 | 覆盖 | 脚本 | 数据源 |
+|---|---|---|---|
+| DeepSeek | 4 个模型 | `tools/patch-deepseek-official.mjs` | `api-docs.deepseek.com/quick_start/pricing` |
+| xAI（Grok） | 7 个（含 grok-4.3 / 4.20 系） | `tools/sync-xai-official.mjs` | `docs.x.ai/docs/pricing.md`（官方 Markdown 版，可直接抓） |
+| Google Gemini | 9 个（含最便宜的 2.5-flash-lite） | `tools/sync-gemini-official.mjs` | `ai.google.dev/gemini-api/docs/pricing` |
+| OpenAI | 13 个 | `tools/sync-openai-official.mjs` | `developers.openai.com/api/docs/pricing`（platform 域名被 Cloudflare 拦，403） |
+| Anthropic | 11 个 | `tools/sync-anthropic-official.mjs` | `platform.claude.com/docs/en/about-claude/pricing`（本机无法直连 anthropic 域，经 Exa 官方页快照核验，两站数值一致） |
+
+**几个必须注意的口径**（都已写进条目的 note）：
+
+- **Gemini 3.6/3.7/3.8 Flash 现在是限时促销价**（$0.75/$3.75，2027-01-01 起翻倍到 $1.50/$7.50）。第三方网关（Command Code / OpenCode Zen）按的是**翻倍后的价**，所以直接买 Google 官方现在反而便宜一半——看板里能直接看出来。
+- **长上下文是「整单加价」**：OpenAI >272K、xAI ≥200K 达到阈值后**整单所有 token** 按长档计费，不是只算超出部分。
+- **Claude 无长文加价**（1M 窗口按标准价）；缓存写入 1.25×（5 分钟）/ 2×（1 小时）；Batch 5 折且可与缓存折扣叠加。
+- **已停服型号不给官方报价**：`gpt-5.1-codex` / `-max` / `-mini` / `gpt-5.2-codex`（2026-07-23 停服）、`gpt-5-nano`（2026-12-11 停服）只在模型上标注。
+- **四家全部不支持中国支付**（只收境外卡，且官方支持地区名单不含中国大陆/香港/澳门），已在 `payment.json` 里标 `cn: false`；国外渠道里目前只有 **OpenCode 支持支付宝**。
+
+审计：`node tools/audit-official-api.mjs` 会列出「有官方渠道但缺官方价」的模型，目前剩 25 个（多为阿里百炼下架后失去官方来源的 Qwen 系，以及厂商已停售的档位）。
