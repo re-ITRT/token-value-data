@@ -9355,5 +9355,229 @@
       },
       "problems": []
     }
-  ]
+  ],
+  "payments": {
+    "DeepSeek 官方": {
+      "cn": true,
+      "methods": [
+        "支付宝",
+        "微信"
+      ],
+      "note": "国内平台，充值走支付宝/微信"
+    },
+    "火山方舟": {
+      "cn": true,
+      "methods": [
+        "支付宝",
+        "微信",
+        "对公转账"
+      ],
+      "note": "火山引擎国内站"
+    },
+    "火山方舟 API": {
+      "cn": true,
+      "methods": [
+        "支付宝",
+        "微信",
+        "对公转账"
+      ],
+      "note": "火山引擎国内站"
+    },
+    "阿里百炼": {
+      "cn": true,
+      "methods": [
+        "支付宝",
+        "微信"
+      ],
+      "note": "阿里云国内站"
+    },
+    "阿里百炼 API": {
+      "cn": true,
+      "methods": [
+        "支付宝",
+        "微信"
+      ],
+      "note": "阿里云国内站"
+    },
+    "腾讯云": {
+      "cn": true,
+      "methods": [
+        "微信",
+        "支付宝",
+        "对公转账"
+      ],
+      "note": "腾讯云国内站"
+    },
+    "腾讯混元 API": {
+      "cn": true,
+      "methods": [
+        "微信",
+        "支付宝",
+        "对公转账"
+      ],
+      "note": "腾讯云国内站"
+    },
+    "百度千帆": {
+      "cn": true,
+      "methods": [
+        "支付宝",
+        "微信",
+        "百度钱包"
+      ],
+      "note": "百度智能云国内站"
+    },
+    "百度千帆 API": {
+      "cn": true,
+      "methods": [
+        "支付宝",
+        "微信",
+        "百度钱包"
+      ],
+      "note": "百度智能云国内站"
+    },
+    "智谱": {
+      "cn": true,
+      "methods": [
+        "支付宝",
+        "微信"
+      ],
+      "note": "bigmodel.cn 国内站"
+    },
+    "智谱 BigModel API": {
+      "cn": true,
+      "methods": [
+        "支付宝",
+        "微信"
+      ],
+      "note": "bigmodel.cn 国内站"
+    },
+    "智谱 z.ai（国际）": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "z.ai 国际站，需境外卡"
+    },
+    "Kimi": {
+      "cn": true,
+      "methods": [
+        "支付宝",
+        "微信"
+      ],
+      "note": "kimi.com 国内会员（人民币档）"
+    },
+    "Kimi API（国内）": {
+      "cn": true,
+      "methods": [
+        "支付宝",
+        "微信"
+      ],
+      "note": "platform.kimi.com 国内站"
+    },
+    "Kimi API（国际站）": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "platform.kimi.ai 国际站，美元计价"
+    },
+    "MiniMax": {
+      "cn": true,
+      "methods": [
+        "支付宝",
+        "微信"
+      ],
+      "note": "platform.minimaxi.com 国内站"
+    },
+    "MiniMax API（国内）": {
+      "cn": true,
+      "methods": [
+        "支付宝",
+        "微信"
+      ],
+      "note": "国内站，人民币计价"
+    },
+    "MiniMax API（国际）": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "minimax.io 国际站，美元计价"
+    },
+    "小米 MiMo": {
+      "cn": true,
+      "methods": [
+        "支付宝",
+        "微信"
+      ],
+      "note": "mimo.mi.com 有人民币档，国内可直接付"
+    },
+    "小米 MiMo API（国内）": {
+      "cn": true,
+      "methods": [
+        "支付宝",
+        "微信"
+      ],
+      "note": "国内站，人民币计价"
+    },
+    "小米 MiMo API（海外）": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "海外站，美元计价"
+    },
+    "超算互联网 SCNet": {
+      "cn": true,
+      "methods": [
+        "支付宝",
+        "微信",
+        "网银"
+      ],
+      "note": "国家超算互联网，需实名认证"
+    },
+    "硅基流动（国内站）": {
+      "cn": true,
+      "methods": [
+        "支付宝",
+        "微信"
+      ],
+      "note": "官方说明仅支付宝/微信"
+    },
+    "硅基流动（国际站）": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "siliconflow.com 国际站"
+    },
+    "Command Code": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "Stripe 收款，需境外卡或国际银联；且订阅还收 processing fee"
+    },
+    "Command Code Provider API": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "同上"
+    },
+    "Ollama Cloud": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "需境外卡"
+    },
+    "Ollama Cloud API": {
+      "cn": false,
+      "methods": [
+        "信用卡"
+      ],
+      "note": "需境外卡"
+    }
+  }
 }

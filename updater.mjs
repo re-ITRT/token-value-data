@@ -18,6 +18,7 @@ const HASH_FILE = path.join(DATA_DIR, 'hashes.json');
 const STATE_FILE = path.join(DATA_DIR, 'state.json');
 const HISTORY_FILE = path.join(DATA_DIR, 'history.json');
 const BUNDLE_FILE = path.join(DATA_DIR, 'bundle.json');
+const PAYMENT_FILE = path.join(DATA_DIR, 'payment.json');
 
 export const UPDATE_INTERVAL_MS = 12 * 60 * 60 * 1000; // 12 小时
 const HISTORY_KEEP = 30;
@@ -443,6 +444,7 @@ export async function runUpdate(trigger = 'manual') {
   // 前端只读这一个文件：sources + state + fx + history 打包
   const sources = await readJson(SOURCES_FILE, { models: [], apiPrices: [], plans: [] });
   const history = await readJson(HISTORY_FILE, []);
+  const payments = await readJson(PAYMENT_FILE, { providers: {} });
   await writeJson(BUNDLE_FILE, {
     generatedAt: state.finishedAt,
     nextRunAt: state.nextRunAt,
@@ -451,6 +453,7 @@ export async function runUpdate(trigger = 'manual') {
     state,
     sources,
     history,
+    payments: payments.providers || {},
   });
   await appendHistory({
     at: state.finishedAt,

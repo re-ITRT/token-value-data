@@ -316,3 +316,14 @@ node tools/gh-push.mjs . re-ITRT/token-value-data main "data: xxx"
 ```
 
 它会用 `git credential fill` 取本机已存的 token（不打印），把当前目录内容通过 Git Data API 写成一个提交。
+## 支付方式标注（data/payment.json）
+
+各家**能不能用中国大陆常用方式直接付款**单独维护在这个文件里（支付宝 / 微信 / 境内银联 vs 需境外卡），
+更新任务会把它打包进 bundle 的 ``payments`` 字段，前端两个页面据此提供「只看支持中国支付」筛选：
+
+- ``cn: true``：DeepSeek 官方、火山方舟、阿里百炼、腾讯云、百度千帆、智谱（国内站）、Kimi（国内站）、MiniMax（国内站）、
+  小米 MiMo（国内档）、超算互联网 SCNet、硅基流动（国内站）
+- ``cn: false``：Command Code（Stripe 收款，需境外卡/国际银联）、Ollama Cloud、智谱 z.ai（国际）、Kimi 国际站、
+  MiniMax 国际站、小米 MiMo 海外站、硅基流动（国际站）
+
+看板的行悬停提示、以及后台的健康表都会带上这个信息。
