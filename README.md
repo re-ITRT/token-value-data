@@ -328,9 +328,9 @@ node tools/gh-push.mjs . re-ITRT/token-value-data main "data: xxx"
 各家**能不能用中国大陆常用方式直接付款**单独维护在这个文件里（支付宝 / 微信 / 境内银联 vs 需境外卡），
 更新任务会把它打包进 bundle 的 ``payments`` 字段，前端两个页面据此提供「只看支持中国支付」筛选：
 
-- ``cn: true``：DeepSeek 官方、火山方舟、阿里百炼、腾讯云、百度千帆、智谱（国内站）、Kimi（国内站）、MiniMax（国内站）、
+- ``cn: true``：DeepSeek 官方、火山方舟、腾讯云、百度千帆、智谱（国内站）、Kimi（国内站）、MiniMax（国内站）、**Command Code（支付宝）**、
   小米 MiMo（国内档）、超算互联网 SCNet、硅基流动（国内站）
-- ``cn: false``：Command Code（Stripe 收款，需境外卡/国际银联）、Ollama Cloud、智谱 z.ai（国际）、Kimi 国际站、
+- ``cn: false``：Ollama Cloud、智谱 z.ai（国际）、Kimi 国际站、
   MiniMax 国际站、小米 MiMo 海外站、硅基流动（国际站）
 
 看板的行悬停提示、以及后台的健康表都会带上这个信息。
@@ -365,7 +365,7 @@ node tools/gh-push.mjs . re-ITRT/token-value-data main "data: xxx"
 - **长上下文是「整单加价」**：OpenAI >272K、xAI ≥200K 达到阈值后**整单所有 token** 按长档计费，不是只算超出部分。
 - **Claude 无长文加价**（1M 窗口按标准价）；缓存写入 1.25×（5 分钟）/ 2×（1 小时）；Batch 5 折且可与缓存折扣叠加。
 - **已停服型号不给官方报价**：`gpt-5.1-codex` / `-max` / `-mini` / `gpt-5.2-codex`（2026-07-23 停服）、`gpt-5-nano`（2026-12-11 停服）只在模型上标注。
-- **四家全部不支持中国支付**（只收境外卡，且官方支持地区名单不含中国大陆/香港/澳门），已在 `payment.json` 里标 `cn: false`；国外渠道里目前只有 **OpenCode 支持支付宝**。
+- **四家全部不支持中国支付**（只收境外卡，且官方支持地区名单不含中国大陆/香港/澳门），已在 `payment.json` 里标 `cn: false`；**Command Code 与 OpenCode 支持支付宝**（Command Code 由用户 2026-09-21 实测确认，Stripe 结账可选 Alipay）。
 
 审计：`node tools/audit-official-api.mjs` 会列出「有官方渠道但缺官方价」的模型，目前剩 25 个（多为阿里百炼下架后失去官方来源的 Qwen 系，以及厂商已停售的档位）。
 ## 国外四家的会员套餐（含编码 agent 额度）—— 一律记成「无法换算」

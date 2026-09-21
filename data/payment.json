@@ -31,22 +31,6 @@
       ],
       "note": "火山引擎国内站"
     },
-    "阿里百炼": {
-      "cn": true,
-      "methods": [
-        "支付宝",
-        "微信"
-      ],
-      "note": "阿里云国内站"
-    },
-    "阿里百炼 API": {
-      "cn": true,
-      "methods": [
-        "支付宝",
-        "微信"
-      ],
-      "note": "阿里云国内站"
-    },
     "腾讯云": {
       "cn": true,
       "methods": [
@@ -200,18 +184,18 @@
       "note": "siliconflow.com 国际站"
     },
     "Command Code": {
-      "cn": false,
+      "cn": true,
       "methods": [
-        "信用卡"
+        "支付宝"
       ],
-      "note": "Stripe 收款，需境外卡或国际银联；且订阅还收 processing fee"
+      "note": "支持支付宝（用户实测确认，Stripe 结账可选 Alipay；官方文档只写了信用卡手续费 4.4% + $0.30 按成本转嫁，未提支付宝）。不支持微信支付与境内银联；订阅额度只能在它家 CLI 里用，Provider API 才可自建 harness。"
     },
     "Command Code Provider API": {
-      "cn": false,
+      "cn": true,
       "methods": [
-        "信用卡"
+        "支付宝"
       ],
-      "note": "同上"
+      "note": "支持支付宝（用户实测确认，Stripe 结账可选 Alipay；官方文档只写了信用卡手续费 4.4% + $0.30 按成本转嫁，未提支付宝）。不支持微信支付与境内银联；订阅额度只能在它家 CLI 里用，Provider API 才可自建 harness。"
     },
     "Ollama Cloud": {
       "cn": false,
