@@ -1,5 +1,73 @@
 [
   {
+    "at": "2026-09-24T17:18:20.844Z",
+    "trigger": "cli",
+    "durationMs": 23812,
+    "fx": {
+      "USDCNY": 6.722655,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 6,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://cloud.tencent.com/document/product/1823/130055",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://www.kimi.com/membership/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://www.volcengine.com/docs/ark/model-pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      }
+    ]
+  },
+  {
     "at": "2026-09-24T05:00:48.679Z",
     "trigger": "cli",
     "durationMs": 22081,
