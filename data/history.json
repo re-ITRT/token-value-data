@@ -1,5 +1,61 @@
 [
   {
+    "at": "2026-09-25T17:18:27.091Z",
+    "trigger": "cli",
+    "durationMs": 18814,
+    "fx": {
+      "USDCNY": 6.717253,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 3,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 3
+    },
+    "problems": [
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://developers.openai.com/api/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://ollama.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://opencode.ai/docs/go",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://siliconflow.cn/pricing",
+        "state": "unreachable",
+        "error": "fetch failed (ETIMEDOUT)",
+        "httpStatus": null
+      }
+    ]
+  },
+  {
     "at": "2026-09-25T05:05:16.465Z",
     "trigger": "cli",
     "durationMs": 22955,
