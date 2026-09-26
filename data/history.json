@@ -1,5 +1,55 @@
 [
   {
+    "at": "2026-09-26T16:30:39.128Z",
+    "trigger": "cli",
+    "durationMs": 46045,
+    "fx": {
+      "USDCNY": 6.724641,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 2,
+      "flaky": 0,
+      "shell": 1,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://mimo.mi.com/docs/zh-CN/tokenplan/subscription",
+        "state": "shell",
+        "error": "原始抓取只有 0 字符（JS 空壳），浏览器兜底失败：playwright: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://mimo.mi.com/docs/zh-CN/tokenplan/subscription\", waiting until \"networkidle\"\n",
+        "httpStatus": null
+      },
+      {
+        "url": "https://opencode.ai/docs/go",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.kimi.com/membership/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      }
+    ]
+  },
+  {
     "at": "2026-09-26T05:08:02.733Z",
     "trigger": "cli",
     "durationMs": 20046,
