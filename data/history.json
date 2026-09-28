@@ -1,5 +1,67 @@
 [
   {
+    "at": "2026-09-28T05:33:33.728Z",
+    "trigger": "cli",
+    "durationMs": 46803,
+    "fx": {
+      "USDCNY": 6.719488,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 3,
+      "flaky": 0,
+      "shell": 2,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://bigmodel.cn/glm-coding",
+        "state": "shell",
+        "error": "原始抓取只有 0 字符（JS 空壳），浏览器兜底失败：playwright: page.goto: net::ERR_TIMED_OUT at https://bigmodel.cn/glm-coding\nCall log:\n  - navigating to \"https://bigmodel.cn/glm-coding\", waiting until \"networkidle\"\n",
+        "httpStatus": null
+      },
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://open.bigmodel.cn/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://platform.kimi.ai/docs/pricing/chat",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://platform.kimi.com/docs/pricing/chat",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://platform.minimaxi.com/subscribe/token-plan",
+        "state": "shell",
+        "error": "原始抓取只有 0 字符（JS 空壳），浏览器兜底失败：playwright: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://platform.minimaxi.com/subscribe/token-plan\", waiting until \"networkidle\"\n",
+        "httpStatus": null
+      }
+    ]
+  },
+  {
     "at": "2026-09-27T17:03:29.325Z",
     "trigger": "cli",
     "durationMs": 31046,
