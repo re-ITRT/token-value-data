@@ -1,5 +1,85 @@
 [
   {
+    "at": "2026-09-28T19:43:34.698Z",
+    "trigger": "cli",
+    "durationMs": 23037,
+    "fx": {
+      "USDCNY": 6.719488,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 7,
+      "flaky": 1,
+      "shell": 0,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://claude.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://docs.x.ai/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://open.bigmodel.cn/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://opencode.ai/docs/go",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.kimi.com/membership/pricing",
+        "state": "flaky",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://www.volcengine.com/docs/ark/agent-plan-personal-afp-credits-billing-rules?lang=zh",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://www.volcengine.com/docs/ark/model-pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      }
+    ]
+  },
+  {
     "at": "2026-09-28T05:33:33.728Z",
     "trigger": "cli",
     "durationMs": 46803,
@@ -1334,24 +1414,5 @@
         "httpStatus": null
       }
     ]
-  },
-  {
-    "at": "2026-09-18T17:41:54.417Z",
-    "trigger": "cli",
-    "durationMs": 12913,
-    "fx": {
-      "USDCNY": 6.721845,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 17,
-      "changed": 0,
-      "flaky": 0,
-      "shell": 0,
-      "unreachable": 0
-    },
-    "problems": []
   }
 ]
