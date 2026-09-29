@@ -1,5 +1,73 @@
 [
   {
+    "at": "2026-09-29T05:51:09.234Z",
+    "trigger": "cli",
+    "durationMs": 21712,
+    "fx": {
+      "USDCNY": 6.721579,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 5,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 3
+    },
+    "problems": [
+      {
+        "url": "https://antigravity.google/blog/changes-to-antigravity-plans",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://antigravity.google/docs/plans",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: cloud.baidu.com:443, timeout: 10000ms)",
+        "httpStatus": null
+      },
+      {
+        "url": "https://commandcode.ai/docs/resources/pricing-limits",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://siliconflow.cn/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      }
+    ]
+  },
+  {
     "at": "2026-09-28T19:43:34.698Z",
     "trigger": "cli",
     "durationMs": 23037,
@@ -1384,32 +1452,6 @@
       {
         "url": "https://www.volcengine.com/docs/ark/model-pricing",
         "state": "changed",
-        "error": null,
-        "httpStatus": null
-      }
-    ]
-  },
-  {
-    "at": "2026-09-18T17:54:23.182Z",
-    "trigger": "cli",
-    "durationMs": 10559,
-    "fx": {
-      "USDCNY": 6.721845,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 22,
-      "changed": 0,
-      "flaky": 1,
-      "shell": 0,
-      "unreachable": 0
-    },
-    "problems": [
-      {
-        "url": "https://www.volcengine.com/docs/ark/model-pricing",
-        "state": "flaky",
         "error": null,
         "httpStatus": null
       }
