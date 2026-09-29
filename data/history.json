@@ -1,5 +1,61 @@
 [
   {
+    "at": "2026-09-29T18:08:57.679Z",
+    "trigger": "cli",
+    "durationMs": 47252,
+    "fx": {
+      "USDCNY": 6.721579,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 2,
+      "flaky": 0,
+      "shell": 1,
+      "unreachable": 3
+    },
+    "problems": [
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://developers.openai.com/api/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://platform.kimi.com/docs/pricing/chat",
+        "state": "unreachable",
+        "error": "This operation was aborted (20)",
+        "httpStatus": null
+      },
+      {
+        "url": "https://platform.minimaxi.com/subscribe/token-plan",
+        "state": "shell",
+        "error": "原始抓取只有 0 字符（JS 空壳），浏览器兜底失败：playwright: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://platform.minimaxi.com/subscribe/token-plan\", waiting until \"networkidle\"\n",
+        "httpStatus": null
+      },
+      {
+        "url": "https://www.volcengine.com/docs/ark/agent-plan-personal-afp-credits-billing-rules?lang=zh",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      }
+    ]
+  },
+  {
     "at": "2026-09-29T05:51:09.234Z",
     "trigger": "cli",
     "durationMs": 21712,
@@ -1406,55 +1462,5 @@
       "unreachable": 0
     },
     "problems": []
-  },
-  {
-    "at": "2026-09-18T17:57:14.177Z",
-    "trigger": "cli",
-    "durationMs": 16499,
-    "fx": {
-      "USDCNY": 6.721845,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 26,
-      "changed": 1,
-      "flaky": 0,
-      "shell": 4,
-      "unreachable": 0
-    },
-    "problems": [
-      {
-        "url": "https://bigmodel.cn/glm-coding",
-        "state": "shell",
-        "error": "原始抓取只有 125 字符（JS 空壳），浏览器兜底失败：浏览器取到的正文为空",
-        "httpStatus": 200
-      },
-      {
-        "url": "https://open.bigmodel.cn/pricing",
-        "state": "shell",
-        "error": "原始抓取只有 0 字符（JS 空壳），浏览器兜底失败：浏览器取到的正文为空",
-        "httpStatus": null
-      },
-      {
-        "url": "https://platform.minimaxi.com/subscribe/token-plan",
-        "state": "shell",
-        "error": "原始抓取只有 16 字符（JS 空壳），浏览器兜底失败：浏览器取到的正文为空",
-        "httpStatus": 200
-      },
-      {
-        "url": "https://www.kimi.com/membership/pricing",
-        "state": "shell",
-        "error": "原始抓取只有 33 字符（JS 空壳），浏览器兜底失败：浏览器取到的正文为空",
-        "httpStatus": 200
-      },
-      {
-        "url": "https://www.volcengine.com/docs/ark/model-pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": null
-      }
-    ]
   }
 ]
