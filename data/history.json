@@ -1,5 +1,55 @@
 [
   {
+    "at": "2026-10-01T18:28:28.610Z",
+    "trigger": "cli",
+    "durationMs": 18969,
+    "fx": {
+      "USDCNY": 6.716878,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 2,
+      "flaky": 1,
+      "shell": 0,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://commandcode.ai/docs/resources/pricing-limits",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://open.bigmodel.cn/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://www.kimi.com/membership/pricing",
+        "state": "flaky",
+        "error": null,
+        "httpStatus": null
+      }
+    ]
+  },
+  {
     "at": "2026-10-01T06:08:23.169Z",
     "trigger": "cli",
     "durationMs": 37450,
@@ -1571,25 +1621,6 @@
     },
     "counts": {
       "total": 30,
-      "changed": 0,
-      "flaky": 0,
-      "shell": 0,
-      "unreachable": 0
-    },
-    "problems": []
-  },
-  {
-    "at": "2026-09-18T18:01:36.538Z",
-    "trigger": "cli",
-    "durationMs": 63439,
-    "fx": {
-      "USDCNY": 6.721845,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 26,
       "changed": 0,
       "flaky": 0,
       "shell": 0,
