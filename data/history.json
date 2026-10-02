@@ -1,5 +1,73 @@
 [
   {
+    "at": "2026-10-02T17:55:08.954Z",
+    "trigger": "cli",
+    "durationMs": 35666,
+    "fx": {
+      "USDCNY": 6.714553,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 6,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://antigravity.google/blog/changes-to-antigravity-plans",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://claude.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://commandcode.ai/docs/resources/pricing-limits",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://developers.openai.com/api/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://opencode.ai/docs/zen",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://x.ai/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      }
+    ]
+  },
+  {
     "at": "2026-10-02T05:49:30.711Z",
     "trigger": "cli",
     "durationMs": 19782,
@@ -1645,24 +1713,5 @@
         "httpStatus": null
       }
     ]
-  },
-  {
-    "at": "2026-09-18T18:20:09.177Z",
-    "trigger": "cli",
-    "durationMs": 64150,
-    "fx": {
-      "USDCNY": 6.721845,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 30,
-      "changed": 0,
-      "flaky": 0,
-      "shell": 0,
-      "unreachable": 0
-    },
-    "problems": []
   }
 ]
