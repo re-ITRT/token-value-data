@@ -1,5 +1,43 @@
 [
   {
+    "at": "2026-10-03T16:29:16.378Z",
+    "trigger": "cli",
+    "durationMs": 27982,
+    "fx": {
+      "USDCNY": 6.714383,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 1,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://www.kimi.com/membership/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      }
+    ]
+  },
+  {
     "at": "2026-10-03T05:26:00.719Z",
     "trigger": "cli",
     "durationMs": 21732,
@@ -1712,24 +1750,5 @@
         "httpStatus": 200
       }
     ]
-  },
-  {
-    "at": "2026-09-18T19:47:20.114Z",
-    "trigger": "cli",
-    "durationMs": 64795,
-    "fx": {
-      "USDCNY": 6.721845,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 29,
-      "changed": 0,
-      "flaky": 0,
-      "shell": 0,
-      "unreachable": 0
-    },
-    "problems": []
   }
 ]
