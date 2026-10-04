@@ -1,5 +1,37 @@
 [
   {
+    "at": "2026-10-04T06:01:41.614Z",
+    "trigger": "cli",
+    "durationMs": 19964,
+    "fx": {
+      "USDCNY": 6.72008,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 0,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      }
+    ]
+  },
+  {
     "at": "2026-10-03T16:29:16.378Z",
     "trigger": "cli",
     "durationMs": 27982,
@@ -1722,32 +1754,6 @@
         "state": "unreachable",
         "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted addresses: 31.43.161.6:443, 31.43.160.6:443, timeout: 10000ms)",
         "httpStatus": null
-      }
-    ]
-  },
-  {
-    "at": "2026-09-18T19:48:42.391Z",
-    "trigger": "cli",
-    "durationMs": 82162,
-    "fx": {
-      "USDCNY": 6.721845,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 29,
-      "changed": 1,
-      "flaky": 0,
-      "shell": 0,
-      "unreachable": 0
-    },
-    "problems": [
-      {
-        "url": "https://www.volcengine.com/docs/ark/agent-plan-personal-afp-credits-billing-rules?lang=zh",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
       }
     ]
   }
