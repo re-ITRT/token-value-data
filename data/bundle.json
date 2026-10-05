@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-10-04T16:54:12.611Z",
-  "nextRunAt": "2026-10-05T04:53:51.779Z",
+  "generatedAt": "2026-10-05T05:51:24.229Z",
+  "nextRunAt": "2026-10-05T17:51:05.347Z",
   "intervalMs": 43200000,
   "fx": {
-    "USDCNY": 6.72008,
+    "USDCNY": 6.710363,
     "source": "open.er-api.com",
-    "fetchedAt": "2026-10-04T16:53:52.943Z",
+    "fetchedAt": "2026-10-05T05:51:06.062Z",
     "stale": false,
     "attempts": [
       {
         "endpoint": "open.er-api.com",
         "url": "https://open.er-api.com/v6/latest/USD",
         "ok": true,
-        "rate": 6.72008,
-        "ms": 1163
+        "rate": 6.710363,
+        "ms": 713
       }
     ]
   },
   "state": {
     "trigger": "cli",
-    "generatedAt": "2026-10-04T16:53:51.779Z",
-    "finishedAt": "2026-10-04T16:54:12.611Z",
-    "durationMs": 20832,
-    "nextRunAt": "2026-10-05T04:53:51.779Z",
+    "generatedAt": "2026-10-05T05:51:05.347Z",
+    "finishedAt": "2026-10-05T05:51:24.229Z",
+    "durationMs": 18882,
+    "nextRunAt": "2026-10-05T17:51:05.347Z",
     "fx": {
-      "USDCNY": 6.72008,
+      "USDCNY": 6.710363,
       "source": "open.er-api.com",
-      "fetchedAt": "2026-10-04T16:53:52.943Z",
+      "fetchedAt": "2026-10-05T05:51:06.062Z",
       "stale": false,
       "attempts": [
         {
           "endpoint": "open.er-api.com",
           "url": "https://open.er-api.com/v6/latest/USD",
           "ok": true,
-          "rate": 6.72008,
-          "ms": 1163
+          "rate": 6.710363,
+          "ms": 713
         }
       ]
     },
@@ -42,9 +42,9 @@
       "total": 38,
       "changed": 0,
       "unreachable": 2,
-      "flaky": 1,
+      "flaky": 0,
       "shell": 0,
-      "problems": 3,
+      "problems": 2,
       "details": [
         {
           "url": "https://ai.google.dev/gemini-api/docs/pricing",
@@ -57,9 +57,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 5978,
-          "checkedAt": "2026-10-04T16:53:57.873Z",
-          "lastGoodAt": "2026-10-04T16:53:57.873Z"
+          "ms": 3755,
+          "checkedAt": "2026-10-05T05:51:09.199Z",
+          "lastGoodAt": "2026-10-05T05:51:09.199Z"
         },
         {
           "url": "https://antigravity.google/blog/changes-to-antigravity-plans",
@@ -72,9 +72,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 1154,
-          "checkedAt": "2026-10-04T16:53:53.017Z",
-          "lastGoodAt": "2026-10-04T16:53:53.017Z"
+          "ms": 1147,
+          "checkedAt": "2026-10-05T05:51:06.575Z",
+          "lastGoodAt": "2026-10-05T05:51:06.575Z"
         },
         {
           "url": "https://antigravity.google/docs/plans",
@@ -87,9 +87,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 1322,
-          "checkedAt": "2026-10-04T16:53:53.183Z",
-          "lastGoodAt": "2026-10-04T16:53:53.183Z"
+          "ms": 1169,
+          "checkedAt": "2026-10-05T05:51:06.595Z",
+          "lastGoodAt": "2026-10-05T05:51:06.595Z"
         },
         {
           "url": "https://api-docs.deepseek.com/quick_start/pricing",
@@ -102,9 +102,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 5326,
-          "checkedAt": "2026-10-04T16:53:57.196Z",
-          "lastGoodAt": "2026-10-04T16:53:57.196Z"
+          "ms": 3431,
+          "checkedAt": "2026-10-05T05:51:08.862Z",
+          "lastGoodAt": "2026-10-05T05:51:08.862Z"
         },
         {
           "url": "https://bigmodel.cn/glm-coding",
@@ -117,16 +117,16 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": true,
-          "ms": 16104,
-          "checkedAt": "2026-10-04T16:54:07.960Z",
-          "lastGoodAt": "2026-10-04T16:54:07.960Z"
+          "ms": 15588,
+          "checkedAt": "2026-10-05T05:51:21.009Z",
+          "lastGoodAt": "2026-10-05T05:51:21.009Z"
         },
         {
           "url": "https://chatgpt.com/codex/pricing",
           "state": "unreachable",
           "httpStatus": 403,
           "error": "HTTP 403",
-          "ms": 1104
+          "ms": 973
         },
         {
           "url": "https://claude.com/pricing",
@@ -139,9 +139,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 1392,
-          "checkedAt": "2026-10-04T16:53:53.250Z",
-          "lastGoodAt": "2026-10-04T16:53:53.250Z"
+          "ms": 1221,
+          "checkedAt": "2026-10-05T05:51:06.644Z",
+          "lastGoodAt": "2026-10-05T05:51:06.644Z"
         },
         {
           "url": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
@@ -154,9 +154,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 6039,
-          "checkedAt": "2026-10-04T16:53:57.914Z",
-          "lastGoodAt": "2026-10-04T16:53:57.914Z"
+          "ms": 4821,
+          "checkedAt": "2026-10-05T05:51:10.255Z",
+          "lastGoodAt": "2026-10-05T05:51:10.255Z"
         },
         {
           "url": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
@@ -169,9 +169,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 5856,
-          "checkedAt": "2026-10-04T16:53:57.730Z",
-          "lastGoodAt": "2026-10-04T16:53:57.730Z"
+          "ms": 4594,
+          "checkedAt": "2026-10-05T05:51:10.026Z",
+          "lastGoodAt": "2026-10-05T05:51:10.026Z"
         },
         {
           "url": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
@@ -184,9 +184,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 4794,
-          "checkedAt": "2026-10-04T16:53:56.646Z",
-          "lastGoodAt": "2026-10-04T16:53:56.646Z"
+          "ms": 2459,
+          "checkedAt": "2026-10-05T05:51:07.876Z",
+          "lastGoodAt": "2026-10-05T05:51:07.876Z"
         },
         {
           "url": "https://cloud.tencent.com/announce/detail/2432",
@@ -199,9 +199,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 1681,
-          "checkedAt": "2026-10-04T16:53:53.536Z",
-          "lastGoodAt": "2026-10-04T16:53:53.536Z"
+          "ms": 1287,
+          "checkedAt": "2026-10-05T05:51:06.707Z",
+          "lastGoodAt": "2026-10-05T05:51:06.707Z"
         },
         {
           "url": "https://cloud.tencent.com/document/product/1823/130055",
@@ -214,9 +214,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 2326,
-          "checkedAt": "2026-10-04T16:53:54.197Z",
-          "lastGoodAt": "2026-10-04T16:53:54.197Z"
+          "ms": 2982,
+          "checkedAt": "2026-10-05T05:51:08.414Z",
+          "lastGoodAt": "2026-10-05T05:51:08.414Z"
         },
         {
           "url": "https://cloud.tencent.com/document/product/1823/130060",
@@ -229,9 +229,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 2000,
-          "checkedAt": "2026-10-04T16:53:53.854Z",
-          "lastGoodAt": "2026-10-04T16:53:53.854Z"
+          "ms": 1916,
+          "checkedAt": "2026-10-05T05:51:07.334Z",
+          "lastGoodAt": "2026-10-05T05:51:07.334Z"
         },
         {
           "url": "https://commandcode.ai/docs/resources/pricing-limits",
@@ -244,9 +244,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 1382,
-          "checkedAt": "2026-10-04T16:53:53.228Z",
-          "lastGoodAt": "2026-10-04T16:53:53.228Z"
+          "ms": 854,
+          "checkedAt": "2026-10-05T05:51:06.264Z",
+          "lastGoodAt": "2026-10-05T05:51:06.264Z"
         },
         {
           "url": "https://developers.openai.com/api/docs/pricing",
@@ -259,9 +259,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 5572,
-          "checkedAt": "2026-10-04T16:53:57.469Z",
-          "lastGoodAt": "2026-10-04T16:53:57.469Z"
+          "ms": 3362,
+          "checkedAt": "2026-10-05T05:51:08.806Z",
+          "lastGoodAt": "2026-10-05T05:51:08.806Z"
         },
         {
           "url": "https://docs.x.ai/docs/pricing",
@@ -274,9 +274,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 5793,
-          "checkedAt": "2026-10-04T16:53:57.689Z",
-          "lastGoodAt": "2026-10-04T16:53:57.689Z"
+          "ms": 3473,
+          "checkedAt": "2026-10-05T05:51:08.918Z",
+          "lastGoodAt": "2026-10-05T05:51:08.918Z"
         },
         {
           "url": "https://docs.z.ai/guides/overview/pricing",
@@ -289,16 +289,16 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 4688,
-          "checkedAt": "2026-10-04T16:53:56.570Z",
-          "lastGoodAt": "2026-10-04T16:53:56.570Z"
+          "ms": 2496,
+          "checkedAt": "2026-10-05T05:51:07.934Z",
+          "lastGoodAt": "2026-10-05T05:51:07.934Z"
         },
         {
           "url": "https://help.x.com/en/using-x/x-premium",
           "state": "unreachable",
           "httpStatus": 403,
           "error": "HTTP 403",
-          "ms": 1178
+          "ms": 1244
         },
         {
           "url": "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
@@ -311,9 +311,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 5724,
-          "checkedAt": "2026-10-04T16:53:57.613Z",
-          "lastGoodAt": "2026-10-04T16:53:57.613Z"
+          "ms": 3878,
+          "checkedAt": "2026-10-05T05:51:09.321Z",
+          "lastGoodAt": "2026-10-05T05:51:09.321Z"
         },
         {
           "url": "https://mimo.mi.com/docs/zh-CN/tokenplan/subscription",
@@ -326,9 +326,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": true,
-          "ms": 17775,
-          "checkedAt": "2026-10-04T16:54:09.632Z",
-          "lastGoodAt": "2026-10-04T16:54:09.632Z"
+          "ms": 18797,
+          "checkedAt": "2026-10-05T05:51:24.219Z",
+          "lastGoodAt": "2026-10-05T05:51:24.219Z"
         },
         {
           "url": "https://ollama.com/pricing",
@@ -341,9 +341,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 973,
-          "checkedAt": "2026-10-04T16:53:52.820Z",
-          "lastGoodAt": "2026-10-04T16:53:52.820Z"
+          "ms": 893,
+          "checkedAt": "2026-10-05T05:51:06.305Z",
+          "lastGoodAt": "2026-10-05T05:51:06.305Z"
         },
         {
           "url": "https://open.bigmodel.cn/pricing",
@@ -356,9 +356,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": true,
-          "ms": 13845,
-          "checkedAt": "2026-10-04T16:54:05.721Z",
-          "lastGoodAt": "2026-10-04T16:54:05.721Z"
+          "ms": 13193,
+          "checkedAt": "2026-10-05T05:51:18.628Z",
+          "lastGoodAt": "2026-10-05T05:51:18.628Z"
         },
         {
           "url": "https://opencode.ai/docs/go",
@@ -371,9 +371,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 1343,
-          "checkedAt": "2026-10-04T16:53:53.200Z",
-          "lastGoodAt": "2026-10-04T16:53:53.200Z"
+          "ms": 1172,
+          "checkedAt": "2026-10-05T05:51:06.593Z",
+          "lastGoodAt": "2026-10-05T05:51:06.594Z"
         },
         {
           "url": "https://opencode.ai/docs/zen",
@@ -386,9 +386,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 5397,
-          "checkedAt": "2026-10-04T16:53:57.291Z",
-          "lastGoodAt": "2026-10-04T16:53:57.291Z"
+          "ms": 3307,
+          "checkedAt": "2026-10-05T05:51:08.751Z",
+          "lastGoodAt": "2026-10-05T05:51:08.751Z"
         },
         {
           "url": "https://platform.claude.com/docs/en/about-claude/pricing",
@@ -401,9 +401,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 5915,
-          "checkedAt": "2026-10-04T16:53:57.805Z",
-          "lastGoodAt": "2026-10-04T16:53:57.812Z"
+          "ms": 3562,
+          "checkedAt": "2026-10-05T05:51:09.008Z",
+          "lastGoodAt": "2026-10-05T05:51:09.008Z"
         },
         {
           "url": "https://platform.kimi.ai/docs/pricing/chat",
@@ -416,9 +416,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 4718,
-          "checkedAt": "2026-10-04T16:53:56.594Z",
-          "lastGoodAt": "2026-10-04T16:53:56.594Z"
+          "ms": 2294,
+          "checkedAt": "2026-10-05T05:51:07.729Z",
+          "lastGoodAt": "2026-10-05T05:51:07.729Z"
         },
         {
           "url": "https://platform.kimi.com/docs/pricing/chat",
@@ -431,9 +431,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 6057,
-          "checkedAt": "2026-10-04T16:53:57.943Z",
-          "lastGoodAt": "2026-10-04T16:53:57.943Z"
+          "ms": 4020,
+          "checkedAt": "2026-10-05T05:51:09.459Z",
+          "lastGoodAt": "2026-10-05T05:51:09.459Z"
         },
         {
           "url": "https://platform.minimax.io/docs/pricing",
@@ -446,9 +446,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 5883,
-          "checkedAt": "2026-10-04T16:53:57.764Z",
-          "lastGoodAt": "2026-10-04T16:53:57.764Z"
+          "ms": 3657,
+          "checkedAt": "2026-10-05T05:51:09.094Z",
+          "lastGoodAt": "2026-10-05T05:51:09.094Z"
         },
         {
           "url": "https://platform.minimaxi.com/document/price",
@@ -461,9 +461,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 9782,
-          "checkedAt": "2026-10-04T16:54:01.662Z",
-          "lastGoodAt": "2026-10-04T16:54:01.662Z"
+          "ms": 9191,
+          "checkedAt": "2026-10-05T05:51:14.627Z",
+          "lastGoodAt": "2026-10-05T05:51:14.627Z"
         },
         {
           "url": "https://platform.minimaxi.com/subscribe/token-plan",
@@ -476,9 +476,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": true,
-          "ms": 13516,
-          "checkedAt": "2026-10-04T16:54:05.372Z",
-          "lastGoodAt": "2026-10-04T16:54:05.372Z"
+          "ms": 12622,
+          "checkedAt": "2026-10-05T05:51:18.043Z",
+          "lastGoodAt": "2026-10-05T05:51:18.043Z"
         },
         {
           "url": "https://siliconflow.cn/pricing",
@@ -491,33 +491,24 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 7020,
-          "checkedAt": "2026-10-04T16:53:58.907Z",
-          "lastGoodAt": "2026-10-04T16:53:58.907Z"
+          "ms": 5109,
+          "checkedAt": "2026-10-05T05:51:10.549Z",
+          "lastGoodAt": "2026-10-05T05:51:10.549Z"
         },
         {
           "url": "https://www.kimi.com/membership/pricing",
-          "state": "flaky",
+          "state": "unchanged",
           "httpStatus": null,
           "bytes": 352,
-          "previousBytes": 1772,
-          "diffRatio": 1,
-          "numChanged": 25,
+          "previousBytes": 352,
+          "diffRatio": 0,
+          "numChanged": 0,
           "numAdded": [],
-          "numRemoved": [
-            "0",
-            "1",
-            "10",
-            "100",
-            "15",
-            "159",
-            "180",
-            "19"
-          ],
+          "numRemoved": [],
           "viaBrowser": true,
-          "ms": 7651,
-          "checkedAt": "2026-10-04T16:53:59.507Z",
-          "lastGoodAt": "2026-10-04T16:53:59.507Z"
+          "ms": 7119,
+          "checkedAt": "2026-10-05T05:51:12.540Z",
+          "lastGoodAt": "2026-10-05T05:51:12.540Z"
         },
         {
           "url": "https://www.scnet.cn/home/subject/maas/index.html",
@@ -530,9 +521,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 6189,
-          "checkedAt": "2026-10-04T16:53:58.077Z",
-          "lastGoodAt": "2026-10-04T16:53:58.077Z"
+          "ms": 4267,
+          "checkedAt": "2026-10-05T05:51:09.708Z",
+          "lastGoodAt": "2026-10-05T05:51:09.708Z"
         },
         {
           "url": "https://www.siliconflow.com/pricing",
@@ -545,9 +536,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 4872,
-          "checkedAt": "2026-10-04T16:53:56.760Z",
-          "lastGoodAt": "2026-10-04T16:53:56.760Z"
+          "ms": 3192,
+          "checkedAt": "2026-10-05T05:51:08.632Z",
+          "lastGoodAt": "2026-10-05T05:51:08.632Z"
         },
         {
           "url": "https://www.volcengine.com/docs/ark/agent-plan-personal-afp-credits-billing-rules?lang=zh",
@@ -560,9 +551,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": true,
-          "ms": 19331,
-          "checkedAt": "2026-10-04T16:54:11.180Z",
-          "lastGoodAt": "2026-10-04T16:54:11.180Z"
+          "ms": 18014,
+          "checkedAt": "2026-10-05T05:51:23.428Z",
+          "lastGoodAt": "2026-10-05T05:51:23.428Z"
         },
         {
           "url": "https://www.volcengine.com/docs/ark/model-pricing",
@@ -575,9 +566,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": true,
-          "ms": 20731,
-          "checkedAt": "2026-10-04T16:54:12.602Z",
-          "lastGoodAt": "2026-10-04T16:54:12.602Z"
+          "ms": 18160,
+          "checkedAt": "2026-10-05T05:51:23.592Z",
+          "lastGoodAt": "2026-10-05T05:51:23.592Z"
         },
         {
           "url": "https://www2.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html",
@@ -590,9 +581,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 1498,
-          "checkedAt": "2026-10-04T16:53:53.354Z",
-          "lastGoodAt": "2026-10-04T16:53:53.354Z"
+          "ms": 1619,
+          "checkedAt": "2026-10-05T05:51:07.040Z",
+          "lastGoodAt": "2026-10-05T05:51:07.040Z"
         },
         {
           "url": "https://x.ai/pricing",
@@ -605,9 +596,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 1330,
-          "checkedAt": "2026-10-04T16:53:53.194Z",
-          "lastGoodAt": "2026-10-04T16:53:53.194Z"
+          "ms": 1232,
+          "checkedAt": "2026-10-05T05:51:06.662Z",
+          "lastGoodAt": "2026-10-05T05:51:06.662Z"
         }
       ]
     }
@@ -11574,6 +11565,44 @@
   },
   "history": [
     {
+      "at": "2026-10-04T16:54:12.611Z",
+      "trigger": "cli",
+      "durationMs": 20832,
+      "fx": {
+        "USDCNY": 6.72008,
+        "source": "open.er-api.com",
+        "stale": false,
+        "error": null
+      },
+      "counts": {
+        "total": 38,
+        "changed": 0,
+        "flaky": 1,
+        "shell": 0,
+        "unreachable": 2
+      },
+      "problems": [
+        {
+          "url": "https://chatgpt.com/codex/pricing",
+          "state": "unreachable",
+          "error": "HTTP 403",
+          "httpStatus": 403
+        },
+        {
+          "url": "https://help.x.com/en/using-x/x-premium",
+          "state": "unreachable",
+          "error": "HTTP 403",
+          "httpStatus": 403
+        },
+        {
+          "url": "https://www.kimi.com/membership/pricing",
+          "state": "flaky",
+          "error": null,
+          "httpStatus": null
+        }
+      ]
+    },
+    {
       "at": "2026-10-04T06:01:41.614Z",
       "trigger": "cli",
       "durationMs": 19964,
@@ -13297,32 +13326,6 @@
           "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted addresses: 66.33.60.34:443, 76.76.21.93:443, timeout: 10000ms)",
           "httpStatus": null
         },
-        {
-          "url": "https://www.siliconflow.com/pricing",
-          "state": "unreachable",
-          "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted addresses: 31.43.161.6:443, 31.43.160.6:443, timeout: 10000ms)",
-          "httpStatus": null
-        }
-      ]
-    },
-    {
-      "at": "2026-09-18T19:50:28.550Z",
-      "trigger": "cli",
-      "durationMs": 64106,
-      "fx": {
-        "USDCNY": 6.721845,
-        "source": "open.er-api.com",
-        "stale": false,
-        "error": null
-      },
-      "counts": {
-        "total": 29,
-        "changed": 0,
-        "flaky": 0,
-        "shell": 0,
-        "unreachable": 1
-      },
-      "problems": [
         {
           "url": "https://www.siliconflow.com/pricing",
           "state": "unreachable",
