@@ -1,5 +1,37 @@
 [
   {
+    "at": "2026-10-05T20:46:56.806Z",
+    "trigger": "cli",
+    "durationMs": 21436,
+    "fx": {
+      "USDCNY": 6.710363,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 0,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      }
+    ]
+  },
+  {
     "at": "2026-10-05T05:51:24.229Z",
     "trigger": "cli",
     "durationMs": 18882,
@@ -1725,44 +1757,6 @@
     "problems": [
       {
         "url": "https://api-docs.deepseek.com/quick_start/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      }
-    ]
-  },
-  {
-    "at": "2026-09-19T05:03:36.397Z",
-    "trigger": "cli",
-    "durationMs": 118554,
-    "fx": {
-      "USDCNY": 6.714087,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 29,
-      "changed": 3,
-      "flaky": 0,
-      "shell": 0,
-      "unreachable": 0
-    },
-    "problems": [
-      {
-        "url": "https://commandcode.ai/docs/resources/pricing-limits",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://www.volcengine.com/docs/ark/agent-plan-personal-afp-credits-billing-rules?lang=zh",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://www.volcengine.com/docs/ark/model-pricing",
         "state": "changed",
         "error": null,
         "httpStatus": 200
