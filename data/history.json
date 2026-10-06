@@ -1,5 +1,67 @@
 [
   {
+    "at": "2026-10-06T18:28:03.681Z",
+    "trigger": "cli",
+    "durationMs": 18268,
+    "fx": {
+      "USDCNY": 6.714466,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 5,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://claude.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://commandcode.ai/docs/resources/pricing-limits",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://developers.openai.com/api/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://ollama.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.kimi.com/membership/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      }
+    ]
+  },
+  {
     "at": "2026-10-06T06:30:21.662Z",
     "trigger": "cli",
     "durationMs": 20898,
@@ -1673,116 +1735,6 @@
         "url": "https://platform.minimaxi.com/subscribe/token-plan",
         "state": "shell",
         "error": "原始抓取只有 0 字符（JS 空壳），浏览器兜底失败：playwright: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://platform.minimaxi.com/subscribe/token-plan\", waiting until \"networkidle\"\n",
-        "httpStatus": null
-      },
-      {
-        "url": "https://www.volcengine.com/docs/ark/model-pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": null
-      }
-    ]
-  },
-  {
-    "at": "2026-09-21T18:14:23.105Z",
-    "trigger": "cli",
-    "durationMs": 19684,
-    "fx": {
-      "USDCNY": 6.704712,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 38,
-      "changed": 12,
-      "flaky": 1,
-      "shell": 0,
-      "unreachable": 2
-    },
-    "problems": [
-      {
-        "url": "https://bigmodel.cn/glm-coding",
-        "state": "changed",
-        "error": null,
-        "httpStatus": null
-      },
-      {
-        "url": "https://chatgpt.com/codex/pricing",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://commandcode.ai/docs/resources/pricing-limits",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://help.x.com/en/using-x/x-premium",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://mimo.mi.com/docs/zh-CN/tokenplan/subscription",
-        "state": "changed",
-        "error": null,
-        "httpStatus": null
-      },
-      {
-        "url": "https://open.bigmodel.cn/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": null
-      },
-      {
-        "url": "https://platform.kimi.ai/docs/pricing/chat",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://platform.kimi.com/docs/pricing/chat",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://platform.minimaxi.com/subscribe/token-plan",
-        "state": "changed",
-        "error": null,
-        "httpStatus": null
-      },
-      {
-        "url": "https://www.kimi.com/membership/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": null
-      },
-      {
-        "url": "https://www.siliconflow.com/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://www.volcengine.com/docs/ark/agent-plan-personal-afp-credits-billing-rules?lang=zh",
-        "state": "flaky",
-        "error": null,
         "httpStatus": null
       },
       {
