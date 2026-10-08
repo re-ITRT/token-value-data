@@ -31,6 +31,7 @@ const s = JSON.parse(await readFile(FILE, 'utf8'));
 /* ---- Command Code 的模型 id → 本目录已有的 id（避免同一个模型出现两次） ---- */
 const ID_MAP = {
   'deepseek-v4.1-flash': 'deepseek-v4-1-flash',
+  'deepseek-v4.1-flash-fast': 'deepseek-v4-1-flash-fast',
   'qwen-3.8-max': 'qwen3.8-max',
   'qwen-3.8-flash': 'qwen3.8-flash',
   'qwen-3.8-27b': 'qwen3.8-27b',

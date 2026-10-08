@@ -22,11 +22,12 @@ const upsert = (arr, item) => {
 /* 1) DeepSeek V4.1 Flash 的 4x 促销额度：官方是 ~~$15~~ $60（截至 9/20） */
 const go = s.plans.find((p) => p.id === 'opencode-go');
 let promoFix = 0;
+// 2026-09-20 的 4x 促销已结束：额度按官方表当前值走，不再硬写促销说明
 for (const [id, limit] of [['deepseek-v4-1-flash', 60]]) {
   const m = go?.models?.[id];
   if (!m) continue;
-  const note = `官方单模型月额度 $${limit}（限时 4x 促销，原 $15，2026-09-20 结束）`;
-  if (m.quotaOverride !== limit || m.note !== note) { m.quotaOverride = limit; m.note = note; m.promoLimit = true; promoFix++; }
+  if (m.quotaOverride !== limit) { m.quotaOverride = limit; m.note = `官方单模型月额度 $${limit}`; promoFix++; }
+  else if (/促销|4x/.test(m.note || '')) { m.note = `官方单模型月额度 $${limit}`; promoFix++; }
 }
 
 /* 2) 控制台免费模型 */

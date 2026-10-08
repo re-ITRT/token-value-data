@@ -94,8 +94,8 @@ const slug = (name) =>
 const idOf = (name) => ALIAS[name.trim().toLowerCase()] || slug(name);
 
 /* ---- 解析 markdown 表格 ---- */
-function parseTable(text, requiredHeaderBits) {
-  const lines = text.split('\n');
+function parseTable(text, requiredHeaderBits, afterIndex = 0) {
+  const lines = text.split('\n').slice(afterIndex);
   // 必须按「表头包含哪些列」来定位表格——文档里有多张以 | Model 开头的表（端点表、定价表、额度表）
   const start = lines.findIndex((l) => {
     const low = l.trim().toLowerCase();
@@ -133,34 +133,46 @@ const addModel = (id, name, vendor, note) => {
   s.models.push({ id, name, vendor, note: note || '' });
 };
 
-/* ================= Go 订阅 ================= */
+/* ================= Go / Go Plus 订阅 ================= */
 const goText = await fetchText(`${RAW}/go.mdx`);
+// 文档里 Go 与 Go Plus 各有一张「模型 / 单价 / 月额度」表（后者在 <TabItem label="Go Plus"> 之后）
+const plusAt = goText.indexOf('label="Go Plus"');
+const plusLine = plusAt > 0 ? goText.slice(0, plusAt).split('\n').length - 1 : 0;
 const goRows = parseTable(goText, ['| model', 'monthly limit']);
-const goModels = {};
-let limitSum = 0;
-const seenLimits = new Map(); // 同一模型的峰/谷两行合并
-for (const r of goRows) {
-  const rawName = r[0];
-  const baseName = rawName.replace(/\s*\((Off-Peak|Peak|≤[^)]*|>[^)]*)\)\s*$/i, '').trim();
-  const id = idOf(baseName);
-  const inp = money(r[1]), out = money(r[2]), cache = money(r[3]), limit = money(r[5]);
-  if (inp == null || limit == null) continue;
-  addModel(id, baseName, r[0].split(' ')[0], '');
-  const u = { input: inp, cache: cache ?? inp, output: out };
-  const tier = /≤|>/.test(rawName) ? rawName.match(/\(([^)]*)\)/)?.[1] : null;
-  if (!goModels[id]) {
-    goModels[id] = { u, quotaOverride: limit, note: `官方单模型月额度 $${limit}${tier ? `（按输入长度分档，这里取 ${tier} 档）` : ''}` };
-    if (!seenLimits.has(id)) { seenLimits.set(id, limit); limitSum += limit; }
+const plusRows = plusLine > 0 ? parseTable(goText, ['| model', 'monthly limit'], plusLine) : [];
+
+function buildPlanModels(rows) {
+  const models = {};
+  let sum = 0;
+  const seen = new Set();
+  for (const r of rows) {
+    const rawName = r[0];
+    const baseName = rawName.replace(/\s*\((Off-Peak|Peak|≤[^)]*|>[^)]*)\)\s*$/i, '').trim();
+    const id = idOf(baseName);
+    const inp = money(r[1]), out = money(r[2]), cache = money(r[3]), limit = money(r[5]);
+    if (inp == null || limit == null) continue;
+    addModel(id, baseName, r[0].split(' ')[0], '');
+    const u = { input: inp, cache: cache ?? inp, output: out };
+    const tier = /≤|>/.test(rawName) ? rawName.match(/\(([^)]*)\)/)?.[1] : null;
+    if (!models[id]) {
+      models[id] = { u, quotaOverride: limit, note: `官方单模型月额度 $${limit}${tier ? `（按输入长度分档，这里取 ${tier} 档）` : ''}` };
+      if (!seen.has(id)) { seen.add(id); sum += limit; }
+    }
+    if (/peak/i.test(rawName)) {
+      // DeepSeek 系：文档给了峰/谷两行，转成时段带
+      models[id].u = { input: inp / 2, cache: (cache ?? inp) / 2, output: out / 2 }; // 谷时价
+      models[id].bands = [
+        { id: 'base', label: '谷时', mult: 1 },
+        { id: 'peak', label: '峰时', mult: 2 },
+      ];
+    }
   }
-  if (/peak/i.test(rawName)) {
-    // DeepSeek 系：文档给了峰/谷两行，转成时段带
-    goModels[id].u = { input: inp / 2, cache: (cache ?? inp) / 2, output: out / 2 }; // 谷时价
-    goModels[id].bands = [
-      { id: 'base', label: '谷时', mult: 1 },
-      { id: 'peak', label: '峰时', mult: 2 },
-    ];
-  }
+  return { models, sum };
 }
+
+const goBuilt = buildPlanModels(goRows);
+const goModels = goBuilt.models;
+const limitSum = goBuilt.sum;
 
 upsert(s.plans, {
   id: 'opencode-go',
@@ -174,11 +186,33 @@ upsert(s.plans, {
   window: '5h·周·月',
   priceVariants: [{ id: 'list', label: '月付', amount: 10 }],
   tags: ['含 API 端点'],
-  note: '额度按模型分别计算：5 小时 = 该模型月额度的 20%、周 = 50%、月 = 100%；用满某模型后它不可用，其它模型不受影响',
+  note: '额度按模型分别计算：5 小时 = 该模型月额度的 20%、周 = 50%、月 = 100%；用满某模型后它不可用（默认直接拒请求，控制台可开 Extra usage 用余额兜底）。',
   source: SRC_GO,
   verifiedAt: V,
   models: goModels,
 });
+
+// Go Plus：$40/月，额度普遍是 Go 档的 3–4 倍（2026-09 新增档）
+if (plusRows.length) {
+  const plusBuilt = buildPlanModels(plusRows);
+  upsert(s.plans, {
+    id: 'opencode-go-plus',
+    provider: 'OpenCode',
+    name: 'Go Plus',
+    kind: 'points',
+    currency: 'USD',
+    quota: plusBuilt.sum,
+    quotaUnit: 'USD 额度/月（各模型独立）',
+    period: '月',
+    window: '5h·周·月',
+    priceVariants: [{ id: 'list', label: '月付', amount: 40 }],
+    tags: ['含 API 端点'],
+    note: '2026-09 新增档：额度为 Go 档的 3–4 倍（如 GLM-5.3 $15→$120、GLM-5.3-Flash $60→$180、Kimi K2.6 $60→$240）；窗口规则同 Go（5h=月额度 20%、周=50%、月=100%）。一个工作区同时只能有 1 人订阅 Go 或 Go Plus。',
+    source: SRC_GO,
+    verifiedAt: V,
+    models: plusBuilt.models,
+  });
+}
 
 /* ================= Zen 按量 ================= */
 const zenText = await fetchText(`${RAW}/zen.mdx`);
