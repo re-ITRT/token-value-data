@@ -186,16 +186,20 @@
     "Command Code": {
       "cn": true,
       "methods": [
-        "支付宝"
+        "支付宝",
+        "加密货币",
+        "UPI"
       ],
-      "note": "支持支付宝（用户实测确认，Stripe 结账可选 Alipay；官方文档只写了信用卡手续费 4.4% + $0.30 按成本转嫁，未提支付宝）。不支持微信支付与境内银联；订阅额度只能在它家 CLI 里用，Provider API 才可自建 harness。"
+      "note": "官方支付方式页已明列：信用卡、支付宝、USDC 加密货币（Ethereum/Solana/Polygon/Base）、印度 UPI（₹，额度上限 ₹15,000）；用户实测支付宝可用。⚠️ 但服务条款（2026-09-20 更新）写着「All payments must be made in U.S. dollars and within the United States」——与官方支付页自相矛盾，支付宝路径可能受地区风控影响。自动充值仅支持已存卡的卡支付（支付宝/加密货币/UPI 不可）。订阅额度不结转、充值额度永久结转。"
     },
     "Command Code Provider API": {
       "cn": true,
       "methods": [
-        "支付宝"
+        "支付宝",
+        "加密货币",
+        "UPI"
       ],
-      "note": "支持支付宝（用户实测确认，Stripe 结账可选 Alipay；官方文档只写了信用卡手续费 4.4% + $0.30 按成本转嫁，未提支付宝）。不支持微信支付与境内银联；订阅额度只能在它家 CLI 里用，Provider API 才可自建 harness。"
+      "note": "官方支付方式页已明列：信用卡、支付宝、USDC 加密货币（Ethereum/Solana/Polygon/Base）、印度 UPI（₹，额度上限 ₹15,000）；用户实测支付宝可用。⚠️ 但服务条款（2026-09-20 更新）写着「All payments must be made in U.S. dollars and within the United States」——与官方支付页自相矛盾，支付宝路径可能受地区风控影响。自动充值仅支持已存卡的卡支付（支付宝/加密货币/UPI 不可）。订阅额度不结转、充值额度永久结转。"
     },
     "Ollama Cloud": {
       "cn": false,

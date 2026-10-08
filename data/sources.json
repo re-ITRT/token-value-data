@@ -393,7 +393,7 @@
       "id": "gpt-5.6-luna",
       "name": "GPT-5.6 Luna",
       "vendor": "OpenAI",
-      "note": ""
+      "note": "Command Code 标注该模型在中国不可用"
     },
     {
       "id": "gpt-5.5",
@@ -435,7 +435,7 @@
       "id": "gemini-3.7-flash",
       "name": "Gemini 3.7 Flash",
       "vendor": "Google",
-      "note": ""
+      "note": "Command Code 标注该模型在中国不可用"
     },
     {
       "id": "gemini-3.6-flash",
@@ -5642,7 +5642,7 @@
         "5h $3 / 周 $6 窗口",
         "额度可结转"
       ],
-      "note": "Go 档官方只公布部分模型的单模型额度（Qwen 3.7 Max / MiniMax M3 各 $20），其余模型按整池 $10 计，偏保守｜$1 为体验价（非常规刊例价）",
+      "note": "Go 档官方只公布部分模型的单模型额度（Qwen 3.7 Max / MiniMax M3 各 $20），其余模型按整池 $10 计，偏保守｜$1 为体验价（非常规刊例价）｜2026-09-28 起新用户由「整池 $10」改为按模型额度，老用户续费时自动切换；窗口：5 小时 $2 / 周 $5",
       "source": "https://commandcode.ai/docs/resources/pricing-limits",
       "verifiedAt": "2026-09-18",
       "models": {
@@ -5778,7 +5778,7 @@
             "cache": 0.06,
             "output": 1.2
           },
-          "quotaOverride": 20,
+          "quotaOverride": 8,
           "note": "官方单模型月额度 $8"
         },
         "minimax-m2.7": {
@@ -6044,7 +6044,7 @@
             "cache": 0.5,
             "output": 7.5
           },
-          "quotaOverride": 20,
+          "quotaOverride": 10,
           "note": "官方单模型月额度 $10"
         },
         "qwen-3.7-plus": {
@@ -6414,8 +6414,8 @@
             "cache": 0.3,
             "output": 15
           },
-          "quotaOverride": 60,
-          "note": "官方单模型月额度 $60"
+          "quotaOverride": 20,
+          "note": "官方单模型月额度 $20"
         },
         "kimi-k2.7-code": {
           "u": {
@@ -7320,8 +7320,8 @@
             "cache": 0.3,
             "output": 15
           },
-          "quotaOverride": 70,
-          "note": "官方单模型月额度 $70"
+          "quotaOverride": 30,
+          "note": "官方单模型月额度 $30"
         },
         "kimi-k2.7-code": {
           "u": {
@@ -12658,7 +12658,8 @@
           "quotaOverride": 60,
           "note": "官方单模型月额度 $60（按输入长度分档，这里取 ≤ 100K tokens 档）"
         }
-      }
+      },
+      "line": "opencode-go"
     },
     {
       "id": "ollama-max",
@@ -12710,7 +12711,105 @@
       "source": "https://ollama.com/pricing",
       "verifiedAt": "2026-10-09",
       "models": {},
-      "line": "ollama-team"
+      "line": "ollama"
+    },
+    {
+      "id": "cmdcode-provider",
+      "provider": "Command Code",
+      "name": "Provider",
+      "kind": "uncomputable",
+      "currency": "USD",
+      "quota": null,
+      "quotaUnit": "无套餐额度（按量付费）",
+      "period": "月",
+      "window": null,
+      "priceVariants": [
+        {
+          "id": "list",
+          "label": "月付",
+          "amount": 15
+        }
+      ],
+      "tags": [
+        "含 Provider API"
+      ],
+      "line": "cmdcode",
+      "note": "只为 Provider API 访问权（$15/月）＋按量付费；不含套餐额度。旧记录只写了「按量」｜单模型额度官方未按套餐页公开（Go/GOAT/Pro 有逐模型表，这三档没有）→ 不参与排名，避免给出错误推荐",
+      "source": "https://commandcode.ai/docs/resources/pricing-limits",
+      "verifiedAt": "2026-10-09",
+      "models": {}
+    },
+    {
+      "id": "cmdcode-max10",
+      "provider": "Command Code",
+      "name": "Max 10×",
+      "kind": "uncomputable",
+      "currency": "USD",
+      "quota": 150,
+      "quotaUnit": "USD 额度/月",
+      "period": "月",
+      "window": "5h·周·月",
+      "priceVariants": [
+        {
+          "id": "list",
+          "label": "月付",
+          "amount": 100
+        }
+      ],
+      "tags": [],
+      "line": "cmdcode",
+      "note": "每月 $150 额度；5 小时上限 $45、周上限 $90；约 230K 请求｜单模型额度官方未按套餐页公开（Go/GOAT/Pro 有逐模型表，这三档没有）→ 不参与排名，避免给出错误推荐",
+      "source": "https://commandcode.ai/docs/resources/pricing-limits",
+      "verifiedAt": "2026-10-09",
+      "models": {}
+    },
+    {
+      "id": "cmdcode-max20",
+      "provider": "Command Code",
+      "name": "Max 20×",
+      "kind": "uncomputable",
+      "currency": "USD",
+      "quota": 300,
+      "quotaUnit": "USD 额度/月",
+      "period": "月",
+      "window": "5h·周·月",
+      "priceVariants": [
+        {
+          "id": "list",
+          "label": "月付",
+          "amount": 200
+        }
+      ],
+      "tags": [],
+      "line": "cmdcode",
+      "note": "每月 $300 额度；5 小时上限 $90、周上限 $180；约 370K 请求｜单模型额度官方未按套餐页公开（Go/GOAT/Pro 有逐模型表，这三档没有）→ 不参与排名，避免给出错误推荐",
+      "source": "https://commandcode.ai/docs/resources/pricing-limits",
+      "verifiedAt": "2026-10-09",
+      "models": {}
+    },
+    {
+      "id": "cmdcode-teampro",
+      "provider": "Command Code",
+      "name": "Team Pro",
+      "kind": "uncomputable",
+      "currency": "USD",
+      "quota": 40,
+      "quotaUnit": "USD 额度/月",
+      "period": "月",
+      "window": "5h·周·月",
+      "priceVariants": [
+        {
+          "id": "list",
+          "label": "月付",
+          "amount": 40
+        }
+      ],
+      "tags": [],
+      "line": "cmdcode",
+      "note": "团队档；每月 $40 额度；5 小时上限 $12、周上限 $24｜单模型额度官方未按套餐页公开（Go/GOAT/Pro 有逐模型表，这三档没有）→ 不参与排名，避免给出错误推荐",
+      "source": "https://commandcode.ai/docs/resources/pricing-limits",
+      "verifiedAt": "2026-10-09",
+      "models": {}
     }
   ],
   "removedPlans": [

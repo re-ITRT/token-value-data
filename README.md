@@ -410,3 +410,21 @@ Google 的 AI credits 按标准 API 价扣减——这些才是可确定性换�
 - **Command Code**：条款只禁止「用机器人/脚本在本站批量注册、自动搜索或抓取网站数据」，**未禁止**把订阅额度用于自动化；保留零数据留存（zero data retention）说明。
 
 > 本目录的数据结构里没有"条款"字段——条款属于政策文本，会变化的只有价格/额度/模型，因此上面只把与**能不能买、能不能算**相关的条款写进对应条目的 note。
+### ⚠️ Command Code 抓取的坑（2026-10-09 发现并修复）
+
+`/docs/resources/pricing-limits` 页面 HTML 里内嵌的模型 JSON（`planAllowanceUsd`）存的是**促销折后值**，
+而且**促销到期后不会回退**——例如 Kimi K3 的 boost 已于 2026-10-07 到期，内嵌 JSON 仍写 GOAT `$60`，
+而套餐页渲染表格才是当前真实值 `$20`。同理 Go 档 `minimax-m3` 实际 `$8`、`qwen-3.7-max` `$10`（JSON 都写 $20）。
+
+因此额度**一律以套餐页的「Monthly credits」表为准**（该表在服务端渲染的 HTML 里，可直接抓）：
+
+```bash
+node tools/sync-cc-allowances.mjs          # 只看差异
+node tools/sync-cc-allowances.mjs --write  # 应用到 sources.json
+```
+
+流程：`sync-commandcode.mjs`（拿模型清单与单价）→ `sync-cc-allowances.mjs --write`（用表格校正额度）→ 其余 patch。
+
+**另外**：Command Code 2026-09-20 更新了服务条款，新增一人一号（多号永久封禁不退款）、
+「付款须为美元且在美国境内」（与官方支付页列出的支付宝/加密货币/UPI **自相矛盾**）、额度上限 1:1、不退款规定；
+官方支付页已明列**支付宝**。两个模型被标注**中国不可用**：GPT-5.6 Luna、Gemini 3.7 Flash。
