@@ -70,8 +70,8 @@ if (go) {
 }
 pay.providers['OpenCode'] = {
   cn: true,
-  methods: ['支付宝'],
-  note: '支持支付宝（Go 订阅页「其他付款方式」只有 Alipay 与 UPI；有 2026-08-11 的 $5 支付宝成功付款记录）。不支持微信支付，也无独立境内银联入口；默认走 Stripe 信用卡（手续费 4.4% + $0.30 按成本转嫁）。社区多次报告支付宝在 Stripe 结账时校验失败，时好时坏。',
+  methods: ['支付宝', '微信'],
+  note: '支持支付宝与微信支付（官方 billing 文档列出 Card / Link / Alipay / UPI / WeChat Pay 五种；手续费 4.6% + $0.31，旧 Zen 文档仍写 4.4% + $0.30，两处口径不一致）。不支持境内银联。Go 超额后可由余额兜底（v2 中该项由「Use balance」更名为「Extra usage」）。',
 };
 pay.providers['OpenCode Zen'] = { ...pay.providers['OpenCode'] };
 

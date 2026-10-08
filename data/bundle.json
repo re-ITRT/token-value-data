@@ -15434,16 +15434,18 @@
     "OpenCode": {
       "cn": true,
       "methods": [
-        "支付宝"
+        "支付宝",
+        "微信"
       ],
-      "note": "用户实测国内可直接支付（官方文档只写了信用卡手续费 4.4% + $0.30，收款走 Stripe，Stripe 对中国用户可走支付宝）"
+      "note": "支持支付宝与微信支付（官方 billing 文档列出 Card / Link / Alipay / UPI / WeChat Pay 五种；手续费 4.6% + $0.31，旧 Zen 文档仍写 4.4% + $0.30，两处口径不一致）。不支持境内银联。Go 超额后可由余额兜底（v2 中该项由「Use balance」更名为「Extra usage」）。"
     },
     "OpenCode Zen": {
       "cn": true,
       "methods": [
-        "支付宝"
+        "支付宝",
+        "微信"
       ],
-      "note": "用户实测国内可直接支付（官方文档只写了信用卡手续费 4.4% + $0.30，收款走 Stripe，Stripe 对中国用户可走支付宝）"
+      "note": "支持支付宝与微信支付（官方 billing 文档列出 Card / Link / Alipay / UPI / WeChat Pay 五种；手续费 4.6% + $0.31，旧 Zen 文档仍写 4.4% + $0.30，两处口径不一致）。不支持境内银联。Go 超额后可由余额兜底（v2 中该项由「Use balance」更名为「Extra usage」）。"
     },
     "xAI 官方": {
       "cn": false,
