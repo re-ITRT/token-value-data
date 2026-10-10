@@ -59,8 +59,8 @@
     "bytes": 2739,
     "shingleCount": 26,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:44.173Z",
-    "lastGoodAt": "2026-10-10T06:00:44.173Z"
+    "checkedAt": "2026-10-10T17:23:14.118Z",
+    "lastGoodAt": "2026-10-10T17:23:14.118Z"
   },
   "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html": {
     "shingles": [
@@ -119,8 +119,8 @@
     "bytes": 1935,
     "shingleCount": 18,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:43.852Z",
-    "lastGoodAt": "2026-10-10T06:00:43.852Z"
+    "checkedAt": "2026-10-10T17:23:12.051Z",
+    "lastGoodAt": "2026-10-10T17:23:12.051Z"
   },
   "https://www2.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html": {
     "shingles": [
@@ -299,8 +299,8 @@
     "bytes": 5578,
     "shingleCount": 54,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:42.581Z",
-    "lastGoodAt": "2026-10-10T06:00:42.581Z"
+    "checkedAt": "2026-10-10T17:23:09.916Z",
+    "lastGoodAt": "2026-10-10T17:23:09.916Z"
   },
   "https://cloud.tencent.com/announce/detail/2432": {
     "shingles": [
@@ -367,8 +367,8 @@
     "bytes": 1752,
     "shingleCount": 16,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:42.400Z",
-    "lastGoodAt": "2026-10-10T06:00:42.400Z"
+    "checkedAt": "2026-10-10T17:23:09.623Z",
+    "lastGoodAt": "2026-10-10T17:23:09.623Z"
   },
   "https://cloud.tencent.com/document/product/1823/130060": {
     "shingles": [
@@ -561,8 +561,8 @@
     "bytes": 7262,
     "shingleCount": 71,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:42.806Z",
-    "lastGoodAt": "2026-10-10T06:00:42.806Z"
+    "checkedAt": "2026-10-10T17:23:10.187Z",
+    "lastGoodAt": "2026-10-10T17:23:10.187Z"
   },
   "https://help.aliyun.com/zh/model-studio/token-plan-overview": {
     "shingles": [
@@ -969,8 +969,8 @@
     "bytes": 20325,
     "shingleCount": 202,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:44.836Z",
-    "lastGoodAt": "2026-10-10T06:00:44.836Z"
+    "checkedAt": "2026-10-10T17:23:14.203Z",
+    "lastGoodAt": "2026-10-10T17:23:14.203Z"
   },
   "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya": {
     "shingles": [
@@ -1423,8 +1423,8 @@
     "bytes": 24256,
     "shingleCount": 241,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:44.690Z",
-    "lastGoodAt": "2026-10-10T06:00:44.690Z"
+    "checkedAt": "2026-10-10T17:23:12.890Z",
+    "lastGoodAt": "2026-10-10T17:23:12.890Z"
   },
   "https://help.aliyun.com/zh/model-studio/coding-plan": {
     "shingles": [
@@ -2084,8 +2084,8 @@
     "bytes": 19900,
     "shingleCount": 198,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:43.980Z",
-    "lastGoodAt": "2026-10-10T06:00:43.980Z"
+    "checkedAt": "2026-10-10T17:23:11.279Z",
+    "lastGoodAt": "2026-10-10T17:23:11.279Z"
   },
   "https://www.scnet.cn/home/subject/maas/index.html": {
     "shingles": [
@@ -2096,61 +2096,61 @@
       "9d777b557091",
       "023e9b9c5443",
       "2a456f94f8b4",
-      "cb7baf6691c9",
-      "a6539dc131f8",
-      "a6cfb0c83066",
-      "14fc2c001b6c",
-      "6f5a0f4cd140",
-      "c8f1b5f9d898",
-      "d8326e5a46c2",
-      "dbff27df52f5",
-      "4e00cf622cf4",
-      "c5c4e4d29e5c",
-      "5e8980410ddc",
-      "1480a6c6b494",
-      "122bc2d1817e",
-      "777fa2afb0a0",
-      "77d25d9c8f50",
-      "e847302cc1c6",
-      "51b3efc233a9",
-      "83aff68ce339",
-      "b5817f083943",
-      "08a5bf77ff57",
-      "511b13b29d3e",
-      "19f036e7850f",
-      "b86ad25dd1a3",
-      "4d627e7b14b8",
-      "eff7a4598249",
-      "3529412e755a",
-      "b093bb9a47b3",
-      "40f7c32202b4",
-      "faeb5fd5de3a",
-      "efe2c68b37c9",
-      "762d4063d79d",
-      "712cd93115a5",
-      "c50b2137102c",
-      "b5c2b80f4459",
-      "afd0db06af4f",
-      "e6386c3904e1",
-      "4de46bf4d57b",
-      "258118221518",
-      "293b6753f023",
-      "d0e130a640d8",
-      "367ea45a8c81",
-      "4ed45e7a7192",
-      "9e8e17164be8",
-      "667086ab7de3",
-      "8f5c68160ff9",
-      "f42404ac4fdc",
-      "b53e30db726e",
-      "f67c2b6c37ca",
-      "eccaffa7d6bb",
-      "2e7eab3abb09",
-      "95c0ba30bba7",
-      "76272b1e7a2d",
-      "efe418260bee",
-      "d357714abb86",
-      "2e0768c46be5"
+      "7543dcf1ac73",
+      "24b18f26f687",
+      "c6a3db5e2c0e",
+      "7db40dcf4146",
+      "18d0312db42c",
+      "94dc24be9020",
+      "40a8e7b9e9fe",
+      "6645145d4dd5",
+      "c5d29a146e5a",
+      "78808b26e6da",
+      "4894080bd51d",
+      "6c306e5f5485",
+      "813981d40e60",
+      "464454e211f5",
+      "466c45f65fe1",
+      "4d9323465988",
+      "8e71f22aca1e",
+      "893652128d4f",
+      "feff0bb2d696",
+      "13660ea1963e",
+      "9cb1877d071b",
+      "b9e0df536ddf",
+      "15a2eb0b1f78",
+      "c98d1e2c2d9c",
+      "d3aafeba0a20",
+      "41d98a844adb",
+      "9073cbe87193",
+      "4839a44c15fb",
+      "3f412d5042e8",
+      "aabcfa78af0f",
+      "951cd75ea34d",
+      "bd31c7db24c9",
+      "021a2e8e7e62",
+      "b05cf1096cde",
+      "7d34d9a7ab6d",
+      "d92535eb32d6",
+      "c3103bc3b39f",
+      "b5f70160551a",
+      "f5c14a23055a",
+      "2bddc5cb3406",
+      "c982aeaaa41f",
+      "fe0ad48c5666",
+      "0d079733a2b7",
+      "7057b6a004a0",
+      "5a86c351282d",
+      "972b53ff6fe6",
+      "02e47ac982c8",
+      "87766d3ebd73",
+      "ba9460a34d26",
+      "e9f0dd2cc94d",
+      "c7c24a3f87b8",
+      "0109776cbdc0",
+      "fcb560c90a1f",
+      "6cfb8e632fcd",
+      "0d4aa968df38"
     ],
     "numbers": [
       "0",
@@ -2245,7 +2245,7 @@
       "991"
     ],
     "lines": [
-      "51fb24a3e07a",
+      "a0377c73cfd0",
       "04e16630700c",
       "ed7c42b4190e",
       "79c6dad395f5",
@@ -2302,12 +2302,12 @@
       "63311576a347",
       "dbeca97aa4c4"
     ],
-    "hash": "069df32e2f6a57d6",
-    "bytes": 6399,
+    "hash": "3e9014bc07ae5770",
+    "bytes": 6393,
     "shingleCount": 62,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:45.216Z",
-    "lastGoodAt": "2026-10-10T06:00:45.216Z"
+    "checkedAt": "2026-10-10T17:23:13.835Z",
+    "lastGoodAt": "2026-10-10T17:23:13.835Z"
   },
   "https://help.aliyun.com/zh/model-studio/model-pricing": {
     "shingles": [
@@ -4194,8 +4194,8 @@
     "bytes": 4137,
     "shingleCount": 40,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:46.162Z",
-    "lastGoodAt": "2026-10-10T06:00:46.162Z"
+    "checkedAt": "2026-10-10T17:23:14.258Z",
+    "lastGoodAt": "2026-10-10T17:23:14.258Z"
   },
   "https://www.volcengine.com/docs/ark/agent-plan-personal-afp-credits-billing-rules?lang=zh": {
     "shingles": [
@@ -4430,8 +4430,8 @@
     "bytes": 8237,
     "shingleCount": 81,
     "mode": "browser",
-    "checkedAt": "2026-10-10T06:01:01.481Z",
-    "lastGoodAt": "2026-10-10T06:01:01.481Z"
+    "checkedAt": "2026-10-10T17:23:29.115Z",
+    "lastGoodAt": "2026-10-10T17:23:29.115Z"
   },
   "https://commandcode.ai/docs/plans/pro": {
     "shingles": [
@@ -5104,31 +5104,34 @@
       "c0f80e78cb13",
       "f2598fcffe1a",
       "97c5aa8ff023",
-      "5f005b17274a",
-      "5a87fdfb2577",
-      "ca93aa4865b7",
-      "5ff1f86e8a1d",
-      "99e20c134b60",
-      "8c1b160aab92",
-      "26af6e61b6fd",
-      "77f1df53e826",
-      "3b0a09e7c95f",
-      "01fd6b67705b",
-      "c5c318e3d2f5",
-      "770a8db10eaf",
-      "d0b2605db751",
-      "d5e810e7c05a",
-      "e63daa80bd90",
-      "06aa096cd4d4",
-      "f55cf4f00d4f",
-      "273f33219352",
-      "e9570e8a2885",
-      "b581638603b3",
-      "b3ba4b9420f7",
-      "ba5b19a41544",
-      "dcf3bcbcb00a",
-      "a329805decef",
-      "cccaf0766413"
+      "d940e994601a",
+      "59a66106529e",
+      "fd624284f5f0",
+      "4f222a4979cc",
+      "6b046e1c9bcb",
+      "9c52687d60aa",
+      "1c6fccf9e52b",
+      "ae38d76e33da",
+      "bb1234a5fabf",
+      "9e3da26e02a7",
+      "cc3dc36a2f5d",
+      "c0c03e3d6218",
+      "8be0439f50c5",
+      "98695abb4e33",
+      "91e87688b4ba",
+      "0e5d68db1df9",
+      "f4cc41d0eb55",
+      "01cced209fe4",
+      "a5a7f64d7b67",
+      "ee443e72906a",
+      "56d1b63eb3f7",
+      "ef57e4cba1e8",
+      "780ff191c627",
+      "72bdc5edd28b",
+      "7b45ccdc371f",
+      "ef16ece9536a",
+      "2ab8da5ab3e0",
+      "b689487d287c"
     ],
     "numbers": [
       "0",
@@ -5177,7 +5180,6 @@
       "0.96",
       "0.99",
       "034",
-      "08",
       "1",
       "1.0",
       "1.00",
@@ -5411,19 +5413,24 @@
       "9c8659fdd66f",
       "992c4f409f28",
       "2344eab112fb",
-      "72a8521f36d2",
+      "2f3467cfc35b",
+      "15b58349a145",
+      "f82b94ea25a9",
       "a72a0c35897b",
       "60f6c78040a7",
       "5b0f225d1da9",
       "697d96abbe5a",
       "caee872f262e",
-      "29b002e9bb4c",
+      "9cd19c098b21",
+      "b81acdc03915",
+      "bf64eec35712",
       "d1f16dcd35fc",
       "5cbf7a0d895b",
       "84ac65fa00bb",
       "b677d7b6d69d",
       "c914b3d8971e",
-      "efeebcd479c4",
+      "aeee2c687443",
+      "5a454e76616a",
       "aaade96b8fd7",
       "9f2c480e4520",
       "e2b15c8b523f",
@@ -5437,14 +5444,14 @@
       "95848f823d3b",
       "22028e0ff7f6",
       "f7cfc8fa844e",
-      "9ddf8925e55d"
+      "33bdeb4ac0f6"
     ],
-    "hash": "67e719f404338ec0",
-    "bytes": 14992,
-    "shingleCount": 148,
+    "hash": "655251b723181d62",
+    "bytes": 15277,
+    "shingleCount": 151,
     "mode": "browser",
-    "checkedAt": "2026-10-10T06:01:04.161Z",
-    "lastGoodAt": "2026-10-10T06:01:04.161Z"
+    "checkedAt": "2026-10-10T17:23:28.792Z",
+    "lastGoodAt": "2026-10-10T17:23:28.792Z"
   },
   "https://commandcode.ai/docs/resources/pricing-limits": {
     "shingles": [
@@ -6067,8 +6074,8 @@
     "bytes": 39770,
     "shingleCount": 395,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:41.841Z",
-    "lastGoodAt": "2026-10-10T06:00:41.841Z"
+    "checkedAt": "2026-10-10T17:23:08.884Z",
+    "lastGoodAt": "2026-10-10T17:23:08.884Z"
   },
   "https://platform.minimaxi.com/document/price": {
     "shingles": [
@@ -6123,8 +6130,8 @@
     "bytes": 1491,
     "shingleCount": 13,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:49.606Z",
-    "lastGoodAt": "2026-10-10T06:00:49.606Z"
+    "checkedAt": "2026-10-10T17:23:17.875Z",
+    "lastGoodAt": "2026-10-10T17:23:17.875Z"
   },
   "https://ollama.com/pricing": {
     "shingles": [
@@ -6261,8 +6268,8 @@
     "bytes": 6465,
     "shingleCount": 63,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:41.888Z",
-    "lastGoodAt": "2026-10-10T06:00:41.888Z"
+    "checkedAt": "2026-10-10T17:23:08.693Z",
+    "lastGoodAt": "2026-10-10T17:23:08.693Z"
   },
   "https://platform.kimi.ai/docs/pricing/chat": {
     "shingles": [
@@ -6316,8 +6323,8 @@
     "bytes": 3283,
     "shingleCount": 31,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:43.566Z",
-    "lastGoodAt": "2026-10-10T06:00:43.566Z"
+    "checkedAt": "2026-10-10T17:23:11.657Z",
+    "lastGoodAt": "2026-10-10T17:23:11.657Z"
   },
   "https://commandcode.ai/pricing": {
     "shingles": [
@@ -6562,8 +6569,8 @@
     "bytes": 1449,
     "shingleCount": 13,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:44.899Z",
-    "lastGoodAt": "2026-10-10T06:00:44.899Z"
+    "checkedAt": "2026-10-10T17:23:13.378Z",
+    "lastGoodAt": "2026-10-10T17:23:13.378Z"
   },
   "https://platform.minimax.io/docs/pricing": {
     "shingles": [
@@ -6872,8 +6879,8 @@
     "bytes": 17637,
     "shingleCount": 175,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:44.548Z",
-    "lastGoodAt": "2026-10-10T06:00:44.548Z"
+    "checkedAt": "2026-10-10T17:23:13.396Z",
+    "lastGoodAt": "2026-10-10T17:23:13.396Z"
   },
   "https://docs.z.ai/guides/overview/pricing": {
     "shingles": [
@@ -6881,30 +6888,31 @@
       "2208ddb6f7f2",
       "c3778abac0aa",
       "23954602c3d1",
-      "f59eb5631637",
-      "643cf169cf13",
-      "c68db83d687b",
-      "8b510708a747",
-      "7cfe94886013",
-      "9e3892d15f83",
-      "fc522340f7d2",
-      "d74b2aa9af16",
-      "51cae8983282",
-      "5b97d4562673",
-      "90a50e2bd94f",
-      "73d71e44f6e2",
-      "e8c5830396b7",
-      "7894b09571a4",
-      "497897956c8c",
-      "618d4e02c025",
-      "32079205e5e9",
-      "e82cd4fc87ed",
-      "78a37f8b0645",
-      "6fe5189d8f7c",
-      "359c63f6e6a5",
-      "076281d2dfcf",
-      "2e3b99f74b22",
-      "e1bfadc58d17"
+      "f87e0b8d97a2",
+      "6a45560f952e",
+      "8d34935e4e60",
+      "b368ea14a91b",
+      "1888cee60a73",
+      "1666b359539b",
+      "167b8e6ce266",
+      "2fb54b71d3d9",
+      "7c24746df9ed",
+      "c69ab1e0899e",
+      "cb52bd277c6c",
+      "7f4ba765e6af",
+      "6471a7897f5d",
+      "96c0a8137c31",
+      "999b2e270c40",
+      "f7b026ae0c7e",
+      "54b3cd8e5757",
+      "2b2d270e07db",
+      "0a08400d7078",
+      "83dee7ac4a44",
+      "e08b7faaec4f",
+      "e6a9e932a545",
+      "633bf9e3a0bd",
+      "0d553d510f72",
+      "85ade5142ca4"
     ],
     "numbers": [
       "0.0024",
@@ -6954,14 +6962,14 @@
       "8.9"
     ],
     "lines": [
-      "fbc2971b8d5b"
+      "284781589b57"
     ],
-    "hash": "fb92677645f261f4",
-    "bytes": 2921,
-    "shingleCount": 28,
+    "hash": "d578c510428d59b2",
+    "bytes": 3008,
+    "shingleCount": 29,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:43.612Z",
-    "lastGoodAt": "2026-10-10T06:00:43.612Z"
+    "checkedAt": "2026-10-10T17:23:12.004Z",
+    "lastGoodAt": "2026-10-10T17:23:12.004Z"
   },
   "https://open.bigmodel.cn/pricing": {
     "shingles": [
@@ -7061,26 +7069,65 @@
     "bytes": 2547,
     "shingleCount": 24,
     "mode": "browser",
-    "checkedAt": "2026-10-10T06:01:19.265Z",
-    "lastGoodAt": "2026-10-10T06:01:19.265Z"
+    "checkedAt": "2026-10-10T17:23:22.461Z",
+    "lastGoodAt": "2026-10-10T17:23:22.461Z"
   },
   "https://www.kimi.com/membership/pricing": {
     "shingles": [
-      "2c4cfd87a287",
-      "b2176c1fbcbb"
+      "c64b38554930",
+      "c2143ca691b5",
+      "003ae30da5db",
+      "594d2d736397",
+      "53be2f9551db",
+      "eb9f12877a98",
+      "2d2a726b7abe",
+      "e01cad0a8a84",
+      "834eced53035",
+      "0a806233a196",
+      "f125beebf4a7",
+      "240b802f5b3f",
+      "7abd03a12ea3",
+      "f4b9ce5b80f1",
+      "960dfef61cde",
+      "8d17f0bbc01e"
     ],
     "numbers": [
-      "3"
+      "0",
+      "1",
+      "10",
+      "100",
+      "15",
+      "159",
+      "180",
+      "19",
+      "1908",
+      "199",
+      "2",
+      "20",
+      "25",
+      "3",
+      "31",
+      "372",
+      "39",
+      "4",
+      "480",
+      "5",
+      "50",
+      "500",
+      "79",
+      "8",
+      "948",
+      "99"
     ],
     "lines": [
-      "55291e3dfe63"
+      "be7aae93898d"
     ],
-    "hash": "03b52af5a1ccf4b6",
-    "bytes": 352,
-    "shingleCount": 2,
+    "hash": "6afd33fce5d0476c",
+    "bytes": 1772,
+    "shingleCount": 16,
     "mode": "browser",
-    "checkedAt": "2026-10-10T06:00:49.034Z",
-    "lastGoodAt": "2026-10-10T06:00:49.035Z"
+    "checkedAt": "2026-10-10T17:23:22.726Z",
+    "lastGoodAt": "2026-10-10T17:23:22.726Z"
   },
   "https://bigmodel.cn/glm-coding": {
     "shingles": [
@@ -7176,8 +7223,8 @@
     "bytes": 2840,
     "shingleCount": 27,
     "mode": "browser",
-    "checkedAt": "2026-10-10T06:00:57.303Z",
-    "lastGoodAt": "2026-10-10T06:00:57.303Z"
+    "checkedAt": "2026-10-10T17:23:18.474Z",
+    "lastGoodAt": "2026-10-10T17:23:18.474Z"
   },
   "https://platform.minimaxi.com/subscribe/token-plan": {
     "shingles": [
@@ -7266,8 +7313,8 @@
     "bytes": 2686,
     "shingleCount": 25,
     "mode": "browser",
-    "checkedAt": "2026-10-10T06:00:53.757Z",
-    "lastGoodAt": "2026-10-10T06:00:53.757Z"
+    "checkedAt": "2026-10-10T17:23:22.642Z",
+    "lastGoodAt": "2026-10-10T17:23:22.642Z"
   },
   "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go": {
     "shingles": [
@@ -7351,8 +7398,8 @@
     "bytes": 2616,
     "shingleCount": 25,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:44.758Z",
-    "lastGoodAt": "2026-10-10T06:00:44.758Z"
+    "checkedAt": "2026-10-10T17:23:13.598Z",
+    "lastGoodAt": "2026-10-10T17:23:13.598Z"
   },
   "https://www.siliconflow.com/pricing": {
     "shingles": [
@@ -7617,8 +7664,8 @@
     "bytes": 14624,
     "shingleCount": 145,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:44.013Z",
-    "lastGoodAt": "2026-10-10T06:00:44.013Z"
+    "checkedAt": "2026-10-10T17:23:12.708Z",
+    "lastGoodAt": "2026-10-10T17:23:12.708Z"
   },
   "https://mimo.mi.com/docs/zh-CN/tokenplan/subscription": {
     "shingles": [
@@ -7780,8 +7827,8 @@
     "bytes": 5157,
     "shingleCount": 50,
     "mode": "browser",
-    "checkedAt": "2026-10-10T06:00:59.659Z",
-    "lastGoodAt": "2026-10-10T06:00:59.659Z"
+    "checkedAt": "2026-10-10T17:23:27.386Z",
+    "lastGoodAt": "2026-10-10T17:23:27.386Z"
   },
   "https://antigravity.google/docs/plans": {
     "shingles": [
@@ -7845,8 +7892,8 @@
     "bytes": 4799,
     "shingleCount": 46,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:42.009Z",
-    "lastGoodAt": "2026-10-10T06:00:42.009Z"
+    "checkedAt": "2026-10-10T17:23:09.332Z",
+    "lastGoodAt": "2026-10-10T17:23:09.332Z"
   },
   "https://antigravity.google/blog/changes-to-antigravity-plans": {
     "shingles": [
@@ -7914,8 +7961,8 @@
     "bytes": 4412,
     "shingleCount": 43,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:42.416Z",
-    "lastGoodAt": "2026-10-10T06:00:42.416Z"
+    "checkedAt": "2026-10-10T17:23:09.465Z",
+    "lastGoodAt": "2026-10-10T17:23:09.465Z"
   },
   "https://x.ai/pricing": {
     "shingles": [
@@ -7970,8 +8017,8 @@
     "bytes": 3536,
     "shingleCount": 34,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:42.422Z",
-    "lastGoodAt": "2026-10-10T06:00:42.422Z"
+    "checkedAt": "2026-10-10T17:23:09.536Z",
+    "lastGoodAt": "2026-10-10T17:23:09.536Z"
   },
   "https://opencode.ai/docs/go": {
     "shingles": [
@@ -8510,8 +8557,8 @@
     "bytes": 15881,
     "shingleCount": 157,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:41.955Z",
-    "lastGoodAt": "2026-10-10T06:00:41.955Z"
+    "checkedAt": "2026-10-10T17:23:09.324Z",
+    "lastGoodAt": "2026-10-10T17:23:09.324Z"
   },
   "https://claude.com/pricing": {
     "shingles": [
@@ -8788,8 +8835,8 @@
     "bytes": 21951,
     "shingleCount": 218,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:42.456Z",
-    "lastGoodAt": "2026-10-10T06:00:42.456Z"
+    "checkedAt": "2026-10-10T17:23:09.494Z",
+    "lastGoodAt": "2026-10-10T17:23:09.494Z"
   },
   "https://opencode.ai/docs/zen": {
     "shingles": [
@@ -9198,8 +9245,8 @@
     "bytes": 17390,
     "shingleCount": 172,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:44.470Z",
-    "lastGoodAt": "2026-10-10T06:00:44.470Z"
+    "checkedAt": "2026-10-10T17:23:13.026Z",
+    "lastGoodAt": "2026-10-10T17:23:13.026Z"
   },
   "https://docs.x.ai/docs/pricing": {
     "shingles": [
@@ -9404,8 +9451,8 @@
     "bytes": 12810,
     "shingleCount": 127,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:44.240Z",
-    "lastGoodAt": "2026-10-10T06:00:44.240Z"
+    "checkedAt": "2026-10-10T17:23:13.317Z",
+    "lastGoodAt": "2026-10-10T17:23:13.317Z"
   },
   "https://developers.openai.com/api/docs/pricing": {
     "shingles": [
@@ -9715,8 +9762,8 @@
     "bytes": 20511,
     "shingleCount": 204,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:44.065Z",
-    "lastGoodAt": "2026-10-10T06:00:44.065Z"
+    "checkedAt": "2026-10-10T17:23:12.865Z",
+    "lastGoodAt": "2026-10-10T17:23:12.865Z"
   },
   "https://platform.claude.com/docs/en/about-claude/pricing": {
     "shingles": [
@@ -10144,8 +10191,8 @@
     "bytes": 29099,
     "shingleCount": 289,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:44.412Z",
-    "lastGoodAt": "2026-10-10T06:00:44.412Z"
+    "checkedAt": "2026-10-10T17:23:13.197Z",
+    "lastGoodAt": "2026-10-10T17:23:13.197Z"
   },
   "https://ai.google.dev/gemini-api/docs/pricing": {
     "shingles": [
@@ -10892,7 +10939,7 @@
     "bytes": 34339,
     "shingleCount": 342,
     "mode": "http",
-    "checkedAt": "2026-10-10T06:00:44.617Z",
-    "lastGoodAt": "2026-10-10T06:00:44.617Z"
+    "checkedAt": "2026-10-10T17:23:14.093Z",
+    "lastGoodAt": "2026-10-10T17:23:14.093Z"
   }
 }
