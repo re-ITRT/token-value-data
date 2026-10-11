@@ -1,5 +1,121 @@
 [
   {
+    "at": "2026-10-11T17:43:01.625Z",
+    "trigger": "cli",
+    "durationMs": 20873,
+    "fx": {
+      "USDCNY": 6.706851,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 1,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 15
+    },
+    "problems": [
+      {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: ai.google.dev:443, timeout: 10000ms)",
+        "httpStatus": null
+      },
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://developers.openai.com/api/docs/pricing",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: developers.openai.com:443, timeout: 10000ms)",
+        "httpStatus": null
+      },
+      {
+        "url": "https://docs.x.ai/docs/pricing",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: docs.x.ai:443, timeout: 10000ms)",
+        "httpStatus": null
+      },
+      {
+        "url": "https://docs.z.ai/guides/overview/pricing",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: docs.z.ai:443, timeout: 10000ms)",
+        "httpStatus": null
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: mimo.mi.com:443, timeout: 10000ms)",
+        "httpStatus": null
+      },
+      {
+        "url": "https://ollama.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://opencode.ai/docs/zen",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: opencode.ai:443, timeout: 10000ms)",
+        "httpStatus": null
+      },
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: platform.claude.com:443, timeout: 10000ms)",
+        "httpStatus": null
+      },
+      {
+        "url": "https://platform.kimi.ai/docs/pricing/chat",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: platform.kimi.ai:443, timeout: 10000ms)",
+        "httpStatus": null
+      },
+      {
+        "url": "https://platform.kimi.com/docs/pricing/chat",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: platform.kimi.com:443, timeout: 10000ms)",
+        "httpStatus": null
+      },
+      {
+        "url": "https://platform.minimax.io/docs/pricing",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: platform.minimax.io:443, timeout: 10000ms)",
+        "httpStatus": null
+      },
+      {
+        "url": "https://siliconflow.cn/pricing",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: siliconflow.cn:443, timeout: 10000ms)",
+        "httpStatus": null
+      },
+      {
+        "url": "https://www.scnet.cn/home/subject/maas/index.html",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: www.scnet.cn:443, timeout: 10000ms)",
+        "httpStatus": null
+      },
+      {
+        "url": "https://www.siliconflow.com/pricing",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: www.siliconflow.com:443, timeout: 10000ms)",
+        "httpStatus": null
+      }
+    ]
+  },
+  {
     "at": "2026-10-11T05:57:52.639Z",
     "trigger": "cli",
     "durationMs": 18854,
@@ -1716,56 +1832,6 @@
         "state": "unreachable",
         "error": "HTTP 403",
         "httpStatus": 403
-      }
-    ]
-  },
-  {
-    "at": "2026-09-26T16:30:39.128Z",
-    "trigger": "cli",
-    "durationMs": 46045,
-    "fx": {
-      "USDCNY": 6.724641,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 38,
-      "changed": 2,
-      "flaky": 0,
-      "shell": 1,
-      "unreachable": 2
-    },
-    "problems": [
-      {
-        "url": "https://chatgpt.com/codex/pricing",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://help.x.com/en/using-x/x-premium",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://mimo.mi.com/docs/zh-CN/tokenplan/subscription",
-        "state": "shell",
-        "error": "原始抓取只有 0 字符（JS 空壳），浏览器兜底失败：playwright: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://mimo.mi.com/docs/zh-CN/tokenplan/subscription\", waiting until \"networkidle\"\n",
-        "httpStatus": null
-      },
-      {
-        "url": "https://opencode.ai/docs/go",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://www.kimi.com/membership/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": null
       }
     ]
   }

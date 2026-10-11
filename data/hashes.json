@@ -59,8 +59,8 @@
     "bytes": 2739,
     "shingleCount": 26,
     "mode": "http",
-    "checkedAt": "2026-10-11T05:57:37.194Z",
-    "lastGoodAt": "2026-10-11T05:57:37.194Z"
+    "checkedAt": "2026-10-11T17:42:57.116Z",
+    "lastGoodAt": "2026-10-11T17:42:57.116Z"
   },
   "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html": {
     "shingles": [
@@ -119,8 +119,8 @@
     "bytes": 1935,
     "shingleCount": 18,
     "mode": "http",
-    "checkedAt": "2026-10-11T05:57:36.828Z",
-    "lastGoodAt": "2026-10-11T05:57:36.828Z"
+    "checkedAt": "2026-10-11T17:42:43.875Z",
+    "lastGoodAt": "2026-10-11T17:42:43.875Z"
   },
   "https://www2.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html": {
     "shingles": [
@@ -299,8 +299,8 @@
     "bytes": 5578,
     "shingleCount": 54,
     "mode": "http",
-    "checkedAt": "2026-10-11T05:57:35.435Z",
-    "lastGoodAt": "2026-10-11T05:57:35.435Z"
+    "checkedAt": "2026-10-11T17:42:44.646Z",
+    "lastGoodAt": "2026-10-11T17:42:44.646Z"
   },
   "https://cloud.tencent.com/announce/detail/2432": {
     "shingles": [
@@ -367,8 +367,8 @@
     "bytes": 1752,
     "shingleCount": 16,
     "mode": "http",
-    "checkedAt": "2026-10-11T05:57:35.138Z",
-    "lastGoodAt": "2026-10-11T05:57:35.138Z"
+    "checkedAt": "2026-10-11T17:42:44.242Z",
+    "lastGoodAt": "2026-10-11T17:42:44.242Z"
   },
   "https://cloud.tencent.com/document/product/1823/130060": {
     "shingles": [
@@ -561,8 +561,8 @@
     "bytes": 7262,
     "shingleCount": 71,
     "mode": "http",
-    "checkedAt": "2026-10-11T05:57:35.611Z",
-    "lastGoodAt": "2026-10-11T05:57:35.611Z"
+    "checkedAt": "2026-10-11T17:42:44.700Z",
+    "lastGoodAt": "2026-10-11T17:42:44.700Z"
   },
   "https://help.aliyun.com/zh/model-studio/token-plan-overview": {
     "shingles": [
@@ -969,8 +969,8 @@
     "bytes": 20325,
     "shingleCount": 202,
     "mode": "http",
-    "checkedAt": "2026-10-11T05:57:39.325Z",
-    "lastGoodAt": "2026-10-11T05:57:39.325Z"
+    "checkedAt": "2026-10-11T17:42:50.412Z",
+    "lastGoodAt": "2026-10-11T17:42:50.412Z"
   },
   "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya": {
     "shingles": [
@@ -1423,8 +1423,8 @@
     "bytes": 24256,
     "shingleCount": 241,
     "mode": "http",
-    "checkedAt": "2026-10-11T05:57:37.700Z",
-    "lastGoodAt": "2026-10-11T05:57:37.700Z"
+    "checkedAt": "2026-10-11T17:42:50.445Z",
+    "lastGoodAt": "2026-10-11T17:42:50.445Z"
   },
   "https://help.aliyun.com/zh/model-studio/coding-plan": {
     "shingles": [
@@ -2084,8 +2084,8 @@
     "bytes": 19900,
     "shingleCount": 198,
     "mode": "http",
-    "checkedAt": "2026-10-11T05:57:36.578Z",
-    "lastGoodAt": "2026-10-11T05:57:36.578Z"
+    "checkedAt": "2026-10-11T17:42:49.761Z",
+    "lastGoodAt": "2026-10-11T17:42:49.761Z"
   },
   "https://www.scnet.cn/home/subject/maas/index.html": {
     "shingles": [
@@ -4430,8 +4430,8 @@
     "bytes": 8237,
     "shingleCount": 81,
     "mode": "browser",
-    "checkedAt": "2026-10-11T05:57:50.515Z",
-    "lastGoodAt": "2026-10-11T05:57:50.515Z"
+    "checkedAt": "2026-10-11T17:42:58.450Z",
+    "lastGoodAt": "2026-10-11T17:42:58.450Z"
   },
   "https://commandcode.ai/docs/plans/pro": {
     "shingles": [
@@ -5450,8 +5450,8 @@
     "bytes": 15277,
     "shingleCount": 151,
     "mode": "browser",
-    "checkedAt": "2026-10-11T05:57:51.425Z",
-    "lastGoodAt": "2026-10-11T05:57:51.425Z"
+    "checkedAt": "2026-10-11T17:42:58.389Z",
+    "lastGoodAt": "2026-10-11T17:42:58.389Z"
   },
   "https://commandcode.ai/docs/resources/pricing-limits": {
     "shingles": [
@@ -6074,8 +6074,8 @@
     "bytes": 39770,
     "shingleCount": 395,
     "mode": "http",
-    "checkedAt": "2026-10-11T05:57:34.465Z",
-    "lastGoodAt": "2026-10-11T05:57:34.465Z"
+    "checkedAt": "2026-10-11T17:42:44.718Z",
+    "lastGoodAt": "2026-10-11T17:42:44.718Z"
   },
   "https://platform.minimaxi.com/document/price": {
     "shingles": [
@@ -6130,12 +6130,12 @@
     "bytes": 1491,
     "shingleCount": 13,
     "mode": "http",
-    "checkedAt": "2026-10-11T05:57:43.283Z",
-    "lastGoodAt": "2026-10-11T05:57:43.283Z"
+    "checkedAt": "2026-10-11T17:43:01.619Z",
+    "lastGoodAt": "2026-10-11T17:43:01.619Z"
   },
   "https://ollama.com/pricing": {
     "shingles": [
-      "657bf544c7d7",
+      "21a42d766f35",
       "d2f11ef5dbf9",
       "60e974a50ffc",
       "6176855db257",
@@ -6239,7 +6239,7 @@
       "120",
       "15.00",
       "16.67",
-      "182.7",
+      "182.8",
       "2.09",
       "2.40",
       "2.6",
@@ -6262,14 +6262,14 @@
       "90"
     ],
     "lines": [
-      "20b1f30354ef"
+      "a9c7b50023a8"
     ],
-    "hash": "9486a995d3b8fa5c",
+    "hash": "4ecd0acbf3e72cdf",
     "bytes": 6465,
     "shingleCount": 63,
     "mode": "http",
-    "checkedAt": "2026-10-11T05:57:34.423Z",
-    "lastGoodAt": "2026-10-11T05:57:34.423Z"
+    "checkedAt": "2026-10-11T17:42:41.236Z",
+    "lastGoodAt": "2026-10-11T17:42:41.236Z"
   },
   "https://platform.kimi.ai/docs/pricing/chat": {
     "shingles": [
@@ -7069,8 +7069,8 @@
     "bytes": 2547,
     "shingleCount": 24,
     "mode": "browser",
-    "checkedAt": "2026-10-11T05:57:48.241Z",
-    "lastGoodAt": "2026-10-11T05:57:48.241Z"
+    "checkedAt": "2026-10-11T17:42:52.810Z",
+    "lastGoodAt": "2026-10-11T17:42:52.810Z"
   },
   "https://www.kimi.com/membership/pricing": {
     "shingles": [
@@ -7126,8 +7126,8 @@
     "bytes": 1772,
     "shingleCount": 16,
     "mode": "browser",
-    "checkedAt": "2026-10-11T05:57:45.772Z",
-    "lastGoodAt": "2026-10-11T05:57:45.772Z"
+    "checkedAt": "2026-10-11T17:42:52.017Z",
+    "lastGoodAt": "2026-10-11T17:42:52.017Z"
   },
   "https://bigmodel.cn/glm-coding": {
     "shingles": [
@@ -7223,8 +7223,8 @@
     "bytes": 2840,
     "shingleCount": 27,
     "mode": "browser",
-    "checkedAt": "2026-10-11T05:57:43.372Z",
-    "lastGoodAt": "2026-10-11T05:57:43.372Z"
+    "checkedAt": "2026-10-11T17:42:54.587Z",
+    "lastGoodAt": "2026-10-11T17:42:54.587Z"
   },
   "https://platform.minimaxi.com/subscribe/token-plan": {
     "shingles": [
@@ -7313,8 +7313,8 @@
     "bytes": 2686,
     "shingleCount": 25,
     "mode": "browser",
-    "checkedAt": "2026-10-11T05:57:47.621Z",
-    "lastGoodAt": "2026-10-11T05:57:47.621Z"
+    "checkedAt": "2026-10-11T17:42:52.356Z",
+    "lastGoodAt": "2026-10-11T17:42:52.356Z"
   },
   "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go": {
     "shingles": [
@@ -7827,8 +7827,8 @@
     "bytes": 5157,
     "shingleCount": 50,
     "mode": "browser",
-    "checkedAt": "2026-10-11T05:57:52.631Z",
-    "lastGoodAt": "2026-10-11T05:57:52.631Z"
+    "checkedAt": "2026-10-11T17:42:58.586Z",
+    "lastGoodAt": "2026-10-11T17:42:58.586Z"
   },
   "https://antigravity.google/docs/plans": {
     "shingles": [
@@ -7892,8 +7892,8 @@
     "bytes": 4799,
     "shingleCount": 46,
     "mode": "http",
-    "checkedAt": "2026-10-11T05:57:34.758Z",
-    "lastGoodAt": "2026-10-11T05:57:34.758Z"
+    "checkedAt": "2026-10-11T17:42:44.834Z",
+    "lastGoodAt": "2026-10-11T17:42:44.834Z"
   },
   "https://antigravity.google/blog/changes-to-antigravity-plans": {
     "shingles": [
@@ -7961,8 +7961,8 @@
     "bytes": 4412,
     "shingleCount": 43,
     "mode": "http",
-    "checkedAt": "2026-10-11T05:57:34.796Z",
-    "lastGoodAt": "2026-10-11T05:57:34.796Z"
+    "checkedAt": "2026-10-11T17:42:44.939Z",
+    "lastGoodAt": "2026-10-11T17:42:44.939Z"
   },
   "https://x.ai/pricing": {
     "shingles": [
@@ -8017,8 +8017,8 @@
     "bytes": 3536,
     "shingleCount": 34,
     "mode": "http",
-    "checkedAt": "2026-10-11T05:57:34.849Z",
-    "lastGoodAt": "2026-10-11T05:57:34.849Z"
+    "checkedAt": "2026-10-11T17:42:48.764Z",
+    "lastGoodAt": "2026-10-11T17:42:48.764Z"
   },
   "https://opencode.ai/docs/go": {
     "shingles": [
@@ -8557,8 +8557,8 @@
     "bytes": 15881,
     "shingleCount": 157,
     "mode": "http",
-    "checkedAt": "2026-10-11T05:57:35.096Z",
-    "lastGoodAt": "2026-10-11T05:57:35.096Z"
+    "checkedAt": "2026-10-11T17:42:47.998Z",
+    "lastGoodAt": "2026-10-11T17:42:47.998Z"
   },
   "https://claude.com/pricing": {
     "shingles": [
@@ -8835,8 +8835,8 @@
     "bytes": 21951,
     "shingleCount": 218,
     "mode": "http",
-    "checkedAt": "2026-10-11T05:57:35.256Z",
-    "lastGoodAt": "2026-10-11T05:57:35.256Z"
+    "checkedAt": "2026-10-11T17:42:44.877Z",
+    "lastGoodAt": "2026-10-11T17:42:44.877Z"
   },
   "https://opencode.ai/docs/zen": {
     "shingles": [
