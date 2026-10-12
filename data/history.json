@@ -1,5 +1,91 @@
 [
   {
+    "at": "2026-10-12T21:19:21.598Z",
+    "trigger": "cli",
+    "durationMs": 21727,
+    "fx": {
+      "USDCNY": 6.700304,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 7,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 4
+    },
+    "problems": [
+      {
+        "url": "https://antigravity.google/blog/changes-to-antigravity-plans",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://commandcode.ai/docs/resources/pricing-limits",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://docs.x.ai/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://ollama.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://opencode.ai/docs/go",
+        "state": "unreachable",
+        "error": "HTTP 404",
+        "httpStatus": 404
+      },
+      {
+        "url": "https://opencode.ai/docs/zen",
+        "state": "unreachable",
+        "error": "HTTP 404",
+        "httpStatus": 404
+      },
+      {
+        "url": "https://platform.minimaxi.com/subscribe/token-plan",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://www.volcengine.com/docs/ark/agent-plan-personal-afp-credits-billing-rules?lang=zh",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      }
+    ]
+  },
+  {
     "at": "2026-10-12T06:08:26.661Z",
     "trigger": "cli",
     "durationMs": 20735,
@@ -1788,44 +1874,6 @@
         "state": "shell",
         "error": "原始抓取只有 0 字符（JS 空壳），浏览器兜底失败：playwright: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://platform.minimaxi.com/subscribe/token-plan\", waiting until \"networkidle\"\n",
         "httpStatus": null
-      }
-    ]
-  },
-  {
-    "at": "2026-09-27T17:03:29.325Z",
-    "trigger": "cli",
-    "durationMs": 31046,
-    "fx": {
-      "USDCNY": 6.729032,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 38,
-      "changed": 1,
-      "flaky": 0,
-      "shell": 0,
-      "unreachable": 2
-    },
-    "problems": [
-      {
-        "url": "https://chatgpt.com/codex/pricing",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://commandcode.ai/docs/resources/pricing-limits",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://help.x.com/en/using-x/x-premium",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
       }
     ]
   }
