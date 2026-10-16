@@ -1,5 +1,103 @@
 [
   {
+    "at": "2026-10-16T16:45:57.524Z",
+    "trigger": "cli",
+    "durationMs": 28513,
+    "fx": {
+      "USDCNY": 6.702985,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 10,
+      "flaky": 1,
+      "shell": 0,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://claude.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://cloud.tencent.com/document/product/1823/130055",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://cloud.tencent.com/document/product/1823/130060",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://commandcode.ai/docs/resources/pricing-limits",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://developers.openai.com/api/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://opencode.ai/docs/go",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://opencode.ai/docs/zen",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://siliconflow.cn/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.kimi.com/membership/pricing",
+        "state": "flaky",
+        "error": null,
+        "httpStatus": null
+      }
+    ]
+  },
+  {
     "at": "2026-10-16T04:40:55.135Z",
     "trigger": "cli",
     "durationMs": 23686,
@@ -1930,56 +2028,6 @@
       {
         "url": "https://www.kimi.com/membership/pricing",
         "state": "changed",
-        "error": null,
-        "httpStatus": null
-      }
-    ]
-  },
-  {
-    "at": "2026-10-01T18:28:28.610Z",
-    "trigger": "cli",
-    "durationMs": 18969,
-    "fx": {
-      "USDCNY": 6.716878,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 38,
-      "changed": 2,
-      "flaky": 1,
-      "shell": 0,
-      "unreachable": 2
-    },
-    "problems": [
-      {
-        "url": "https://chatgpt.com/codex/pricing",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://commandcode.ai/docs/resources/pricing-limits",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://help.x.com/en/using-x/x-premium",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://open.bigmodel.cn/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": null
-      },
-      {
-        "url": "https://www.kimi.com/membership/pricing",
-        "state": "flaky",
         "error": null,
         "httpStatus": null
       }
