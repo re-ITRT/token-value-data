@@ -1,5 +1,49 @@
 [
   {
+    "at": "2026-10-18T15:58:24.983Z",
+    "trigger": "cli",
+    "durationMs": 39258,
+    "fx": {
+      "USDCNY": 6.702912,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 2,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      }
+    ]
+  },
+  {
     "at": "2026-10-18T04:43:40.332Z",
     "trigger": "cli",
     "durationMs": 19778,
@@ -2016,44 +2060,6 @@
         "state": "unreachable",
         "error": "HTTP 403",
         "httpStatus": 403
-      }
-    ]
-  },
-  {
-    "at": "2026-10-03T16:29:16.378Z",
-    "trigger": "cli",
-    "durationMs": 27982,
-    "fx": {
-      "USDCNY": 6.714383,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 38,
-      "changed": 1,
-      "flaky": 0,
-      "shell": 0,
-      "unreachable": 2
-    },
-    "problems": [
-      {
-        "url": "https://chatgpt.com/codex/pricing",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://help.x.com/en/using-x/x-premium",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://www.kimi.com/membership/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": null
       }
     ]
   }
