@@ -1,5 +1,85 @@
 [
   {
+    "at": "2026-10-22T17:17:53.405Z",
+    "trigger": "cli",
+    "durationMs": 19606,
+    "fx": {
+      "USDCNY": 6.689327,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 8,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://commandcode.ai/docs/resources/pricing-limits",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://developers.openai.com/api/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://ollama.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://opencode.ai/docs/go",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://opencode.ai/docs/zen",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://x.ai/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      }
+    ]
+  },
+  {
     "at": "2026-10-22T04:59:36.834Z",
     "trigger": "cli",
     "durationMs": 19143,
@@ -2256,68 +2336,6 @@
         "state": "flaky",
         "error": null,
         "httpStatus": null
-      }
-    ]
-  },
-  {
-    "at": "2026-10-07T18:59:18.880Z",
-    "trigger": "cli",
-    "durationMs": 18454,
-    "fx": {
-      "USDCNY": 6.711932,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 38,
-      "changed": 5,
-      "flaky": 0,
-      "shell": 0,
-      "unreachable": 2
-    },
-    "problems": [
-      {
-        "url": "https://ai.google.dev/gemini-api/docs/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://chatgpt.com/codex/pricing",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://claude.com/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://developers.openai.com/api/docs/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://help.x.com/en/using-x/x-premium",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://ollama.com/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://platform.claude.com/docs/en/about-claude/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
       }
     ]
   }
