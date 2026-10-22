@@ -428,3 +428,40 @@ node tools/sync-cc-allowances.mjs --write  # 应用到 sources.json
 **另外**：Command Code 2026-09-20 更新了服务条款，新增一人一号（多号永久封禁不退款）、
 「付款须为美元且在美国境内」（与官方支付页列出的支付宝/加密货币/UPI **自相矛盾**）、额度上限 1:1、不退款规定；
 官方支付页已明列**支付宝**。两个模型被标注**中国不可用**：GPT-5.6 Luna、Gemini 3.7 Flash。
+## 2026-10-22 更新（距上次 13 天）
+
+CI 标记了 5 个来源页变动（腾讯云、智谱国际站、Command Code、Claude 两页），另按你要求专查了**火山 Agent Plan**。
+
+| 厂商 | 变化 |
+|---|---|
+| **Command Code** | 模型 85 → **94**（新增 Gemini 4 Argon、Muse Wonder 1.0、Muse Spark Open、MiniMax M3.1 Flash、Ling 3.1 Flash、Nemotron 3.5 Super VL、Ornith 1.5 122B、Qwen 3.8 Max Prime、Jev 1.14、DeepSeek V4.1 Flash Fast）；额度按套餐页表格校正 2 处（Go 档 minimax-m3 $8、qwen-3.7-max $10） |
+| **OpenCode** | 文档 md 源被官方移走（raw mdx 全 404），同步脚本改为解析渲染页 HTML；Go **30 → 26 个模型（池 $995）**、Go Plus **26 个（池 $3,070）**；Zen 免费模型 13 → **14** |
+| **火山 Agent Plan** | 见下节，改动最大 |
+
+### 火山方舟 Agent Plan 个人版（本次重点）
+
+**档位与额度全部重排**：
+
+| 档位 | 价格 | 月 AFP | 5h / 周 / 日 |
+|---|---|---|---|
+| Small | ¥40（2.5 折 ¥9.9） | 20,000 | 2,000 / 7,000 / 10,000 |
+| Medium | ¥200（2.5 折 **¥49.9**，旧记录缺） | 100,000 | 10,000 / 35,000 / 50,000 |
+| Large | ¥500 | **250,000（原 500,000，腰斩）** | 25,000 / 87,500 / 125,000 |
+| **Max（新增）** | **¥1,000** | **500,000** | 50,000 / 175,000 / 250,000 |
+
+四档单价已被**拉平为 0.002 元/AFP**（旧的 Large 规模优惠消失）。首 2 月 2.5 折延至 **2026-11-08**。
+
+**系数表**（输入=输出）：0.25 doubao-seed-2.0-mini｜0.5 deepseek-v4-flash、glm-5.3-flash、doubao-seed-2.1-lite、doubao-embedding-vision｜2.5 doubao-seed-evolving、minimax-m3、doubao-seed-2.1-pro｜4.5 kimi-k2.7-code、glm-5.3｜5.5 deepseek-v4-pro｜8→4.8 kimi-k2.8-preview（延至 12-14）｜2.5→1.25 deepseek-v4.1-flash（延至 12-30）｜2→1 deepseek-v4.1-flash-economy（新）｜10→5 kimi-k3（**至 10-25，即将到期**）
+
+**三个会直接影响换算的机制（旧数据完全没有）**：
+
+1. **2026-09-01 起取消输入分段系数**（原来 ≤32k ×0.67、>128k ×2），统一按模型系数计 → 短输入实际消耗上升约 49%。只改系数不改公式会把成本算低三成。
+2. **5 小时 / 周 / 日 三级限额**（日额度恒为月额度一半），已写入 `window: 5h·周·日·月`。
+3. **额度耗尽自动转后付费**（Auto、kimi-k3、kimi-k2.8-preview、glm-5.3、minimax-m3、生图生视频不支持）；**文本与向量模型禁止用于 API**，在非 AI 工具里用专属 Base URL/Key 可判滥用（停订封号）。
+
+其余：仅支持升配不支持降配；连续包季 9.7 折、包年 9.5 折（至 2028-05-19，仅首个周期）；kimi-k3 不支持 Small 档（已从该档移除）；ArkClaw 权益 2026-09-01 起 Medium 及以上不再赠送。
+
+### 顺手修的两件事
+
+- **`sync-opencode.mjs` 重写**：官方文档 md 源已下线，改为解析 `opencode.ai/docs/go|zen` 的渲染页 HTML 表格。
+- **`patch-opencode-ids-*.mjs` 改成显式重命名白名单**：初版用「点→连字符」的通用规则，把不同模型互相合并（目录一度从 184 掉到 65），已改为白名单式映射 + `-free` 后缀并回本体。
