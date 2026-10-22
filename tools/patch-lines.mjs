@@ -29,10 +29,7 @@ const LINES = [
 
 // 官方允许同周期叠加购买的（其余一律不可重复购买）
 const REPEATABLE = {
-  'scnet-token-basic': { maxCopies: 3, note: '官方 FAQ：额度用完后可直接续费，无需等下一周期' },
-  'scnet-token-standard': { maxCopies: 3, note: '官方 FAQ：额度用完后可直接续费，无需等下一周期' },
-  'scnet-token-advanced': { maxCopies: 3, note: '官方 FAQ：额度用完后可直接续费，无需等下一周期' },
-  'scnet-token-flagship': { maxCopies: 3, note: '官方 FAQ：额度用完后可直接续费，无需等下一周期' },
+  // SCNet 2026-10-22 官方页面明写：每个账号最多可同时持有 1 个 Token Plan（不区分档位）→ 不可叠加购买
 };
 
 for (const p of s.plans) {

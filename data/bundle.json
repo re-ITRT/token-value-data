@@ -1621,6 +1621,18 @@
         "name": "Flint 40B",
         "vendor": "其他",
         "note": ""
+      },
+      {
+        "id": "deepseek-v4-pro-0813",
+        "name": "DeepSeek V4 Pro 0813",
+        "vendor": "DeepSeek",
+        "note": "日期快照版模型（SCNet Token Plan 在售）"
+      },
+      {
+        "id": "deepseek-v4-flash-0731",
+        "name": "DeepSeek V4 Flash 0731",
+        "vendor": "DeepSeek",
+        "note": "日期快照版模型（SCNet Token Plan 在售）"
       }
     ],
     "apiPrices": [
@@ -11686,10 +11698,13 @@
             "amount": 30
           }
         ],
-        "tags": [],
-        "note": "官方倍率按周调整；Credits 不结转，套餐 Key 仅限官方支持的交互式 AI 工具（FAQ 明确 Dify / Postman / cURL 均在允许范围外）",
+        "tags": [
+          "单账号仅 1 个套餐",
+          "禁非交互式调用"
+        ],
+        "note": "倍率表 2026-09-01 生效、官方按周核对；Credits 按月发放、不结转。每个账号同时只能持有 1 个 Token Plan（不区分档位），且每份订阅只能生成 1 个专属 API Key（sk-tp- 开头）；Token Plan 的 Key 与通用 API Key 不互通。套餐 Key 仅限官方支持的交互式 AI 工具（OpenClaw / OpenCode / Claude Code / Cursor / CodeX / Cline / RooCode 等），FAQ 明确 Dify / Postman / cURL 在允许范围外。旗舰版含 OpenClaw 2 核 4G 实例免费使用。",
         "source": "https://www2.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html",
-        "verifiedAt": "2026-09-18",
+        "verifiedAt": "2026-10-22",
         "models": {
           "glm-5.3": {
             "u": {
@@ -11802,12 +11817,49 @@
               "output": 4941
             },
             "note": "官方倍率 0.14"
+          },
+          "glm-5": {
+            "u": {
+              "input": 9250,
+              "cache": 555,
+              "output": 39177
+            },
+            "note": "官方倍率 1.11"
+          },
+          "deepseek-v4-pro-0813": {
+            "u": {
+              "input": 9250,
+              "cache": 555,
+              "output": 39177
+            },
+            "note": "官方倍率 1.11"
+          },
+          "deepseek-v4-flash-0731": {
+            "u": {
+              "input": 3333,
+              "cache": 200,
+              "output": 14116
+            },
+            "note": "官方倍率 0.4"
+          },
+          "kimi-k2.5": {
+            "u": {
+              "input": 5417,
+              "cache": 325,
+              "output": 22943
+            },
+            "note": "官方倍率 0.65"
+          },
+          "minimax-m2.5": {
+            "u": {
+              "input": 2500,
+              "cache": 150,
+              "output": 10588
+            },
+            "note": "官方倍率 0.3"
           }
         },
-        "line": "scnet-token",
-        "repeatable": true,
-        "maxCopies": 3,
-        "repeatNote": "官方 FAQ：额度用完后可直接续费，无需等下一周期"
+        "line": "scnet-token"
       },
       {
         "id": "scnet-token-standard",
@@ -11831,10 +11883,13 @@
             "amount": 110
           }
         ],
-        "tags": [],
-        "note": "官方倍率按周调整；Credits 不结转，套餐 Key 仅限官方支持的交互式 AI 工具（FAQ 明确 Dify / Postman / cURL 均在允许范围外）",
+        "tags": [
+          "单账号仅 1 个套餐",
+          "禁非交互式调用"
+        ],
+        "note": "倍率表 2026-09-01 生效、官方按周核对；Credits 按月发放、不结转。每个账号同时只能持有 1 个 Token Plan（不区分档位），且每份订阅只能生成 1 个专属 API Key（sk-tp- 开头）；Token Plan 的 Key 与通用 API Key 不互通。套餐 Key 仅限官方支持的交互式 AI 工具（OpenClaw / OpenCode / Claude Code / Cursor / CodeX / Cline / RooCode 等），FAQ 明确 Dify / Postman / cURL 在允许范围外。旗舰版含 OpenClaw 2 核 4G 实例免费使用。",
         "source": "https://www2.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html",
-        "verifiedAt": "2026-09-18",
+        "verifiedAt": "2026-10-22",
         "models": {
           "glm-5.3": {
             "u": {
@@ -11947,12 +12002,49 @@
               "output": 4941
             },
             "note": "官方倍率 0.14"
+          },
+          "glm-5": {
+            "u": {
+              "input": 9250,
+              "cache": 555,
+              "output": 39177
+            },
+            "note": "官方倍率 1.11"
+          },
+          "deepseek-v4-pro-0813": {
+            "u": {
+              "input": 9250,
+              "cache": 555,
+              "output": 39177
+            },
+            "note": "官方倍率 1.11"
+          },
+          "deepseek-v4-flash-0731": {
+            "u": {
+              "input": 3333,
+              "cache": 200,
+              "output": 14116
+            },
+            "note": "官方倍率 0.4"
+          },
+          "kimi-k2.5": {
+            "u": {
+              "input": 5417,
+              "cache": 325,
+              "output": 22943
+            },
+            "note": "官方倍率 0.65"
+          },
+          "minimax-m2.5": {
+            "u": {
+              "input": 2500,
+              "cache": 150,
+              "output": 10588
+            },
+            "note": "官方倍率 0.3"
           }
         },
-        "line": "scnet-token",
-        "repeatable": true,
-        "maxCopies": 3,
-        "repeatNote": "官方 FAQ：额度用完后可直接续费，无需等下一周期"
+        "line": "scnet-token"
       },
       {
         "id": "scnet-token-advanced",
@@ -11976,10 +12068,13 @@
             "amount": 265
           }
         ],
-        "tags": [],
-        "note": "官方倍率按周调整；Credits 不结转，套餐 Key 仅限官方支持的交互式 AI 工具（FAQ 明确 Dify / Postman / cURL 均在允许范围外）",
+        "tags": [
+          "单账号仅 1 个套餐",
+          "禁非交互式调用"
+        ],
+        "note": "倍率表 2026-09-01 生效、官方按周核对；Credits 按月发放、不结转。每个账号同时只能持有 1 个 Token Plan（不区分档位），且每份订阅只能生成 1 个专属 API Key（sk-tp- 开头）；Token Plan 的 Key 与通用 API Key 不互通。套餐 Key 仅限官方支持的交互式 AI 工具（OpenClaw / OpenCode / Claude Code / Cursor / CodeX / Cline / RooCode 等），FAQ 明确 Dify / Postman / cURL 在允许范围外。旗舰版含 OpenClaw 2 核 4G 实例免费使用。",
         "source": "https://www2.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html",
-        "verifiedAt": "2026-09-18",
+        "verifiedAt": "2026-10-22",
         "models": {
           "glm-5.3": {
             "u": {
@@ -12092,12 +12187,49 @@
               "output": 4941
             },
             "note": "官方倍率 0.14"
+          },
+          "glm-5": {
+            "u": {
+              "input": 9250,
+              "cache": 555,
+              "output": 39177
+            },
+            "note": "官方倍率 1.11"
+          },
+          "deepseek-v4-pro-0813": {
+            "u": {
+              "input": 9250,
+              "cache": 555,
+              "output": 39177
+            },
+            "note": "官方倍率 1.11"
+          },
+          "deepseek-v4-flash-0731": {
+            "u": {
+              "input": 3333,
+              "cache": 200,
+              "output": 14116
+            },
+            "note": "官方倍率 0.4"
+          },
+          "kimi-k2.5": {
+            "u": {
+              "input": 5417,
+              "cache": 325,
+              "output": 22943
+            },
+            "note": "官方倍率 0.65"
+          },
+          "minimax-m2.5": {
+            "u": {
+              "input": 2500,
+              "cache": 150,
+              "output": 10588
+            },
+            "note": "官方倍率 0.3"
           }
         },
-        "line": "scnet-token",
-        "repeatable": true,
-        "maxCopies": 3,
-        "repeatNote": "官方 FAQ：额度用完后可直接续费，无需等下一周期"
+        "line": "scnet-token"
       },
       {
         "id": "scnet-token-flagship",
@@ -12121,10 +12253,14 @@
             "amount": 764
           }
         ],
-        "tags": [],
-        "note": "官方倍率按周调整；Credits 不结转，套餐 Key 仅限官方支持的交互式 AI 工具（FAQ 明确 Dify / Postman / cURL 均在允许范围外）",
+        "tags": [
+          "单账号仅 1 个套餐",
+          "禁非交互式调用",
+          "含 OpenClaw 实例"
+        ],
+        "note": "倍率表 2026-09-01 生效、官方按周核对；Credits 按月发放、不结转。每个账号同时只能持有 1 个 Token Plan（不区分档位），且每份订阅只能生成 1 个专属 API Key（sk-tp- 开头）；Token Plan 的 Key 与通用 API Key 不互通。套餐 Key 仅限官方支持的交互式 AI 工具（OpenClaw / OpenCode / Claude Code / Cursor / CodeX / Cline / RooCode 等），FAQ 明确 Dify / Postman / cURL 在允许范围外。旗舰版含 OpenClaw 2 核 4G 实例免费使用。",
         "source": "https://www2.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html",
-        "verifiedAt": "2026-09-18",
+        "verifiedAt": "2026-10-22",
         "models": {
           "glm-5.3": {
             "u": {
@@ -12237,12 +12373,49 @@
               "output": 4941
             },
             "note": "官方倍率 0.14"
+          },
+          "glm-5": {
+            "u": {
+              "input": 9250,
+              "cache": 555,
+              "output": 39177
+            },
+            "note": "官方倍率 1.11"
+          },
+          "deepseek-v4-pro-0813": {
+            "u": {
+              "input": 9250,
+              "cache": 555,
+              "output": 39177
+            },
+            "note": "官方倍率 1.11"
+          },
+          "deepseek-v4-flash-0731": {
+            "u": {
+              "input": 3333,
+              "cache": 200,
+              "output": 14116
+            },
+            "note": "官方倍率 0.4"
+          },
+          "kimi-k2.5": {
+            "u": {
+              "input": 5417,
+              "cache": 325,
+              "output": 22943
+            },
+            "note": "官方倍率 0.65"
+          },
+          "minimax-m2.5": {
+            "u": {
+              "input": 2500,
+              "cache": 150,
+              "output": 10588
+            },
+            "note": "官方倍率 0.3"
           }
         },
-        "line": "scnet-token",
-        "repeatable": true,
-        "maxCopies": 3,
-        "repeatNote": "官方 FAQ：额度用完后可直接续费，无需等下一周期"
+        "line": "scnet-token"
       },
       {
         "id": "mimo-token-lite",

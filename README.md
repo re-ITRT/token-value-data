@@ -465,3 +465,15 @@ CI 标记了 5 个来源页变动（腾讯云、智谱国际站、Command Code�
 
 - **`sync-opencode.mjs` 重写**：官方文档 md 源已下线，改为解析 `opencode.ai/docs/go|zen` 的渲染页 HTML 表格。
 - **`patch-opencode-ids-*.mjs` 改成显式重命名白名单**：初版用「点→连字符」的通用规则，把不同模型互相合并（目录一度从 184 掉到 65），已改为白名单式映射 + `-free` 后缀并回本体。
+## 2026-10-22 SCNet（国家超算互联网）Token Plan 复核
+
+官方页面：`https://www2.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html`
+
+- **价格与 Credits 全部未变**：基础 ¥50/活动 ¥30（60,000 Credits）、标准 ¥185/¥110（240,000）、高级 ¥440/¥265（600,000）、旗舰 ¥1274/¥764（1,800,000）
+- **「2026年9月1日扣减倍率」与已记录逐条一致**（GLM-5.3 2.29、Kimi-K3 4.12、Qwen3.8-Max 2.10…），按此补齐了原先缺的 4 个模型：**GLM-5、DeepSeek-V4-Pro-0813、DeepSeek-V4-Flash-0731、Kimi-K2.5** → 每个套餐现覆盖 **19 个模型**
+- **重要修正：每个账号最多同时持有 1 个 Token Plan（不区分档位）**。此前按「官方 FAQ：额度用完后可直接续费」记成可叠加 3 份，是错的 —— 已改为不可重复购买（`patch-lines.mjs` 里那条硬编码规则同步删掉），否则推荐器会高估能买到的额度
+- 每份订阅只能生成 **1 个专属 API Key（sk-tp- 开头）**，与通用 API Key 不互通
+- 套餐 Key 仅限官方支持的交互式 AI 工具（OpenClaw / OpenCode / Claude Code / Cursor / CodeX / Cline / RooCode），**Dify / Postman / cURL 在允许范围外**
+- 旗舰版含 OpenClaw 2 核 4G 实例免费使用
+
+脚本：`tools/patch-scnet-20261022.mjs`
