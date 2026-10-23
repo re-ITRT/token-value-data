@@ -19,9 +19,9 @@
     },
     {
       "id": "deepseek-v4-1-flash",
-      "name": "DeepSeek V4.1 Flash",
+      "name": "DeepSeek V4.1 Flash 1017",
       "vendor": "DeepSeek",
-      "note": "原生多模态版本"
+      "note": "官方 2026-10-17 将 API 模型切换为 **V4.1-Flash-1017**（权重已开源），价格未变：空闲时段 ¥1 / ¥0.02 / ¥4（未命中/命中/输出，每百万 token），高峰时段 ×2。各厂商均以「latest」跟随该版本。新增 Search / Fetch 接口 5 元/千次（2026-11-01 00:00 起计费）。"
     },
     {
       "id": "deepseek-v4-pro",
@@ -1006,6 +1006,18 @@
       "name": "DeepSeek V4 Flash 0731",
       "vendor": "DeepSeek",
       "note": "日期快照版模型（SCNet Token Plan 在售）"
+    },
+    {
+      "id": "doubao-seed-2.0-mini",
+      "name": "Doubao Seed 2.0 Mini",
+      "vendor": "字节",
+      "note": "火山 Agent Plan 系数 0.25（音频 2.5）"
+    },
+    {
+      "id": "doubao-embedding-vision",
+      "name": "Doubao Embedding Vision",
+      "vendor": "字节",
+      "note": "火山 Agent Plan 系数 0.5（向量模型，禁 API 调用）"
     }
   ],
   "apiPrices": [
@@ -3269,7 +3281,7 @@
       "out": 0.6,
       "promo": true,
       "promoNote": "峰时 ×1（$0.15 / $0.003 / $0.6）",
-      "note": "deepseek-flash（= DeepSeek-V4.1-Flash）：官方当前在售模型；谷时价 $0.15 输入 / $0.003 缓存 / $0.6 输出（每百万 token）",
+      "note": "deepseek-flash（= DeepSeek-V4.1-Flash）：官方当前在售模型；谷时价 $0.15 输入 / $0.003 缓存 / $0.6 输出（每百万 token）｜官方页标注 V4.1-Flash-1017（2026-10-17）",
       "source": "https://api-docs.deepseek.com/quick_start/pricing",
       "verifiedAt": "2026-09-19"
     },
@@ -3285,7 +3297,7 @@
       "out": 1.2,
       "promo": false,
       "promoNote": "峰时 ×2（$0.6 / $0.012 / $2.4）",
-      "note": "deepseek-flash（= DeepSeek-V4.1-Flash）：官方当前在售模型；峰时价 $0.3 输入 / $0.006 缓存 / $1.2 输出（每百万 token）",
+      "note": "deepseek-flash（= DeepSeek-V4.1-Flash）：官方当前在售模型；峰时价 $0.3 输入 / $0.006 缓存 / $1.2 输出（每百万 token）｜官方页标注 V4.1-Flash-1017（2026-10-17）",
       "source": "https://api-docs.deepseek.com/quick_start/pricing",
       "verifiedAt": "2026-09-19"
     },
@@ -8938,26 +8950,6 @@
           },
           "note": "官方抵扣系数 5.5 AFP/万 token"
         },
-        "deepseek-v4.1-flash": {
-          "u": {
-            "input": 250,
-            "cache": 250,
-            "output": 250
-          },
-          "bands": [
-            {
-              "id": "base",
-              "label": "常规系数",
-              "mult": 1
-            },
-            {
-              "id": "deal",
-              "label": "系数 5 折（延至 2026-12-30）",
-              "mult": 0.5
-            }
-          ],
-          "note": "官方抵扣系数 2.5，系数 5 折（延至 2026-12-30）（折后 1.25）"
-        },
         "deepseek-v4.1-flash-economy": {
           "u": {
             "input": 200,
@@ -8997,6 +8989,26 @@
             }
           ],
           "note": "官方抵扣系数 8，系数 6 折（延至 2026-12-14）（折后 4.8）"
+        },
+        "deepseek-v4-1-flash": {
+          "u": {
+            "input": 250,
+            "cache": 250,
+            "output": 250
+          },
+          "bands": [
+            {
+              "id": "base",
+              "label": "常规系数",
+              "mult": 1
+            },
+            {
+              "id": "deal",
+              "label": "系数 5 折（延至 2026-12-30）",
+              "mult": 0.5
+            }
+          ],
+          "note": "官方抵扣系数 2.5，系数 5 折（延至 2026-12-30）（折后 1.25）"
         }
       },
       "window": "5h·周·日·月",
@@ -9119,26 +9131,6 @@
           },
           "note": "官方抵扣系数 5.5 AFP/万 token"
         },
-        "deepseek-v4.1-flash": {
-          "u": {
-            "input": 250,
-            "cache": 250,
-            "output": 250
-          },
-          "bands": [
-            {
-              "id": "base",
-              "label": "常规系数",
-              "mult": 1
-            },
-            {
-              "id": "deal",
-              "label": "系数 5 折（延至 2026-12-30）",
-              "mult": 0.5
-            }
-          ],
-          "note": "官方抵扣系数 2.5，系数 5 折（延至 2026-12-30）（折后 1.25）"
-        },
         "deepseek-v4.1-flash-economy": {
           "u": {
             "input": 200,
@@ -9198,6 +9190,26 @@
             }
           ],
           "note": "官方抵扣系数 10，系数 5 折（至 2026-10-25）（折后 5）"
+        },
+        "deepseek-v4-1-flash": {
+          "u": {
+            "input": 250,
+            "cache": 250,
+            "output": 250
+          },
+          "bands": [
+            {
+              "id": "base",
+              "label": "常规系数",
+              "mult": 1
+            },
+            {
+              "id": "deal",
+              "label": "系数 5 折（延至 2026-12-30）",
+              "mult": 0.5
+            }
+          ],
+          "note": "官方抵扣系数 2.5，系数 5 折（延至 2026-12-30）（折后 1.25）"
         }
       },
       "window": "5h·周·日·月",
@@ -9315,26 +9327,6 @@
           },
           "note": "官方抵扣系数 5.5 AFP/万 token"
         },
-        "deepseek-v4.1-flash": {
-          "u": {
-            "input": 250,
-            "cache": 250,
-            "output": 250
-          },
-          "bands": [
-            {
-              "id": "base",
-              "label": "常规系数",
-              "mult": 1
-            },
-            {
-              "id": "deal",
-              "label": "系数 5 折（延至 2026-12-30）",
-              "mult": 0.5
-            }
-          ],
-          "note": "官方抵扣系数 2.5，系数 5 折（延至 2026-12-30）（折后 1.25）"
-        },
         "deepseek-v4.1-flash-economy": {
           "u": {
             "input": 200,
@@ -9394,6 +9386,26 @@
             }
           ],
           "note": "官方抵扣系数 10，系数 5 折（至 2026-10-25）（折后 5）"
+        },
+        "deepseek-v4-1-flash": {
+          "u": {
+            "input": 250,
+            "cache": 250,
+            "output": 250
+          },
+          "bands": [
+            {
+              "id": "base",
+              "label": "常规系数",
+              "mult": 1
+            },
+            {
+              "id": "deal",
+              "label": "系数 5 折（延至 2026-12-30）",
+              "mult": 0.5
+            }
+          ],
+          "note": "官方抵扣系数 2.5，系数 5 折（延至 2026-12-30）（折后 1.25）"
         }
       },
       "window": "5h·周·日·月",
@@ -13519,26 +13531,6 @@
           },
           "note": "官方抵扣系数 5.5 AFP/万 token"
         },
-        "deepseek-v4.1-flash": {
-          "u": {
-            "input": 250,
-            "cache": 250,
-            "output": 250
-          },
-          "bands": [
-            {
-              "id": "base",
-              "label": "常规系数",
-              "mult": 1
-            },
-            {
-              "id": "deal",
-              "label": "系数 5 折（延至 2026-12-30）",
-              "mult": 0.5
-            }
-          ],
-          "note": "官方抵扣系数 2.5，系数 5 折（延至 2026-12-30）（折后 1.25）"
-        },
         "deepseek-v4.1-flash-economy": {
           "u": {
             "input": 200,
@@ -13598,6 +13590,26 @@
             }
           ],
           "note": "官方抵扣系数 10，系数 5 折（至 2026-10-25）（折后 5）"
+        },
+        "deepseek-v4-1-flash": {
+          "u": {
+            "input": 250,
+            "cache": 250,
+            "output": 250
+          },
+          "bands": [
+            {
+              "id": "base",
+              "label": "常规系数",
+              "mult": 1
+            },
+            {
+              "id": "deal",
+              "label": "系数 5 折（延至 2026-12-30）",
+              "mult": 0.5
+            }
+          ],
+          "note": "官方抵扣系数 2.5，系数 5 折（延至 2026-12-30）（折后 1.25）"
         }
       }
     }
