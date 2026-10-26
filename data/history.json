@@ -1,5 +1,97 @@
 [
   {
+    "at": "2026-10-26T18:57:30.075Z",
+    "trigger": "cli",
+    "durationMs": 19075,
+    "fx": {
+      "USDCNY": 6.677446,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 10,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://claude.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://cloud.tencent.com/document/product/1823/130055",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://developers.openai.com/api/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://docs.z.ai/guides/overview/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://ollama.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://platform.minimax.io/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://platform.minimaxi.com/document/price",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://siliconflow.cn/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      }
+    ]
+  },
+  {
     "at": "2026-10-26T04:57:31.564Z",
     "trigger": "cli",
     "durationMs": 27139,
@@ -2202,122 +2294,6 @@
         "state": "changed",
         "error": null,
         "httpStatus": 200
-      }
-    ]
-  },
-  {
-    "at": "2026-10-11T17:43:01.625Z",
-    "trigger": "cli",
-    "durationMs": 20873,
-    "fx": {
-      "USDCNY": 6.706851,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 38,
-      "changed": 1,
-      "flaky": 0,
-      "shell": 0,
-      "unreachable": 15
-    },
-    "problems": [
-      {
-        "url": "https://ai.google.dev/gemini-api/docs/pricing",
-        "state": "unreachable",
-        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: ai.google.dev:443, timeout: 10000ms)",
-        "httpStatus": null
-      },
-      {
-        "url": "https://chatgpt.com/codex/pricing",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://developers.openai.com/api/docs/pricing",
-        "state": "unreachable",
-        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: developers.openai.com:443, timeout: 10000ms)",
-        "httpStatus": null
-      },
-      {
-        "url": "https://docs.x.ai/docs/pricing",
-        "state": "unreachable",
-        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: docs.x.ai:443, timeout: 10000ms)",
-        "httpStatus": null
-      },
-      {
-        "url": "https://docs.z.ai/guides/overview/pricing",
-        "state": "unreachable",
-        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: docs.z.ai:443, timeout: 10000ms)",
-        "httpStatus": null
-      },
-      {
-        "url": "https://help.x.com/en/using-x/x-premium",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
-        "state": "unreachable",
-        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: mimo.mi.com:443, timeout: 10000ms)",
-        "httpStatus": null
-      },
-      {
-        "url": "https://ollama.com/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://opencode.ai/docs/zen",
-        "state": "unreachable",
-        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: opencode.ai:443, timeout: 10000ms)",
-        "httpStatus": null
-      },
-      {
-        "url": "https://platform.claude.com/docs/en/about-claude/pricing",
-        "state": "unreachable",
-        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: platform.claude.com:443, timeout: 10000ms)",
-        "httpStatus": null
-      },
-      {
-        "url": "https://platform.kimi.ai/docs/pricing/chat",
-        "state": "unreachable",
-        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: platform.kimi.ai:443, timeout: 10000ms)",
-        "httpStatus": null
-      },
-      {
-        "url": "https://platform.kimi.com/docs/pricing/chat",
-        "state": "unreachable",
-        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: platform.kimi.com:443, timeout: 10000ms)",
-        "httpStatus": null
-      },
-      {
-        "url": "https://platform.minimax.io/docs/pricing",
-        "state": "unreachable",
-        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: platform.minimax.io:443, timeout: 10000ms)",
-        "httpStatus": null
-      },
-      {
-        "url": "https://siliconflow.cn/pricing",
-        "state": "unreachable",
-        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: siliconflow.cn:443, timeout: 10000ms)",
-        "httpStatus": null
-      },
-      {
-        "url": "https://www.scnet.cn/home/subject/maas/index.html",
-        "state": "unreachable",
-        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: www.scnet.cn:443, timeout: 10000ms)",
-        "httpStatus": null
-      },
-      {
-        "url": "https://www.siliconflow.com/pricing",
-        "state": "unreachable",
-        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: www.siliconflow.com:443, timeout: 10000ms)",
-        "httpStatus": null
       }
     ]
   }
