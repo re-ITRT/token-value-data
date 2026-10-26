@@ -1,5 +1,79 @@
 [
   {
+    "at": "2026-10-26T04:57:31.564Z",
+    "trigger": "cli",
+    "durationMs": 27139,
+    "fx": {
+      "USDCNY": 6.677446,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 6,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 3
+    },
+    "problems": [
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://claude.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
+        "state": "unreachable",
+        "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: cloud.baidu.com:443, timeout: 10000ms)",
+        "httpStatus": null
+      },
+      {
+        "url": "https://docs.z.ai/guides/overview/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://ollama.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://platform.kimi.ai/docs/pricing/chat",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://platform.kimi.com/docs/pricing/chat",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://platform.minimax.io/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      }
+    ]
+  },
+  {
     "at": "2026-10-25T16:32:09.025Z",
     "trigger": "cli",
     "durationMs": 21120,
@@ -2244,62 +2318,6 @@
         "state": "unreachable",
         "error": "fetch failed (UND_ERR_CONNECT_TIMEOUT) — Connect Timeout Error (attempted address: www.siliconflow.com:443, timeout: 10000ms)",
         "httpStatus": null
-      }
-    ]
-  },
-  {
-    "at": "2026-10-11T05:57:52.639Z",
-    "trigger": "cli",
-    "durationMs": 18854,
-    "fx": {
-      "USDCNY": 6.706851,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 38,
-      "changed": 4,
-      "flaky": 0,
-      "shell": 0,
-      "unreachable": 2
-    },
-    "problems": [
-      {
-        "url": "https://chatgpt.com/codex/pricing",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://developers.openai.com/api/docs/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://docs.x.ai/docs/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://help.x.com/en/using-x/x-premium",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://ollama.com/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://x.ai/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
       }
     ]
   }
