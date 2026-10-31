@@ -71,8 +71,8 @@
     "bytes": 3554,
     "shingleCount": 34,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:38.485Z",
-    "lastGoodAt": "2026-10-31T05:54:38.485Z"
+    "checkedAt": "2026-10-31T17:17:02.305Z",
+    "lastGoodAt": "2026-10-31T17:17:02.305Z"
   },
   "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html": {
     "shingles": [
@@ -132,8 +132,8 @@
     "bytes": 1942,
     "shingleCount": 18,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:35.501Z",
-    "lastGoodAt": "2026-10-31T05:54:35.501Z"
+    "checkedAt": "2026-10-31T17:17:01.989Z",
+    "lastGoodAt": "2026-10-31T17:17:01.989Z"
   },
   "https://www2.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html": {
     "shingles": [
@@ -380,8 +380,8 @@
     "bytes": 1752,
     "shingleCount": 16,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:35.628Z",
-    "lastGoodAt": "2026-10-31T05:54:35.628Z"
+    "checkedAt": "2026-10-31T17:17:00.741Z",
+    "lastGoodAt": "2026-10-31T17:17:00.741Z"
   },
   "https://cloud.tencent.com/document/product/1823/130060": {
     "shingles": [
@@ -576,8 +576,8 @@
     "bytes": 7247,
     "shingleCount": 71,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:36.127Z",
-    "lastGoodAt": "2026-10-31T05:54:36.127Z"
+    "checkedAt": "2026-10-31T17:17:01.150Z",
+    "lastGoodAt": "2026-10-31T17:17:01.150Z"
   },
   "https://help.aliyun.com/zh/model-studio/token-plan-overview": {
     "shingles": [
@@ -933,8 +933,8 @@
     "bytes": 17977,
     "shingleCount": 178,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:39.657Z",
-    "lastGoodAt": "2026-10-31T05:54:39.657Z"
+    "checkedAt": "2026-10-31T17:17:02.630Z",
+    "lastGoodAt": "2026-10-31T17:17:02.630Z"
   },
   "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya": {
     "shingles": [
@@ -1314,8 +1314,8 @@
     "bytes": 22366,
     "shingleCount": 222,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:39.021Z",
-    "lastGoodAt": "2026-10-31T05:54:39.021Z"
+    "checkedAt": "2026-10-31T17:17:03.553Z",
+    "lastGoodAt": "2026-10-31T17:17:03.553Z"
   },
   "https://help.aliyun.com/zh/model-studio/coding-plan": {
     "shingles": [
@@ -2021,8 +2021,8 @@
     "bytes": 22239,
     "shingleCount": 221,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:37.147Z",
-    "lastGoodAt": "2026-10-31T05:54:37.147Z"
+    "checkedAt": "2026-10-31T17:17:02.053Z",
+    "lastGoodAt": "2026-10-31T17:17:02.053Z"
   },
   "https://www.scnet.cn/home/subject/maas/index.html": {
     "shingles": [
@@ -2246,8 +2246,8 @@
     "bytes": 6410,
     "shingleCount": 63,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:39.531Z",
-    "lastGoodAt": "2026-10-31T05:54:39.531Z"
+    "checkedAt": "2026-10-31T17:17:03.400Z",
+    "lastGoodAt": "2026-10-31T17:17:03.400Z"
   },
   "https://help.aliyun.com/zh/model-studio/model-pricing": {
     "shingles": [
@@ -4137,8 +4137,8 @@
     "bytes": 4265,
     "shingleCount": 41,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:42.435Z",
-    "lastGoodAt": "2026-10-31T05:54:42.435Z"
+    "checkedAt": "2026-10-31T17:17:05.508Z",
+    "lastGoodAt": "2026-10-31T17:17:05.508Z"
   },
   "https://www.volcengine.com/docs/ark/agent-plan-personal-afp-credits-billing-rules?lang=zh": {
     "shingles": [
@@ -5411,8 +5411,8 @@
     "bytes": 15630,
     "shingleCount": 155,
     "mode": "browser",
-    "checkedAt": "2026-10-31T05:54:52.705Z",
-    "lastGoodAt": "2026-10-31T05:54:52.705Z"
+    "checkedAt": "2026-10-31T17:17:17.354Z",
+    "lastGoodAt": "2026-10-31T17:17:17.354Z"
   },
   "https://commandcode.ai/docs/resources/pricing-limits": {
     "shingles": [
@@ -6003,8 +6003,8 @@
     "bytes": 36681,
     "shingleCount": 365,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:34.691Z",
-    "lastGoodAt": "2026-10-31T05:54:34.691Z"
+    "checkedAt": "2026-10-31T17:17:00.218Z",
+    "lastGoodAt": "2026-10-31T17:17:00.218Z"
   },
   "https://platform.minimaxi.com/document/price": {
     "shingles": [
@@ -7735,12 +7735,12 @@
     "bytes": 104653,
     "shingleCount": 1045,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:44.615Z",
-    "lastGoodAt": "2026-10-31T05:54:44.615Z"
+    "checkedAt": "2026-10-31T17:17:08.311Z",
+    "lastGoodAt": "2026-10-31T17:17:08.311Z"
   },
   "https://ollama.com/pricing": {
     "shingles": [
-      "2883b7353966",
+      "b78d9a0b2aa7",
       "3f21e74337e5",
       "05d77a2c8a99",
       "93f9a194bbc2",
@@ -7849,7 +7849,7 @@
       "120",
       "15.00",
       "16.67",
-      "185.4",
+      "185.5",
       "2.10",
       "2.40",
       "2.6",
@@ -7874,14 +7874,14 @@
       "90"
     ],
     "lines": [
-      "0c2c56b9286d"
+      "98bcbbd686a5"
     ],
-    "hash": "b18adc2dab820efd",
+    "hash": "96693a5e73a89a9f",
     "bytes": 6423,
     "shingleCount": 63,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:34.457Z",
-    "lastGoodAt": "2026-10-31T05:54:34.458Z"
+    "checkedAt": "2026-10-31T17:16:59.966Z",
+    "lastGoodAt": "2026-10-31T17:16:59.966Z"
   },
   "https://platform.kimi.ai/docs/pricing/chat": {
     "shingles": [
@@ -7944,8 +7944,8 @@
     "bytes": 3457,
     "shingleCount": 33,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:37.412Z",
-    "lastGoodAt": "2026-10-31T05:54:37.412Z"
+    "checkedAt": "2026-10-31T17:17:01.638Z",
+    "lastGoodAt": "2026-10-31T17:17:01.638Z"
   },
   "https://commandcode.ai/pricing": {
     "shingles": [
@@ -8206,8 +8206,8 @@
     "bytes": 1700,
     "shingleCount": 16,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:39.365Z",
-    "lastGoodAt": "2026-10-31T05:54:39.365Z"
+    "checkedAt": "2026-10-31T17:17:03.803Z",
+    "lastGoodAt": "2026-10-31T17:17:03.803Z"
   },
   "https://platform.minimax.io/docs/pricing": {
     "shingles": [
@@ -9872,8 +9872,8 @@
     "bytes": 114783,
     "shingleCount": 1145,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:38.396Z",
-    "lastGoodAt": "2026-10-31T05:54:38.396Z"
+    "checkedAt": "2026-10-31T17:17:02.471Z",
+    "lastGoodAt": "2026-10-31T17:17:02.471Z"
   },
   "https://docs.z.ai/guides/overview/pricing": {
     "shingles": [
@@ -10371,8 +10371,8 @@
     "bytes": 39041,
     "shingleCount": 385,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:37.600Z",
-    "lastGoodAt": "2026-10-31T05:54:37.600Z"
+    "checkedAt": "2026-10-31T17:17:01.362Z",
+    "lastGoodAt": "2026-10-31T17:17:01.362Z"
   },
   "https://open.bigmodel.cn/pricing": {
     "shingles": [
@@ -10473,8 +10473,8 @@
     "bytes": 2564,
     "shingleCount": 24,
     "mode": "browser",
-    "checkedAt": "2026-10-31T05:54:47.986Z",
-    "lastGoodAt": "2026-10-31T05:54:47.986Z"
+    "checkedAt": "2026-10-31T17:17:13.073Z",
+    "lastGoodAt": "2026-10-31T17:17:13.073Z"
   },
   "https://www.kimi.com/membership/pricing": {
     "shingles": [
@@ -10533,8 +10533,8 @@
     "bytes": 1870,
     "shingleCount": 17,
     "mode": "browser",
-    "checkedAt": "2026-10-31T05:54:47.061Z",
-    "lastGoodAt": "2026-10-31T05:54:47.061Z"
+    "checkedAt": "2026-10-31T17:17:11.967Z",
+    "lastGoodAt": "2026-10-31T17:17:11.967Z"
   },
   "https://bigmodel.cn/glm-coding": {
     "shingles": [
@@ -10630,8 +10630,8 @@
     "bytes": 2840,
     "shingleCount": 27,
     "mode": "browser",
-    "checkedAt": "2026-10-31T05:54:48.882Z",
-    "lastGoodAt": "2026-10-31T05:54:48.882Z"
+    "checkedAt": "2026-10-31T17:17:14.146Z",
+    "lastGoodAt": "2026-10-31T17:17:14.146Z"
   },
   "https://platform.minimaxi.com/subscribe/token-plan": {
     "shingles": [
@@ -10689,8 +10689,8 @@
     "bytes": 1580,
     "shingleCount": 14,
     "mode": "browser",
-    "checkedAt": "2026-10-31T05:54:45.499Z",
-    "lastGoodAt": "2026-10-31T05:54:45.499Z"
+    "checkedAt": "2026-10-31T17:17:11.253Z",
+    "lastGoodAt": "2026-10-31T17:17:11.254Z"
   },
   "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go": {
     "shingles": [
@@ -10770,8 +10770,8 @@
     "bytes": 2447,
     "shingleCount": 23,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:39.179Z",
-    "lastGoodAt": "2026-10-31T05:54:39.179Z"
+    "checkedAt": "2026-10-31T17:17:02.993Z",
+    "lastGoodAt": "2026-10-31T17:17:02.993Z"
   },
   "https://www.siliconflow.com/pricing": {
     "shingles": [
@@ -11037,8 +11037,8 @@
     "bytes": 14740,
     "shingleCount": 146,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:37.914Z",
-    "lastGoodAt": "2026-10-31T05:54:37.914Z"
+    "checkedAt": "2026-10-31T17:17:01.770Z",
+    "lastGoodAt": "2026-10-31T17:17:01.770Z"
   },
   "https://mimo.mi.com/docs/zh-CN/tokenplan/subscription": {
     "shingles": [
@@ -11198,8 +11198,8 @@
     "bytes": 5010,
     "shingleCount": 49,
     "mode": "browser",
-    "checkedAt": "2026-10-31T05:54:53.917Z",
-    "lastGoodAt": "2026-10-31T05:54:53.917Z"
+    "checkedAt": "2026-10-31T17:17:18.555Z",
+    "lastGoodAt": "2026-10-31T17:17:18.555Z"
   },
   "https://antigravity.google/docs/plans": {
     "shingles": [
@@ -11276,8 +11276,8 @@
     "bytes": 6038,
     "shingleCount": 59,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:35.312Z",
-    "lastGoodAt": "2026-10-31T05:54:35.312Z"
+    "checkedAt": "2026-10-31T17:17:00.578Z",
+    "lastGoodAt": "2026-10-31T17:17:00.578Z"
   },
   "https://antigravity.google/blog/changes-to-antigravity-plans": {
     "shingles": [
@@ -11369,8 +11369,8 @@
     "bytes": 6700,
     "shingleCount": 66,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:35.345Z",
-    "lastGoodAt": "2026-10-31T05:54:35.345Z"
+    "checkedAt": "2026-10-31T17:17:00.613Z",
+    "lastGoodAt": "2026-10-31T17:17:00.613Z"
   },
   "https://x.ai/pricing": {
     "shingles": [
@@ -11476,8 +11476,8 @@
     "bytes": 8162,
     "shingleCount": 80,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:35.410Z",
-    "lastGoodAt": "2026-10-31T05:54:35.410Z"
+    "checkedAt": "2026-10-31T17:17:00.621Z",
+    "lastGoodAt": "2026-10-31T17:17:00.621Z"
   },
   "https://opencode.ai/docs/go": {
     "shingles": [
@@ -12107,8 +12107,8 @@
     "bytes": 24613,
     "shingleCount": 245,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:38.294Z",
-    "lastGoodAt": "2026-10-31T05:54:38.294Z"
+    "checkedAt": "2026-10-31T17:17:02.177Z",
+    "lastGoodAt": "2026-10-31T17:17:02.177Z"
   },
   "https://claude.com/pricing": {
     "shingles": [
@@ -12401,8 +12401,8 @@
     "bytes": 23523,
     "shingleCount": 234,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:35.335Z",
-    "lastGoodAt": "2026-10-31T05:54:35.335Z"
+    "checkedAt": "2026-10-31T17:17:00.658Z",
+    "lastGoodAt": "2026-10-31T17:17:00.658Z"
   },
   "https://opencode.ai/docs/zen": {
     "shingles": [
@@ -12746,8 +12746,8 @@
     "bytes": 20270,
     "shingleCount": 201,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:38.323Z",
-    "lastGoodAt": "2026-10-31T05:54:38.323Z"
+    "checkedAt": "2026-10-31T17:17:02.188Z",
+    "lastGoodAt": "2026-10-31T17:17:02.188Z"
   },
   "https://docs.x.ai/docs/pricing": {
     "shingles": [
@@ -12761,126 +12761,126 @@
       "b2ee0623fabd",
       "8db9742f9809",
       "301c4e69d7da",
-      "2f14f5096dff",
-      "e06baf40d2b8",
-      "cc03073cb773",
-      "b03d4b30bb50",
-      "ba5ce63152a5",
-      "6ad1e4c2ba1f",
-      "1352fe75862e",
-      "5450b6c520af",
-      "11fb011e739c",
-      "46ac3aa8c377",
-      "8cf2f5385dc4",
-      "443d243ce6f6",
-      "9a2cc35d7c8d",
-      "65a9db318367",
-      "408558e674b2",
-      "1bfc62001d93",
-      "5cac46b0d1de",
-      "080fb9815f93",
-      "c520b54f654f",
-      "03cc20c15665",
-      "970d84a4b113",
-      "002430bc882c",
-      "43fab753988c",
-      "947c992b63ad",
-      "3b62850c4b2d",
-      "93a79c96c118",
-      "1c4acfbf2258",
-      "60fcbc11908b",
-      "23fa7db24c71",
-      "68d56eec1018",
-      "81e2fefc4b02",
-      "82b70161f343",
-      "3e7e9bd93bc0",
-      "75ea32ed8a97",
-      "e91008ecd992",
-      "a2a255de350b",
-      "9f75e661c7ff",
-      "53d136749b7c",
-      "a727e650ce2a",
-      "2c40b2abdcbe",
-      "cafc41be9d2b",
-      "447e0a98ce3c",
-      "5339645f028a",
-      "825037affa2a",
-      "4a71dd646127",
-      "ac52e38990d9",
-      "5c1baa53e517",
-      "5b40cec9f988",
-      "869f2042b16a",
-      "5d66df72e5c6",
-      "ba1788bef127",
-      "29d3f928d4c3",
-      "f4389df29136",
-      "29beadf117ff",
-      "0e7db04afe67",
-      "1ddcbaeb6c03",
-      "3d392ab50717",
-      "3ec74163f750",
-      "1c9e35811229",
-      "0e16d1741d56",
-      "ebdf000fd2e3",
-      "77c3e91e53bb",
-      "1bbc7e5827d9",
-      "fd95a4883868",
-      "045f1e3ca92c",
-      "8ef6d1b61be0",
-      "5a3a1ff8b1e2",
-      "7421c2dadb29",
-      "70a4e45ae8b3",
-      "65c87f74a239",
-      "f6a135afa987",
-      "c488456c73a8",
-      "7d1e9251456a",
-      "64573a3c3333",
-      "d7454940c9eb",
-      "1db77a3f40f6",
-      "085190926335",
-      "6f0ede096e5e",
-      "27d73187cbb5",
-      "29cd23751775",
-      "d5ce3b8e205f",
-      "a65a62623f10",
-      "a6968b6c6d84",
-      "8975d419060b",
-      "9c0174d147db",
-      "8e6ff5d5f096",
-      "a4ece7c8e412",
-      "f831a49ccfef",
-      "9e16e4b5a159",
-      "97258efcbec1",
-      "42689b93b033",
-      "124daa3d7add",
-      "bc12e7cd9ffc",
-      "c35b43a74e5f",
-      "7ba763585037",
-      "5cdfe880bbb9",
-      "f5b14418f5fc",
-      "6d6ec5779496",
-      "7ced5a896281",
-      "6b2f4d9d01c8",
-      "fa0d9d11b99a",
-      "02fd52e6218b",
-      "c1d0e5034bf5",
-      "2eb002a0fb88",
-      "6af402b85c0f",
-      "a55b5980662c",
-      "5b2a5327fa06",
-      "ed20705b3f6b",
-      "79450a5b5bce",
-      "2a9d8a0a4653",
-      "99df08d24df9",
-      "86df631a58da",
-      "24c127e1c2c5",
-      "031ca541cde4",
-      "971ad3889958",
-      "b0bc72b079d6",
-      "89ec49f270e2",
-      "ac5a6a9bd6e8",
-      "fdad13b0d8a2",
-      "ed8aa1a091e1"
+      "158afd221698",
+      "706ad3bbb156",
+      "8177e39891ae",
+      "67f55e6d1c99",
+      "66e08b983447",
+      "b827d561fb81",
+      "ad4ef42d2528",
+      "d4c8bc80113c",
+      "ad75e9e9a005",
+      "c814e7d379e3",
+      "a23a91a8418e",
+      "3826ea0010fb",
+      "604ca56ab3c9",
+      "fd4354fd9d2a",
+      "7e2dc553b2b2",
+      "b76f3b8c468e",
+      "dfd555090039",
+      "163cfdfab300",
+      "1277f98edebc",
+      "a7de35c76402",
+      "1bc91dd88d24",
+      "7619e8586eed",
+      "53333972727b",
+      "25c969296f6c",
+      "6202bebc6c33",
+      "129cb76bb1e4",
+      "e4717bd60fc0",
+      "051d2aa8ab1b",
+      "a934cbd85a10",
+      "9b5676064306",
+      "58eef9bd2960",
+      "911f72eeb61b",
+      "f947138809c7",
+      "68710f840a71",
+      "eceabd4e5a7b",
+      "d81cdac5650a",
+      "84791202a04a",
+      "942f81f9d14a",
+      "9cdf1bad8032",
+      "4e5d69924be2",
+      "daceba96e987",
+      "b1698a8af574",
+      "24083b2e950d",
+      "000f57b1cc18",
+      "97a430f55786",
+      "a7189a1dea94",
+      "25d8fe46c41f",
+      "399fc0f32c70",
+      "559107e33e39",
+      "b9ac0e621bad",
+      "408beff4a29a",
+      "b2083c8ca2f5",
+      "c546a7187a43",
+      "00f4073fc744",
+      "8cd8a40e7b56",
+      "da69aff55d75",
+      "7ebed83065f2",
+      "e6677c65b88b",
+      "368df69e0ce9",
+      "8bca67bf32b2",
+      "3481f65b1423",
+      "9d2b1c43b600",
+      "8e0b364f7cf0",
+      "ac8a2d7d31eb",
+      "ad4bb45c334f",
+      "b5de876f379e",
+      "a94cf68ddca7",
+      "a84af2b3116b",
+      "6da988559527",
+      "b385af9cb865",
+      "a28705a8622b",
+      "6b7f1b4e9efe",
+      "246408875626",
+      "3a0171593fc2",
+      "992cdb070edd",
+      "5acee25604cf",
+      "7f34c18786b9",
+      "d6f3859a24a7",
+      "c809cf4cbf04",
+      "925e64149dc5",
+      "ce3bca0813a0",
+      "7a427ec94731",
+      "b7d80e1db08b",
+      "80a5c2aa3897",
+      "33a65c8c04db",
+      "46015289ea43",
+      "2b83ffccc71b",
+      "607c0aa024cf",
+      "bce74f6a67b1",
+      "d021c98822ac",
+      "8cc522dc96a3",
+      "a6d3dea8601d",
+      "d37e8711ebfd",
+      "6d896b0965b2",
+      "bf7c947e4046",
+      "fbfb81b1344f",
+      "0f5ac1877454",
+      "a1bb086be72b",
+      "73f474f3e891",
+      "426844960413",
+      "4a97778bec07",
+      "0de7c1200f1f",
+      "2c9e2d25a429",
+      "29456d7865f8",
+      "b774f37a5311",
+      "574e42763255",
+      "8a8bb7f9e217",
+      "fc8de53cc1e9",
+      "c9e931f36344",
+      "0319d17b8d87",
+      "be843fd48e72",
+      "fe5882d31488",
+      "5fff9fe20364",
+      "79181596fb7e",
+      "35202bb03a2d",
+      "bfd75ec00c15",
+      "946123115822",
+      "0fc255cd96e5",
+      "67df68f91fc9",
+      "fab584ed4f6c"
     ],
     "numbers": [
       "0.002",
@@ -12947,16 +12947,16 @@
       "720"
     ],
     "lines": [
-      "4fc529f19f2e",
+      "5b4a74120669",
       "e9ac16d536b3",
       "5431d04e4bf3"
     ],
-    "hash": "8b84d5998998cbba",
-    "bytes": 13113,
+    "hash": "399074c24e9cd6c1",
+    "bytes": 13161,
     "shingleCount": 130,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:38.357Z",
-    "lastGoodAt": "2026-10-31T05:54:38.357Z"
+    "checkedAt": "2026-10-31T17:17:02.302Z",
+    "lastGoodAt": "2026-10-31T17:17:02.302Z"
   },
   "https://developers.openai.com/api/docs/pricing": {
     "shingles": [
@@ -13098,70 +13098,72 @@
       "df3ad5f18482",
       "1cf18f4ea500",
       "314f6439186b",
-      "3936eed44e24",
-      "9f3230ebd635",
-      "b66619896da5",
-      "f74c29a0b802",
-      "a6023a2eed5f",
-      "3d38fa80193d",
-      "6e3106651cc3",
-      "d43eebade7e2",
-      "dbd04befc0ec",
-      "6a611453905e",
-      "02cecb47963e",
-      "a301b05ffcaa",
-      "d2315e5d2b8e",
-      "15c8c74abe08",
-      "d698ac3076d5",
-      "355e372c8a21",
-      "efbafa6db96d",
-      "cabd7f72d9c8",
-      "b4f45dc8b502",
-      "b251df55cd3b",
-      "a142b3cb010a",
-      "685be1d88ccf",
-      "288292489ff7",
-      "05e1dd94b4c3",
-      "e9b2cfb52cad",
-      "bf366492c1df",
-      "129fd890d927",
-      "126de96fe0cd",
-      "da5b742b58a7",
-      "4cc6ad1f39e1",
-      "e177d7408e83",
-      "b33ef898d5be",
-      "20685e043067",
-      "9b93fd64763c",
-      "4f6a3594eb28",
-      "d31b4997f168",
-      "17d23e9c2592",
-      "aeb1859f84e7",
-      "bfac56f3c4ff",
-      "24104110cf35",
-      "54704c209ec8",
-      "eb69cdb780ad",
-      "639e27ae7c3b",
-      "f2cd316b670c",
-      "e1c394957294",
-      "c3f286665fd8",
-      "0e19ae56ccdf",
-      "ee0e7748ef2d",
-      "b1cec9bd07c5",
-      "be21fda23763",
-      "9ef8598bd93f",
-      "b11bc1ebfb0b",
-      "54011e7bd9d7",
-      "bdec1283868f",
-      "43b4f42cd841",
-      "fc8e08b1147d",
-      "62d4b7379aa4",
-      "63c9dd7fe0ed",
-      "793f464c9446",
-      "6de2710b0732",
-      "c6680fc69672",
-      "5dde48a307d4",
-      "3cef93c7e52b",
-      "9576ca6cdb48"
+      "4cbe8c286fc0",
+      "970c834298c6",
+      "104de3010b95",
+      "2408e2a7c5b4",
+      "0ec1befacc01",
+      "c5d747903c90",
+      "74673c716de0",
+      "c9ff09196986",
+      "c7bc511ab077",
+      "456e4c969533",
+      "2f58d3aabe1c",
+      "89da6ce35e7d",
+      "78ee55af37d4",
+      "28d249cee48a",
+      "256b839af9e8",
+      "069ee1512b4e",
+      "c8790aa3599b",
+      "92b0efcfea28",
+      "4fe6319cc335",
+      "9933b380e331",
+      "0a68e1d906a4",
+      "362feb77a3a4",
+      "6b93fe50816d",
+      "7aff2f1f6389",
+      "4b230f29c9aa",
+      "b1daae7c7921",
+      "52fd2124a221",
+      "68b93a7e461b",
+      "3561f349bd16",
+      "82fc015c90e0",
+      "33e421472710",
+      "55d4647dd97b",
+      "3074ac8f468c",
+      "d346b368f55a",
+      "4d804378811b",
+      "b481ead6863c",
+      "cc113eaad7c9",
+      "be5e87a1f23e",
+      "30bcc174bf4d",
+      "98834e2ca0e1",
+      "661c687fb201",
+      "2d42c7bd48a7",
+      "27c4a3c9d005",
+      "f47415e05456",
+      "63bbdd067767",
+      "c6214ad58d65",
+      "e329769bc4fb",
+      "d399c6d6e8f0",
+      "8311511d57f9",
+      "db70e99cf267",
+      "543727da14b5",
+      "27a5d926e5ac",
+      "d5eb5612d11f",
+      "6eba64cd3d0e",
+      "ee42ebe9c04f",
+      "c1d4fa4d0d96",
+      "1877bf8ba1a2",
+      "8d18210e829f",
+      "4d1ffd5715e8",
+      "ac1c8e743262",
+      "f8252d90c3a3",
+      "476d7fa6a184",
+      "dedd97f135d6",
+      "899336cbc60f",
+      "755794148677",
+      "4924395ef74d"
     ],
     "numbers": [
       "0.003",
@@ -13229,6 +13231,7 @@
       "30",
       "30.00",
       "300.00",
+      "31",
       "31.25",
       "32.00",
       "37.50",
@@ -13253,14 +13256,14 @@
       "8000"
     ],
     "lines": [
-      "ec9311f08f99"
+      "300fab87f24e"
     ],
-    "hash": "7a92e508f05056fb",
-    "bytes": 20310,
-    "shingleCount": 202,
+    "hash": "aac6b08a6d332bd6",
+    "bytes": 20591,
+    "shingleCount": 204,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:38.319Z",
-    "lastGoodAt": "2026-10-31T05:54:38.319Z"
+    "checkedAt": "2026-10-31T17:17:02.259Z",
+    "lastGoodAt": "2026-10-31T17:17:02.259Z"
   },
   "https://platform.claude.com/docs/en/about-claude/pricing": {
     "shingles": [
@@ -13697,8 +13700,8 @@
     "bytes": 29518,
     "shingleCount": 294,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:38.581Z",
-    "lastGoodAt": "2026-10-31T05:54:38.581Z"
+    "checkedAt": "2026-10-31T17:17:02.977Z",
+    "lastGoodAt": "2026-10-31T17:17:02.977Z"
   },
   "https://ai.google.dev/gemini-api/docs/pricing": {
     "shingles": [
@@ -14519,8 +14522,8 @@
     "bytes": 38249,
     "shingleCount": 380,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:38.646Z",
-    "lastGoodAt": "2026-10-31T05:54:38.646Z"
+    "checkedAt": "2026-10-31T17:17:02.609Z",
+    "lastGoodAt": "2026-10-31T17:17:02.609Z"
   },
   "https://ark.volcengine.com/region:cn-beijing/docs/agent-plan-personal-plan-overview": {
     "shingles": [
@@ -14711,7 +14714,7 @@
     "bytes": 6632,
     "shingleCount": 65,
     "mode": "http",
-    "checkedAt": "2026-10-31T05:54:35.133Z",
-    "lastGoodAt": "2026-10-31T05:54:35.133Z"
+    "checkedAt": "2026-10-31T17:17:01.083Z",
+    "lastGoodAt": "2026-10-31T17:17:01.083Z"
   }
 }
