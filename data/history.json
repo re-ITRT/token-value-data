@@ -1,5 +1,109 @@
 [
   {
+    "at": "2026-10-31T05:54:53.930Z",
+    "trigger": "cli",
+    "durationMs": 20356,
+    "fx": {
+      "USDCNY": 6.669566,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 12,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://ai.google.dev/gemini-api/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://antigravity.google/docs/plans",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://claude.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://commandcode.ai/docs/resources/pricing-limits",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://developers.openai.com/api/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://docs.z.ai/guides/overview/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://ollama.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://opencode.ai/docs/go",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://opencode.ai/docs/zen",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://platform.minimax.io/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://platform.minimaxi.com/document/price",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      }
+    ]
+  },
+  {
     "at": "2026-10-30T18:04:34.978Z",
     "trigger": "cli",
     "durationMs": 20804,
@@ -2188,104 +2292,6 @@
       {
         "url": "https://www.kimi.com/membership/pricing",
         "state": "flaky",
-        "error": null,
-        "httpStatus": null
-      }
-    ]
-  },
-  {
-    "at": "2026-10-16T04:40:55.135Z",
-    "trigger": "cli",
-    "durationMs": 23686,
-    "fx": {
-      "USDCNY": 6.702985,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 38,
-      "changed": 11,
-      "flaky": 0,
-      "shell": 0,
-      "unreachable": 2
-    },
-    "problems": [
-      {
-        "url": "https://ai.google.dev/gemini-api/docs/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://antigravity.google/blog/changes-to-antigravity-plans",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://antigravity.google/docs/plans",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://chatgpt.com/codex/pricing",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://commandcode.ai/docs/resources/pricing-limits",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://developers.openai.com/api/docs/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://help.x.com/en/using-x/x-premium",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://ollama.com/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://opencode.ai/docs/go",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://opencode.ai/docs/zen",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://platform.claude.com/docs/en/about-claude/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://www.kimi.com/membership/pricing",
-        "state": "changed",
         "error": null,
         "httpStatus": null
       }
