@@ -1,5 +1,43 @@
 [
   {
+    "at": "2026-11-02T06:21:56.958Z",
+    "trigger": "cli",
+    "durationMs": 32822,
+    "fx": {
+      "USDCNY": 6.660856,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 1,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      }
+    ]
+  },
+  {
     "at": "2026-11-01T17:58:16.527Z",
     "trigger": "cli",
     "durationMs": 26254,
@@ -2160,62 +2198,6 @@
         "state": "unreachable",
         "error": "HTTP 403",
         "httpStatus": 403
-      }
-    ]
-  },
-  {
-    "at": "2026-10-18T04:43:40.332Z",
-    "trigger": "cli",
-    "durationMs": 19778,
-    "fx": {
-      "USDCNY": 6.702912,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 38,
-      "changed": 4,
-      "flaky": 0,
-      "shell": 0,
-      "unreachable": 2
-    },
-    "problems": [
-      {
-        "url": "https://api-docs.deepseek.com/quick_start/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://chatgpt.com/codex/pricing",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://commandcode.ai/docs/resources/pricing-limits",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://help.x.com/en/using-x/x-premium",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://ollama.com/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://www.kimi.com/membership/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": null
       }
     ]
   }
