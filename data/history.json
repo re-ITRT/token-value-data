@@ -1,5 +1,73 @@
 [
   {
+    "at": "2026-11-04T06:38:50.265Z",
+    "trigger": "cli",
+    "durationMs": 20982,
+    "fx": {
+      "USDCNY": 6.684036,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 6,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 2
+    },
+    "problems": [
+      {
+        "url": "https://antigravity.google/docs/plans",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://cloud.tencent.com/document/product/1823/130055",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://cloud.tencent.com/document/product/1823/130060",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://commandcode.ai/docs/resources/pricing-limits",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://developers.openai.com/api/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      }
+    ]
+  },
+  {
     "at": "2026-11-03T19:34:44.987Z",
     "trigger": "cli",
     "durationMs": 20218,
@@ -2154,110 +2222,6 @@
         "state": "changed",
         "error": null,
         "httpStatus": null
-      }
-    ]
-  },
-  {
-    "at": "2026-10-20T05:00:25.209Z",
-    "trigger": "cli",
-    "durationMs": 46731,
-    "fx": {
-      "USDCNY": 6.693661,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 38,
-      "changed": 10,
-      "flaky": 0,
-      "shell": 2,
-      "unreachable": 2
-    },
-    "problems": [
-      {
-        "url": "https://ai.google.dev/gemini-api/docs/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://antigravity.google/blog/changes-to-antigravity-plans",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://antigravity.google/docs/plans",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://chatgpt.com/codex/pricing",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://claude.com/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://commandcode.ai/docs/resources/pricing-limits",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://developers.openai.com/api/docs/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://docs.z.ai/guides/overview/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://help.x.com/en/using-x/x-premium",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://mimo.mi.com/docs/zh-CN/tokenplan/subscription",
-        "state": "shell",
-        "error": "原始抓取只有 0 字符（JS 空壳），浏览器兜底失败：浏览器渲染后正文仍然过短",
-        "httpStatus": null
-      },
-      {
-        "url": "https://ollama.com/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://platform.minimaxi.com/subscribe/token-plan",
-        "state": "shell",
-        "error": "原始抓取只有 0 字符（JS 空壳），浏览器兜底失败：playwright: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://platform.minimaxi.com/subscribe/token-plan\", waiting until \"networkidle\"\n",
-        "httpStatus": null
-      },
-      {
-        "url": "https://www.scnet.cn/home/subject/maas/index.html",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://x.ai/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
       }
     ]
   }
