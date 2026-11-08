@@ -1,5 +1,55 @@
 [
   {
+    "at": "2026-11-08T17:58:40.322Z",
+    "trigger": "cli",
+    "durationMs": 41911,
+    "fx": {
+      "USDCNY": 6.690826,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 4,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 1
+    },
+    "problems": [
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://ollama.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://opencode.ai/docs/go",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://opencode.ai/docs/zen",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      }
+    ]
+  },
+  {
     "at": "2026-11-08T06:15:37.783Z",
     "trigger": "cli",
     "durationMs": 22920,
@@ -2194,74 +2244,6 @@
       {
         "url": "https://www.kimi.com/membership/pricing",
         "state": "flaky",
-        "error": null,
-        "httpStatus": null
-      }
-    ]
-  },
-  {
-    "at": "2026-10-24T16:03:15.105Z",
-    "trigger": "cli",
-    "durationMs": 19187,
-    "fx": {
-      "USDCNY": 6.684864,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 38,
-      "changed": 6,
-      "flaky": 0,
-      "shell": 0,
-      "unreachable": 2
-    },
-    "problems": [
-      {
-        "url": "https://ark.volcengine.com/region:cn-beijing/docs/agent-plan-personal-plan-overview",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://chatgpt.com/codex/pricing",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://cloud.tencent.com/document/product/1823/130055",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://help.x.com/en/using-x/x-premium",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://ollama.com/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://opencode.ai/docs/go",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://www.kimi.com/membership/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": null
-      },
-      {
-        "url": "https://www.volcengine.com/docs/ark/model-pricing",
-        "state": "changed",
         "error": null,
         "httpStatus": null
       }
