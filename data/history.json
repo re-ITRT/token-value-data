@@ -1,5 +1,67 @@
 [
   {
+    "at": "2026-11-20T07:27:54.960Z",
+    "trigger": "cli",
+    "durationMs": 44289,
+    "fx": {
+      "USDCNY": 6.69198,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 5,
+      "flaky": 1,
+      "shell": 0,
+      "unreachable": 1
+    },
+    "problems": [
+      {
+        "url": "https://antigravity.google/docs/plans",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://api-docs.deepseek.com/quick_start/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://developers.openai.com/api/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://ollama.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.kimi.com/membership/pricing",
+        "state": "flaky",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://www.scnet.cn/home/subject/maas/index.html",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      }
+    ]
+  },
+  {
     "at": "2026-11-19T20:46:06.529Z",
     "trigger": "cli",
     "durationMs": 33430,
@@ -2526,110 +2588,6 @@
         "state": "flaky",
         "error": null,
         "httpStatus": null
-      }
-    ]
-  },
-  {
-    "at": "2026-11-05T06:59:05.755Z",
-    "trigger": "cli",
-    "durationMs": 37701,
-    "fx": {
-      "USDCNY": 6.685421,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 38,
-      "changed": 13,
-      "flaky": 0,
-      "shell": 0,
-      "unreachable": 1
-    },
-    "problems": [
-      {
-        "url": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://commandcode.ai/docs/resources/pricing-limits",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://developers.openai.com/api/docs/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://docs.z.ai/guides/overview/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://help.x.com/en/using-x/x-premium",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://ollama.com/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://opencode.ai/docs/go",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://opencode.ai/docs/zen",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://platform.claude.com/docs/en/about-claude/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://platform.minimax.io/docs/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://platform.minimaxi.com/document/price",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://www.scnet.cn/home/subject/maas/index.html",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://x.ai/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
       }
     ]
   }
