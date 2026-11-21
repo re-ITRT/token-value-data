@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-20T20:31:12.464Z",
-  "nextRunAt": "2026-11-21T08:30:21.225Z",
+  "generatedAt": "2026-11-21T07:22:11.659Z",
+  "nextRunAt": "2026-11-21T19:21:27.252Z",
   "intervalMs": 43200000,
   "fx": {
     "USDCNY": 6.69198,
     "source": "open.er-api.com",
-    "fetchedAt": "2026-11-20T20:30:21.657Z",
+    "fetchedAt": "2026-11-21T07:21:28.333Z",
     "stale": false,
     "attempts": [
       {
@@ -13,20 +13,20 @@
         "url": "https://open.er-api.com/v6/latest/USD",
         "ok": true,
         "rate": 6.69198,
-        "ms": 431
+        "ms": 1079
       }
     ]
   },
   "state": {
     "trigger": "cli",
-    "generatedAt": "2026-11-20T20:30:21.225Z",
-    "finishedAt": "2026-11-20T20:31:12.464Z",
-    "durationMs": 51239,
-    "nextRunAt": "2026-11-21T08:30:21.225Z",
+    "generatedAt": "2026-11-21T07:21:27.252Z",
+    "finishedAt": "2026-11-21T07:22:11.659Z",
+    "durationMs": 44407,
+    "nextRunAt": "2026-11-21T19:21:27.252Z",
     "fx": {
       "USDCNY": 6.69198,
       "source": "open.er-api.com",
-      "fetchedAt": "2026-11-20T20:30:21.657Z",
+      "fetchedAt": "2026-11-21T07:21:28.333Z",
       "stale": false,
       "attempts": [
         {
@@ -34,32 +34,32 @@
           "url": "https://open.er-api.com/v6/latest/USD",
           "ok": true,
           "rate": 6.69198,
-          "ms": 431
+          "ms": 1079
         }
       ]
     },
     "sourceCheck": {
       "total": 38,
-      "changed": 13,
+      "changed": 11,
       "unreachable": 1,
       "flaky": 0,
       "shell": 0,
-      "problems": 14,
+      "problems": 12,
       "details": [
         {
           "url": "https://ai.google.dev/gemini-api/docs/pricing",
-          "state": "changed",
+          "state": "unchanged",
           "httpStatus": 200,
           "bytes": 107220,
-          "previousBytes": 107233,
-          "diffRatio": 0.1667,
+          "previousBytes": 107220,
+          "diffRatio": 0,
           "numChanged": 0,
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 2980,
-          "checkedAt": "2026-11-20T20:30:24.275Z",
-          "lastGoodAt": "2026-11-20T20:30:24.275Z"
+          "ms": 3074,
+          "checkedAt": "2026-11-21T07:21:30.418Z",
+          "lastGoodAt": "2026-11-21T07:21:30.418Z"
         },
         {
           "url": "https://antigravity.google/blog/changes-to-antigravity-plans",
@@ -72,24 +72,24 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 1062,
-          "checkedAt": "2026-11-20T20:30:22.346Z",
-          "lastGoodAt": "2026-11-20T20:30:22.346Z"
+          "ms": 1192,
+          "checkedAt": "2026-11-21T07:21:28.521Z",
+          "lastGoodAt": "2026-11-21T07:21:28.521Z"
         },
         {
           "url": "https://antigravity.google/docs/plans",
           "state": "changed",
           "httpStatus": 200,
-          "bytes": 6803,
-          "previousBytes": 6794,
+          "bytes": 6833,
+          "previousBytes": 6803,
           "diffRatio": 0.5,
           "numChanged": 0,
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 899,
-          "checkedAt": "2026-11-20T20:30:22.182Z",
-          "lastGoodAt": "2026-11-20T20:30:22.182Z"
+          "ms": 1143,
+          "checkedAt": "2026-11-21T07:21:28.471Z",
+          "lastGoodAt": "2026-11-21T07:21:28.471Z"
         },
         {
           "url": "https://api-docs.deepseek.com/quick_start/pricing",
@@ -102,24 +102,24 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 2843,
-          "checkedAt": "2026-11-20T20:30:24.129Z",
-          "lastGoodAt": "2026-11-20T20:30:24.129Z"
+          "ms": 2903,
+          "checkedAt": "2026-11-21T07:21:30.235Z",
+          "lastGoodAt": "2026-11-21T07:21:30.235Z"
         },
         {
           "url": "https://ark.volcengine.com/region:cn-beijing/docs/agent-plan-personal-plan-overview",
-          "state": "changed",
+          "state": "unchanged",
           "httpStatus": 200,
           "bytes": 6140,
-          "previousBytes": 6090,
-          "diffRatio": 0.1129,
+          "previousBytes": 6140,
+          "diffRatio": 0,
           "numChanged": 0,
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 1059,
-          "checkedAt": "2026-11-20T20:30:22.333Z",
-          "lastGoodAt": "2026-11-20T20:30:22.334Z"
+          "ms": 1537,
+          "checkedAt": "2026-11-21T07:21:28.855Z",
+          "lastGoodAt": "2026-11-21T07:21:28.855Z"
         },
         {
           "url": "https://bigmodel.cn/glm-coding",
@@ -132,24 +132,24 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": true,
-          "ms": 27478,
-          "checkedAt": "2026-11-20T20:30:48.757Z",
-          "lastGoodAt": "2026-11-20T20:30:48.757Z"
+          "ms": 12518,
+          "checkedAt": "2026-11-21T07:21:39.841Z",
+          "lastGoodAt": "2026-11-21T07:21:39.841Z"
         },
         {
           "url": "https://chatgpt.com/codex/pricing",
           "state": "changed",
           "httpStatus": 200,
-          "bytes": 2162,
-          "previousBytes": 2140,
-          "diffRatio": 0.2,
+          "bytes": 2140,
+          "previousBytes": 2162,
+          "diffRatio": 0.0909,
           "numChanged": 0,
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 3218,
-          "checkedAt": "2026-11-20T20:30:24.500Z",
-          "lastGoodAt": "2026-11-20T20:30:24.500Z"
+          "ms": 2877,
+          "checkedAt": "2026-11-21T07:21:30.204Z",
+          "lastGoodAt": "2026-11-21T07:21:30.204Z"
         },
         {
           "url": "https://claude.com/pricing",
@@ -162,9 +162,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 1196,
-          "checkedAt": "2026-11-20T20:30:22.477Z",
-          "lastGoodAt": "2026-11-20T20:30:22.477Z"
+          "ms": 1331,
+          "checkedAt": "2026-11-21T07:21:28.657Z",
+          "lastGoodAt": "2026-11-21T07:21:28.657Z"
         },
         {
           "url": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
@@ -177,9 +177,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 3463,
-          "checkedAt": "2026-11-20T20:30:24.751Z",
-          "lastGoodAt": "2026-11-20T20:30:24.751Z"
+          "ms": 3277,
+          "checkedAt": "2026-11-21T07:21:30.611Z",
+          "lastGoodAt": "2026-11-21T07:21:30.611Z"
         },
         {
           "url": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
@@ -192,24 +192,24 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 3677,
-          "checkedAt": "2026-11-20T20:30:24.964Z",
-          "lastGoodAt": "2026-11-20T20:30:24.964Z"
+          "ms": 3585,
+          "checkedAt": "2026-11-21T07:21:30.919Z",
+          "lastGoodAt": "2026-11-21T07:21:30.919Z"
         },
         {
           "url": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
-          "state": "unchanged",
+          "state": "changed",
           "httpStatus": null,
           "bytes": 7336,
           "previousBytes": 7336,
-          "diffRatio": 0,
+          "diffRatio": 0.1429,
           "numChanged": 0,
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": true,
-          "ms": 22866,
-          "checkedAt": "2026-11-20T20:30:44.142Z",
-          "lastGoodAt": "2026-11-20T20:30:44.142Z"
+          "ms": 8101,
+          "checkedAt": "2026-11-21T07:21:35.420Z",
+          "lastGoodAt": "2026-11-21T07:21:35.420Z"
         },
         {
           "url": "https://cloud.tencent.com/announce/detail/2432",
@@ -222,9 +222,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 1577,
-          "checkedAt": "2026-11-20T20:30:22.855Z",
-          "lastGoodAt": "2026-11-20T20:30:22.855Z"
+          "ms": 1635,
+          "checkedAt": "2026-11-21T07:21:28.957Z",
+          "lastGoodAt": "2026-11-21T07:21:28.957Z"
         },
         {
           "url": "https://cloud.tencent.com/document/product/1823/130055",
@@ -237,9 +237,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 2536,
-          "checkedAt": "2026-11-20T20:30:23.823Z",
-          "lastGoodAt": "2026-11-20T20:30:23.823Z"
+          "ms": 3009,
+          "checkedAt": "2026-11-21T07:21:30.342Z",
+          "lastGoodAt": "2026-11-21T07:21:30.342Z"
         },
         {
           "url": "https://cloud.tencent.com/document/product/1823/130060",
@@ -252,82 +252,84 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 1786,
-          "checkedAt": "2026-11-20T20:30:23.063Z",
-          "lastGoodAt": "2026-11-20T20:30:23.063Z"
+          "ms": 2083,
+          "checkedAt": "2026-11-21T07:21:29.404Z",
+          "lastGoodAt": "2026-11-21T07:21:29.404Z"
         },
         {
           "url": "https://commandcode.ai/docs/resources/pricing-limits",
-          "state": "unchanged",
+          "state": "changed",
           "httpStatus": 200,
-          "bytes": 37761,
+          "bytes": 36393,
           "previousBytes": 37761,
-          "diffRatio": 0,
-          "numChanged": 0,
-          "numAdded": [],
-          "numRemoved": [],
+          "diffRatio": 0.5714,
+          "numChanged": 2,
+          "numAdded": [
+            "108"
+          ],
+          "numRemoved": [
+            "109"
+          ],
           "viaBrowser": false,
-          "ms": 549,
-          "checkedAt": "2026-11-20T20:30:21.822Z",
-          "lastGoodAt": "2026-11-20T20:30:21.822Z"
+          "ms": 1311,
+          "checkedAt": "2026-11-21T07:21:28.626Z",
+          "lastGoodAt": "2026-11-21T07:21:28.626Z"
         },
         {
           "url": "https://developers.openai.com/api/docs/pricing",
           "state": "changed",
           "httpStatus": 200,
-          "bytes": 20498,
-          "previousBytes": 20520,
+          "bytes": 20471,
+          "previousBytes": 20498,
           "diffRatio": 1,
           "numChanged": 0,
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 2690,
-          "checkedAt": "2026-11-20T20:30:23.986Z",
-          "lastGoodAt": "2026-11-20T20:30:23.986Z"
+          "ms": 2632,
+          "checkedAt": "2026-11-21T07:21:29.977Z",
+          "lastGoodAt": "2026-11-21T07:21:29.977Z"
         },
         {
           "url": "https://docs.x.ai/docs/pricing",
           "state": "changed",
           "httpStatus": 200,
-          "bytes": 13098,
-          "previousBytes": 13015,
+          "bytes": 13090,
+          "previousBytes": 13098,
           "diffRatio": 0.3333,
-          "numChanged": 1,
-          "numAdded": [
-            "0.1"
-          ],
+          "numChanged": 0,
+          "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 2811,
-          "checkedAt": "2026-11-20T20:30:24.106Z",
-          "lastGoodAt": "2026-11-20T20:30:24.106Z"
+          "ms": 2882,
+          "checkedAt": "2026-11-21T07:21:30.227Z",
+          "lastGoodAt": "2026-11-21T07:21:30.227Z"
         },
         {
           "url": "https://docs.z.ai/guides/overview/pricing",
           "state": "changed",
           "httpStatus": 200,
-          "bytes": 39877,
-          "previousBytes": 39744,
+          "bytes": 39873,
+          "previousBytes": 39877,
           "diffRatio": 0.0323,
           "numChanged": 2,
           "numAdded": [
-            "4248"
+            "4270"
           ],
           "numRemoved": [
-            "4227"
+            "4248"
           ],
           "viaBrowser": false,
-          "ms": 2165,
-          "checkedAt": "2026-11-20T20:30:23.457Z",
-          "lastGoodAt": "2026-11-20T20:30:23.457Z"
+          "ms": 2057,
+          "checkedAt": "2026-11-21T07:21:29.397Z",
+          "lastGoodAt": "2026-11-21T07:21:29.397Z"
         },
         {
           "url": "https://help.x.com/en/using-x/x-premium",
           "state": "unreachable",
           "httpStatus": 403,
           "error": "HTTP 403",
-          "ms": 1036
+          "ms": 1082
         },
         {
           "url": "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
@@ -340,9 +342,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 3611,
-          "checkedAt": "2026-11-20T20:30:24.907Z",
-          "lastGoodAt": "2026-11-20T20:30:24.907Z"
+          "ms": 3294,
+          "checkedAt": "2026-11-21T07:21:30.641Z",
+          "lastGoodAt": "2026-11-21T07:21:30.641Z"
         },
         {
           "url": "https://mimo.mi.com/docs/zh-CN/tokenplan/subscription",
@@ -355,28 +357,24 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": true,
-          "ms": 26224,
-          "checkedAt": "2026-11-20T20:30:47.504Z",
-          "lastGoodAt": "2026-11-20T20:30:47.504Z"
+          "ms": 19010,
+          "checkedAt": "2026-11-21T07:21:46.333Z",
+          "lastGoodAt": "2026-11-21T07:21:46.333Z"
         },
         {
           "url": "https://ollama.com/pricing",
-          "state": "changed",
+          "state": "unchanged",
           "httpStatus": 200,
           "bytes": 6424,
           "previousBytes": 6424,
-          "diffRatio": 1,
-          "numChanged": 2,
-          "numAdded": [
-            "187.8"
-          ],
-          "numRemoved": [
-            "187.7"
-          ],
+          "diffRatio": 0,
+          "numChanged": 0,
+          "numAdded": [],
+          "numRemoved": [],
           "viaBrowser": false,
-          "ms": 405,
-          "checkedAt": "2026-11-20T20:30:21.679Z",
-          "lastGoodAt": "2026-11-20T20:30:21.679Z"
+          "ms": 853,
+          "checkedAt": "2026-11-21T07:21:28.167Z",
+          "lastGoodAt": "2026-11-21T07:21:28.169Z"
         },
         {
           "url": "https://open.bigmodel.cn/pricing",
@@ -389,9 +387,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": true,
-          "ms": 16929,
-          "checkedAt": "2026-11-20T20:30:38.216Z",
-          "lastGoodAt": "2026-11-20T20:30:38.217Z"
+          "ms": 12250,
+          "checkedAt": "2026-11-21T07:21:39.585Z",
+          "lastGoodAt": "2026-11-21T07:21:39.585Z"
         },
         {
           "url": "https://opencode.ai/docs/go",
@@ -404,9 +402,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 2756,
-          "checkedAt": "2026-11-20T20:30:24.036Z",
-          "lastGoodAt": "2026-11-20T20:30:24.036Z"
+          "ms": 2640,
+          "checkedAt": "2026-11-21T07:21:29.963Z",
+          "lastGoodAt": "2026-11-21T07:21:29.963Z"
         },
         {
           "url": "https://opencode.ai/docs/zen",
@@ -419,9 +417,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 2752,
-          "checkedAt": "2026-11-20T20:30:24.049Z",
-          "lastGoodAt": "2026-11-20T20:30:24.049Z"
+          "ms": 2648,
+          "checkedAt": "2026-11-21T07:21:29.995Z",
+          "lastGoodAt": "2026-11-21T07:21:29.995Z"
         },
         {
           "url": "https://platform.claude.com/docs/en/about-claude/pricing",
@@ -434,86 +432,85 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 3045,
-          "checkedAt": "2026-11-20T20:30:24.341Z",
-          "lastGoodAt": "2026-11-20T20:30:24.341Z"
+          "ms": 3029,
+          "checkedAt": "2026-11-21T07:21:30.375Z",
+          "lastGoodAt": "2026-11-21T07:21:30.375Z"
         },
         {
           "url": "https://platform.kimi.ai/docs/pricing/chat",
           "state": "changed",
           "httpStatus": 200,
-          "bytes": 47723,
-          "previousBytes": 47552,
-          "diffRatio": 0.0144,
-          "numChanged": 3,
+          "bytes": 47727,
+          "previousBytes": 47723,
+          "diffRatio": 0.0096,
+          "numChanged": 2,
           "numAdded": [
-            "21",
-            "4248"
+            "4270"
           ],
           "numRemoved": [
-            "4227"
+            "4248"
           ],
           "viaBrowser": false,
-          "ms": 2311,
-          "checkedAt": "2026-11-20T20:30:23.599Z",
-          "lastGoodAt": "2026-11-20T20:30:23.599Z"
+          "ms": 2144,
+          "checkedAt": "2026-11-21T07:21:29.479Z",
+          "lastGoodAt": "2026-11-21T07:21:29.479Z"
         },
         {
           "url": "https://platform.kimi.com/docs/pricing/chat",
           "state": "changed",
           "httpStatus": 200,
           "bytes": 42755,
-          "previousBytes": 42576,
-          "diffRatio": 0.0116,
+          "previousBytes": 42755,
+          "diffRatio": 0.0078,
           "numChanged": 2,
           "numAdded": [
-            "4248"
+            "4270"
           ],
           "numRemoved": [
-            "4227"
+            "4248"
           ],
           "viaBrowser": false,
-          "ms": 3713,
-          "checkedAt": "2026-11-20T20:30:25.006Z",
-          "lastGoodAt": "2026-11-20T20:30:25.006Z"
+          "ms": 4488,
+          "checkedAt": "2026-11-21T07:21:31.829Z",
+          "lastGoodAt": "2026-11-21T07:21:31.829Z"
         },
         {
           "url": "https://platform.minimax.io/docs/pricing",
           "state": "changed",
           "httpStatus": 200,
-          "bytes": 116400,
+          "bytes": 116396,
           "previousBytes": 116400,
           "diffRatio": 0.0084,
           "numChanged": 2,
           "numAdded": [
-            "4248"
+            "4270"
           ],
           "numRemoved": [
-            "4227"
+            "4248"
           ],
           "viaBrowser": false,
-          "ms": 2829,
-          "checkedAt": "2026-11-20T20:30:24.120Z",
-          "lastGoodAt": "2026-11-20T20:30:24.120Z"
+          "ms": 2778,
+          "checkedAt": "2026-11-21T07:21:30.117Z",
+          "lastGoodAt": "2026-11-21T07:21:30.117Z"
         },
         {
           "url": "https://platform.minimaxi.com/document/price",
           "state": "changed",
           "httpStatus": 200,
           "bytes": 107381,
-          "previousBytes": 107377,
+          "previousBytes": 107381,
           "diffRatio": 0.0051,
           "numChanged": 2,
           "numAdded": [
-            "4248"
+            "4270"
           ],
           "numRemoved": [
-            "4227"
+            "4248"
           ],
           "viaBrowser": false,
-          "ms": 8261,
-          "checkedAt": "2026-11-20T20:30:29.552Z",
-          "lastGoodAt": "2026-11-20T20:30:29.552Z"
+          "ms": 7471,
+          "checkedAt": "2026-11-21T07:21:34.807Z",
+          "lastGoodAt": "2026-11-21T07:21:34.807Z"
         },
         {
           "url": "https://platform.minimaxi.com/subscribe/token-plan",
@@ -526,9 +523,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": true,
-          "ms": 16140,
-          "checkedAt": "2026-11-20T20:30:37.418Z",
-          "lastGoodAt": "2026-11-20T20:30:37.419Z"
+          "ms": 11267,
+          "checkedAt": "2026-11-21T07:21:38.590Z",
+          "lastGoodAt": "2026-11-21T07:21:38.590Z"
         },
         {
           "url": "https://siliconflow.cn/pricing",
@@ -541,33 +538,24 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 6224,
-          "checkedAt": "2026-11-20T20:30:27.517Z",
-          "lastGoodAt": "2026-11-20T20:30:27.517Z"
+          "ms": 5719,
+          "checkedAt": "2026-11-21T07:21:33.061Z",
+          "lastGoodAt": "2026-11-21T07:21:33.061Z"
         },
         {
           "url": "https://www.kimi.com/membership/pricing",
-          "state": "changed",
+          "state": "unchanged",
           "httpStatus": null,
           "bytes": 1835,
-          "previousBytes": 401,
-          "diffRatio": 0.5,
-          "numChanged": 25,
-          "numAdded": [
-            "0",
-            "1",
-            "10",
-            "100",
-            "15",
-            "159",
-            "180",
-            "19"
-          ],
+          "previousBytes": 1835,
+          "diffRatio": 0,
+          "numChanged": 0,
+          "numAdded": [],
           "numRemoved": [],
           "viaBrowser": true,
-          "ms": 17170,
-          "checkedAt": "2026-11-20T20:30:38.449Z",
-          "lastGoodAt": "2026-11-20T20:30:38.449Z"
+          "ms": 13148,
+          "checkedAt": "2026-11-21T07:21:40.471Z",
+          "lastGoodAt": "2026-11-21T07:21:40.471Z"
         },
         {
           "url": "https://www.scnet.cn/home/subject/maas/index.html",
@@ -580,9 +568,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 4015,
-          "checkedAt": "2026-11-20T20:30:25.309Z",
-          "lastGoodAt": "2026-11-20T20:30:25.309Z"
+          "ms": 3993,
+          "checkedAt": "2026-11-21T07:21:31.336Z",
+          "lastGoodAt": "2026-11-21T07:21:31.336Z"
         },
         {
           "url": "https://www.siliconflow.com/pricing",
@@ -595,9 +583,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 2492,
-          "checkedAt": "2026-11-20T20:30:23.786Z",
-          "lastGoodAt": "2026-11-20T20:30:23.786Z"
+          "ms": 2608,
+          "checkedAt": "2026-11-21T07:21:29.950Z",
+          "lastGoodAt": "2026-11-21T07:21:29.950Z"
         },
         {
           "url": "https://www.volcengine.com/docs/ark/model-pricing",
@@ -610,9 +598,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": true,
-          "ms": 51168,
-          "checkedAt": "2026-11-20T20:31:12.455Z",
-          "lastGoodAt": "2026-11-20T20:31:12.455Z"
+          "ms": 44315,
+          "checkedAt": "2026-11-21T07:22:11.648Z",
+          "lastGoodAt": "2026-11-21T07:22:11.648Z"
         },
         {
           "url": "https://www2.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html",
@@ -625,9 +613,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 1893,
-          "checkedAt": "2026-11-20T20:30:23.172Z",
-          "lastGoodAt": "2026-11-20T20:30:23.172Z"
+          "ms": 1830,
+          "checkedAt": "2026-11-21T07:21:29.153Z",
+          "lastGoodAt": "2026-11-21T07:21:29.153Z"
         },
         {
           "url": "https://x.ai/pricing",
@@ -640,9 +628,9 @@
           "numAdded": [],
           "numRemoved": [],
           "viaBrowser": false,
-          "ms": 1075,
-          "checkedAt": "2026-11-20T20:30:22.359Z",
-          "lastGoodAt": "2026-11-20T20:30:22.359Z"
+          "ms": 1211,
+          "checkedAt": "2026-11-21T07:21:28.541Z",
+          "lastGoodAt": "2026-11-21T07:21:28.541Z"
         }
       ]
     }
@@ -14281,6 +14269,110 @@
   },
   "history": [
     {
+      "at": "2026-11-20T20:31:12.464Z",
+      "trigger": "cli",
+      "durationMs": 51239,
+      "fx": {
+        "USDCNY": 6.69198,
+        "source": "open.er-api.com",
+        "stale": false,
+        "error": null
+      },
+      "counts": {
+        "total": 38,
+        "changed": 13,
+        "flaky": 0,
+        "shell": 0,
+        "unreachable": 1
+      },
+      "problems": [
+        {
+          "url": "https://ai.google.dev/gemini-api/docs/pricing",
+          "state": "changed",
+          "error": null,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://antigravity.google/docs/plans",
+          "state": "changed",
+          "error": null,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://ark.volcengine.com/region:cn-beijing/docs/agent-plan-personal-plan-overview",
+          "state": "changed",
+          "error": null,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://chatgpt.com/codex/pricing",
+          "state": "changed",
+          "error": null,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://developers.openai.com/api/docs/pricing",
+          "state": "changed",
+          "error": null,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://docs.x.ai/docs/pricing",
+          "state": "changed",
+          "error": null,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://docs.z.ai/guides/overview/pricing",
+          "state": "changed",
+          "error": null,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://help.x.com/en/using-x/x-premium",
+          "state": "unreachable",
+          "error": "HTTP 403",
+          "httpStatus": 403
+        },
+        {
+          "url": "https://ollama.com/pricing",
+          "state": "changed",
+          "error": null,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://platform.kimi.ai/docs/pricing/chat",
+          "state": "changed",
+          "error": null,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://platform.kimi.com/docs/pricing/chat",
+          "state": "changed",
+          "error": null,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://platform.minimax.io/docs/pricing",
+          "state": "changed",
+          "error": null,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://platform.minimaxi.com/document/price",
+          "state": "changed",
+          "error": null,
+          "httpStatus": 200
+        },
+        {
+          "url": "https://www.kimi.com/membership/pricing",
+          "state": "changed",
+          "error": null,
+          "httpStatus": null
+        }
+      ]
+    },
+    {
       "at": "2026-11-20T07:27:54.960Z",
       "trigger": "cli",
       "durationMs": 44289,
@@ -16789,86 +16881,6 @@
           "state": "changed",
           "error": null,
           "httpStatus": 200
-        }
-      ]
-    },
-    {
-      "at": "2026-11-05T20:04:21.011Z",
-      "trigger": "cli",
-      "durationMs": 21715,
-      "fx": {
-        "USDCNY": 6.685421,
-        "source": "open.er-api.com",
-        "stale": false,
-        "error": null
-      },
-      "counts": {
-        "total": 38,
-        "changed": 8,
-        "flaky": 1,
-        "shell": 0,
-        "unreachable": 1
-      },
-      "problems": [
-        {
-          "url": "https://ai.google.dev/gemini-api/docs/pricing",
-          "state": "changed",
-          "error": null,
-          "httpStatus": 200
-        },
-        {
-          "url": "https://cloud.tencent.com/document/product/1823/130055",
-          "state": "changed",
-          "error": null,
-          "httpStatus": 200
-        },
-        {
-          "url": "https://developers.openai.com/api/docs/pricing",
-          "state": "changed",
-          "error": null,
-          "httpStatus": 200
-        },
-        {
-          "url": "https://docs.z.ai/guides/overview/pricing",
-          "state": "changed",
-          "error": null,
-          "httpStatus": 200
-        },
-        {
-          "url": "https://help.x.com/en/using-x/x-premium",
-          "state": "unreachable",
-          "error": "HTTP 403",
-          "httpStatus": 403
-        },
-        {
-          "url": "https://opencode.ai/docs/zen",
-          "state": "changed",
-          "error": null,
-          "httpStatus": 200
-        },
-        {
-          "url": "https://platform.minimax.io/docs/pricing",
-          "state": "changed",
-          "error": null,
-          "httpStatus": 200
-        },
-        {
-          "url": "https://platform.minimaxi.com/document/price",
-          "state": "changed",
-          "error": null,
-          "httpStatus": 200
-        },
-        {
-          "url": "https://platform.minimaxi.com/subscribe/token-plan",
-          "state": "changed",
-          "error": null,
-          "httpStatus": null
-        },
-        {
-          "url": "https://www.kimi.com/membership/pricing",
-          "state": "flaky",
-          "error": null,
-          "httpStatus": null
         }
       ]
     }
