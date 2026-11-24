@@ -1,5 +1,97 @@
 [
   {
+    "at": "2026-11-24T10:03:05.443Z",
+    "trigger": "cli",
+    "durationMs": 31496,
+    "fx": {
+      "USDCNY": 6.679299,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 10,
+      "flaky": 1,
+      "shell": 0,
+      "unreachable": 1
+    },
+    "problems": [
+      {
+        "url": "https://bigmodel.cn/glm-coding",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://chatgpt.com/codex/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://cloud.baidu.com/product/qianfan_home/token_plan_personal.html",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://cloud.tencent.com/announce/detail/2432",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://docs.x.ai/docs/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      },
+      {
+        "url": "https://ollama.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://opencode.ai/docs/go",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://opencode.ai/docs/zen",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.kimi.com/membership/pricing",
+        "state": "flaky",
+        "error": null,
+        "httpStatus": null
+      },
+      {
+        "url": "https://www.siliconflow.com/pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": 200
+      },
+      {
+        "url": "https://www.volcengine.com/docs/ark/model-pricing",
+        "state": "changed",
+        "error": null,
+        "httpStatus": null
+      }
+    ]
+  },
+  {
     "at": "2026-11-24T00:00:56.286Z",
     "trigger": "cli",
     "durationMs": 48182,
@@ -2574,62 +2666,6 @@
         "state": "changed",
         "error": null,
         "httpStatus": null
-      }
-    ]
-  },
-  {
-    "at": "2026-11-09T06:48:44.216Z",
-    "trigger": "cli",
-    "durationMs": 28410,
-    "fx": {
-      "USDCNY": 6.679814,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 38,
-      "changed": 5,
-      "flaky": 0,
-      "shell": 0,
-      "unreachable": 1
-    },
-    "problems": [
-      {
-        "url": "https://docs.z.ai/guides/overview/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://help.x.com/en/using-x/x-premium",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://platform.kimi.ai/docs/pricing/chat",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://platform.kimi.com/docs/pricing/chat",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://platform.minimax.io/docs/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://platform.minimaxi.com/document/price",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
       }
     ]
   }
