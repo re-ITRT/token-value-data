@@ -1,7 +1,7 @@
 {
   "USDCNY": 6.681345,
   "source": "open.er-api.com",
-  "fetchedAt": "2026-11-23T07:50:52.358Z",
+  "fetchedAt": "2026-11-24T00:00:08.709Z",
   "stale": false,
   "attempts": [
     {
@@ -9,7 +9,7 @@
       "url": "https://open.er-api.com/v6/latest/USD",
       "ok": true,
       "rate": 6.681345,
-      "ms": 606
+      "ms": 603
     }
   ]
 }
