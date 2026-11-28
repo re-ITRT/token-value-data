@@ -1,5 +1,31 @@
 [
   {
+    "at": "2026-11-28T07:59:58.706Z",
+    "trigger": "cli",
+    "durationMs": 42245,
+    "fx": {
+      "USDCNY": 6.670928,
+      "source": "open.er-api.com",
+      "stale": false,
+      "error": null
+    },
+    "counts": {
+      "total": 38,
+      "changed": 0,
+      "flaky": 0,
+      "shell": 0,
+      "unreachable": 1
+    },
+    "problems": [
+      {
+        "url": "https://help.x.com/en/using-x/x-premium",
+        "state": "unreachable",
+        "error": "HTTP 403",
+        "httpStatus": 403
+      }
+    ]
+  },
+  {
     "at": "2026-11-27T21:26:21.922Z",
     "trigger": "cli",
     "durationMs": 20017,
@@ -2459,104 +2485,6 @@
         "url": "https://www.volcengine.com/docs/ark/model-pricing",
         "state": "changed",
         "error": null,
-        "httpStatus": null
-      }
-    ]
-  },
-  {
-    "at": "2026-11-13T06:55:11.259Z",
-    "trigger": "cli",
-    "durationMs": 48864,
-    "fx": {
-      "USDCNY": 6.685071,
-      "source": "open.er-api.com",
-      "stale": false,
-      "error": null
-    },
-    "counts": {
-      "total": 38,
-      "changed": 11,
-      "flaky": 0,
-      "shell": 0,
-      "unreachable": 2
-    },
-    "problems": [
-      {
-        "url": "https://chatgpt.com/codex/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://cloud.baidu.com/doc/qianfan/s/rmh4stp0j",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://cloud.baidu.com/doc/qianfan/s/wmh4sv6ya",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://commandcode.ai/docs/resources/pricing-limits",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://docs.x.ai/docs/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://docs.z.ai/guides/overview/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://help.x.com/en/using-x/x-premium",
-        "state": "unreachable",
-        "error": "HTTP 403",
-        "httpStatus": 403
-      },
-      {
-        "url": "https://ollama.com/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://opencode.ai/docs/zen",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://platform.kimi.ai/docs/pricing/chat",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://platform.kimi.com/docs/pricing/chat",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://platform.minimax.io/docs/pricing",
-        "state": "changed",
-        "error": null,
-        "httpStatus": 200
-      },
-      {
-        "url": "https://platform.minimaxi.com/document/price",
-        "state": "unreachable",
-        "error": "This operation was aborted (20)",
         "httpStatus": null
       }
     ]
